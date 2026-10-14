@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grupo 2 — Execução do Pipeline e Análise de Dados (Censo 2024 / INEP)</title>
+  <title>Grupo 2 — Análise da Educação Superior no Brasil (Censo 2024 / INEP)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -45,26 +45,6 @@
       margin: 0 auto;
       padding: 0 20px;
     }
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 12px;
-      border-radius: 9999px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      background: rgba(37,99,235,0.2);
-      color: var(--primary-light);
-      border: 1px solid rgba(37,99,235,0.4);
-      margin-bottom: 16px;
-    }
-    .badge-success {
-      background: rgba(16,185,129,0.2);
-      color: var(--accent);
-      border-color: rgba(16,185,129,0.4);
-    }
     h1 {
       font-size: 2.2rem;
       font-weight: 800;
@@ -92,9 +72,9 @@
       background: var(--card-bg);
       color: var(--text);
       border: 1px solid var(--card-border);
-      padding: 10px 18px;
+      padding: 11px 20px;
       border-radius: 8px;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       font-weight: 600;
       text-decoration: none;
       transition: all 0.2s ease;
@@ -114,40 +94,17 @@
       background: var(--primary-dark);
       border-color: var(--primary-dark);
     }
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin: 30px 0;
+    .tab-content {
+      display: none;
     }
-    .member-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      padding: 16px;
-      border-radius: 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      transition: border-color 0.2s;
-    }
-    .member-card:hover {
-      border-color: rgba(59,130,246,0.5);
-    }
-    .member-name {
-      font-weight: 600;
-      font-size: 0.95rem;
-      color: #fff;
-    }
-    .member-id {
-      font-family: var(--code-font);
-      font-size: 0.85rem;
-      color: var(--primary-light);
+    .tab-content.active {
+      display: block;
     }
     .stats-row {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 16px;
-      margin-bottom: 30px;
+      margin: 30px 0 24px;
     }
     .stat-card {
       background: var(--card-bg);
@@ -207,12 +164,12 @@
       gap: 8px;
     }
     .btn-sm {
-      padding: 4px 10px;
-      font-size: 0.75rem;
+      padding: 5px 12px;
+      font-size: 0.8rem;
       background: #374151;
       color: #e5e7eb;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
       cursor: pointer;
       font-family: var(--code-font);
       transition: background 0.2s;
@@ -224,10 +181,10 @@
       padding: 20px;
       color: #d1d5db;
       font-family: var(--code-font);
-      font-size: 0.82rem;
+      font-size: 0.83rem;
       line-height: 1.5;
       overflow-x: auto;
-      max-height: 700px;
+      max-height: 720px;
       overflow-y: auto;
       white-space: pre;
     }
@@ -238,15 +195,6 @@
     pre.terminal-body::-webkit-scrollbar-thumb {
       background: #374151;
       border-radius: 4px;
-    }
-    .section-title {
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin: 30px 0 16px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: #fff;
     }
     .table-container {
       background: var(--card-bg);
@@ -285,6 +233,14 @@
       font-weight: 700;
       color: var(--accent);
     }
+    .pdf-viewer-frame {
+      width: 100%;
+      height: 880px;
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      background: #1f2937;
+      display: block;
+    }
     footer {
       text-align: center;
       color: #6b7280;
@@ -299,192 +255,163 @@
 
   <header>
     <div class="container">
-      <div style="display:flex; gap:10px; flex-wrap:wrap;">
-        <span class="badge">Ciência de Dados 2026</span>
-        <span class="badge badge-success">Execução Concluída com Sucesso (Exit Code 0)</span>
-      </div>
       <h1>Grupo 2 — Análise da Educação Superior no Brasil</h1>
       <p class="subtitle">
         Pipeline de Engenharia e Limpeza de Dados do Censo da Educação Superior 2024 (INEP/MEC), enriquecido com Web Scraping (<code style="color:var(--primary-light);">pd.read_html</code>) e consumo da API oficial de localidades do IBGE.
       </p>
 
       <div class="nav-links">
-        <a href="#terminal" class="btn btn-primary">🖥️ Ver Saída do Console</a>
-        <a href="relatorio_educacao_superior_grupo2.pdf" class="btn" target="_blank">📄 Baixar Relatório Técnico (PDF)</a>
-        <a href="grupo2_educacao_superior.py" class="btn" target="_blank">🐍 Ver Código Python</a>
-        <a href="roteiro_apresentacao.md" class="btn" target="_blank">🎤 Roteiro de Apresentação</a>
-        <a href="https://github.com/barbooosa/data_science" class="btn" target="_blank">🐙 Repositório GitHub</a>
+        <button id="btn-console" class="btn btn-primary" onclick="mostrarAba('console')">🖥️ Ver Saída do Console</button>
+        <button id="btn-pdf" class="btn" onclick="mostrarAba('pdf')">📄 Visualizar Relatório Técnico (PDF)</button>
+        <button id="btn-code" class="btn" onclick="mostrarAba('code')">🐍 Ver Código Python</button>
       </div>
     </div>
   </header>
 
-  <main class="container" style="margin-top: 30px;">
+  <main class="container" style="margin-top: 20px;">
 
-    <h2 class="section-title">👥 Integrantes da Equipe (Grupo 2)</h2>
-    <div class="team-grid">
-      <div class="member-card">
-        <span class="member-name">Gustavo Henrique Tavares Borges</span>
-        <span class="member-id">Matrícula: 2311157</span>
-      </div>
-      <div class="member-card">
-        <span class="member-name">João Pedro Barbosa Moreira</span>
-        <span class="member-id">Matrícula: 2312662</span>
-      </div>
-      <div class="member-card">
-        <span class="member-name">Igor Augusto Ribeiro de Paula Martins</span>
-        <span class="member-id">Matrícula: 2312171</span>
-      </div>
-      <div class="member-card">
-        <span class="member-name">Ygor Gomes Rocha</span>
-        <span class="member-id">Matrícula: 2312663</span>
-      </div>
-      <div class="member-card">
-        <span class="member-name">Elton Dourado De Azevedo Filho</span>
-        <span class="member-id">Matrícula: 2310514</span>
-      </div>
-    </div>
-
-    <div class="stats-row">
-      <div class="stat-card">
-        <div class="stat-val">2.561</div>
-        <div class="stat-lbl">Total IES no Brasil</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">87,6%</div>
-        <div class="stat-lbl">Rede Privada (2.244)</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">12,4%</div>
-        <div class="stat-lbl">Rede Pública (317)</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val">20,93</div>
-        <div class="stat-lbl">Top Densidade: DF (IES/M Hab)</div>
-      </div>
-    </div>
-
-    <div class="table-container">
-      <table>
-        <thead>
-          <tr>
-            <th>Posição</th>
-            <th>Sigla</th>
-            <th>Estado (UF)</th>
-            <th>Região</th>
-            <th>Total IES (INEP)</th>
-            <th>População (IBGE/Wiki)</th>
-            <th>IES por 1M Habitantes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>1º</strong></td>
-            <td><code>DF</code></td>
-            <td>Distrito Federal</td>
-            <td>Centro-Oeste</td>
-            <td>63</td>
-            <td>3.009.996</td>
-            <td class="highlight">20,93</td>
-          </tr>
-          <tr>
-            <td><strong>2º</strong></td>
-            <td><code>MT</code></td>
-            <td>Mato Grosso</td>
-            <td>Centro-Oeste</td>
-            <td>74</td>
-            <td>3.950.330</td>
-            <td class="highlight">18,73</td>
-          </tr>
-          <tr>
-            <td><strong>3º</strong></td>
-            <td><code>AP</code></td>
-            <td>Amapá</td>
-            <td>Norte</td>
-            <td>15</td>
-            <td>809.953</td>
-            <td class="highlight">18,52</td>
-          </tr>
-          <tr>
-            <td><strong>4º</strong></td>
-            <td><code>RO</code></td>
-            <td>Rondônia</td>
-            <td>Norte</td>
-            <td>31</td>
-            <td>1.757.338</td>
-            <td class="highlight">17,64</td>
-          </tr>
-          <tr>
-            <td><strong>5º</strong></td>
-            <td><code>GO</code></td>
-            <td>Goiás</td>
-            <td>Centro-Oeste</td>
-            <td>128</td>
-            <td>7.495.033</td>
-            <td class="highlight">17,08</td>
-          </tr>
-          <tr>
-            <td><strong>6º</strong></td>
-            <td><code>ES</code></td>
-            <td>Espírito Santo</td>
-            <td>Sudeste</td>
-            <td>67</td>
-            <td>4.150.692</td>
-            <td>16,14</td>
-          </tr>
-          <tr>
-            <td><strong>7º</strong></td>
-            <td><code>TO</code></td>
-            <td>Tocantins</td>
-            <td>Norte</td>
-            <td>23</td>
-            <td>1.595.994</td>
-            <td>14,41</td>
-          </tr>
-          <tr>
-            <td><strong>8º</strong></td>
-            <td><code>PR</code></td>
-            <td>Paraná</td>
-            <td>Sul</td>
-            <td>171</td>
-            <td>11.952.456</td>
-            <td>14,31</td>
-          </tr>
-          <tr>
-            <td><strong>9º</strong></td>
-            <td><code>PI</code></td>
-            <td>Piauí</td>
-            <td>Nordeste</td>
-            <td>48</td>
-            <td>3.392.617</td>
-            <td>14,15</td>
-          </tr>
-          <tr>
-            <td><strong>10º</strong></td>
-            <td><code>MG</code></td>
-            <td>Minas Gerais</td>
-            <td>Sudeste</td>
-            <td>303</td>
-            <td>21.460.311</td>
-            <td>14,12</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div id="terminal" class="terminal-container">
-      <div class="terminal-header">
-        <div class="terminal-dots">
-          <span class="dot dot-red"></span>
-          <span class="dot dot-yellow"></span>
-          <span class="dot dot-green"></span>
+    <!-- ABA 1: CONSOLE E INDICADORES -->
+    <section id="aba-console" class="tab-content active">
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-val">2.561</div>
+          <div class="stat-lbl">Total IES no Brasil</div>
         </div>
-        <div class="terminal-title">python grupo2_educacao_superior.py — Saída Completa de Execução</div>
-        <div class="terminal-actions">
-          <button class="btn-sm" onclick="copiarTerminal()">📋 Copiar Saída</button>
-          <a class="btn-sm" style="text-decoration:none; display:inline-block;" href="saida_execucao.txt" download>⬇️ Baixar .txt</a>
+        <div class="stat-card">
+          <div class="stat-val">87,6%</div>
+          <div class="stat-lbl">Rede Privada (2.244)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">12,4%</div>
+          <div class="stat-lbl">Rede Pública (317)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">20,93</div>
+          <div class="stat-lbl">Top Densidade: DF (IES/M Hab)</div>
         </div>
       </div>
-      <pre id="terminalOutput" class="terminal-body">Pasta de trabalho: C:\Users\joao.moreira\prj\data
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Posição</th>
+              <th>Sigla</th>
+              <th>Estado (UF)</th>
+              <th>Região</th>
+              <th>Total IES (INEP)</th>
+              <th>População (IBGE/Wiki)</th>
+              <th>IES por 1M Habitantes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1º</strong></td>
+              <td><code>DF</code></td>
+              <td>Distrito Federal</td>
+              <td>Centro-Oeste</td>
+              <td>63</td>
+              <td>3.009.996</td>
+              <td class="highlight">20,93</td>
+            </tr>
+            <tr>
+              <td><strong>2º</strong></td>
+              <td><code>MT</code></td>
+              <td>Mato Grosso</td>
+              <td>Centro-Oeste</td>
+              <td>74</td>
+              <td>3.950.330</td>
+              <td class="highlight">18,73</td>
+            </tr>
+            <tr>
+              <td><strong>3º</strong></td>
+              <td><code>AP</code></td>
+              <td>Amapá</td>
+              <td>Norte</td>
+              <td>15</td>
+              <td>809.953</td>
+              <td class="highlight">18,52</td>
+            </tr>
+            <tr>
+              <td><strong>4º</strong></td>
+              <td><code>RO</code></td>
+              <td>Rondônia</td>
+              <td>Norte</td>
+              <td>31</td>
+              <td>1.757.338</td>
+              <td class="highlight">17,64</td>
+            </tr>
+            <tr>
+              <td><strong>5º</strong></td>
+              <td><code>GO</code></td>
+              <td>Goiás</td>
+              <td>Centro-Oeste</td>
+              <td>128</td>
+              <td>7.495.033</td>
+              <td class="highlight">17,08</td>
+            </tr>
+            <tr>
+              <td><strong>6º</strong></td>
+              <td><code>ES</code></td>
+              <td>Espírito Santo</td>
+              <td>Sudeste</td>
+              <td>67</td>
+              <td>4.150.692</td>
+              <td>16,14</td>
+            </tr>
+            <tr>
+              <td><strong>7º</strong></td>
+              <td><code>TO</code></td>
+              <td>Tocantins</td>
+              <td>Norte</td>
+              <td>23</td>
+              <td>1.595.994</td>
+              <td>14,41</td>
+            </tr>
+            <tr>
+              <td><strong>8º</strong></td>
+              <td><code>PR</code></td>
+              <td>Paraná</td>
+              <td>Sul</td>
+              <td>171</td>
+              <td>11.952.456</td>
+              <td>14,31</td>
+            </tr>
+            <tr>
+              <td><strong>9º</strong></td>
+              <td><code>PI</code></td>
+              <td>Piauí</td>
+              <td>Nordeste</td>
+              <td>48</td>
+              <td>3.392.617</td>
+              <td>14,15</td>
+            </tr>
+            <tr>
+              <td><strong>10º</strong></td>
+              <td><code>MG</code></td>
+              <td>Minas Gerais</td>
+              <td>Sudeste</td>
+              <td>303</td>
+              <td>21.460.311</td>
+              <td>14,12</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="terminal-container">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title">python grupo2_educacao_superior.py — Saída Completa de Execução</div>
+          <div class="terminal-actions">
+            <button class="btn-sm" onclick="copiarTerminal()">📋 Copiar Saída</button>
+          </div>
+        </div>
+        <pre id="terminalOutput" class="terminal-body">Pasta de trabalho: C:\Users\joao.moreira\prj\data
   anexo_I_tab_8_1_dados_gerais_por_curso_2024.xlsx: 1 aba(s) [&#x27;8.1&#x27;]
   anexo_II_tab_8_2_dados_gerais_por_curso_2024.xlsx: 1 aba(s) [&#x27;8.2&#x27;]
   anexo_III_tab_8_3_dados_gerais_por_curso_2024.xlsx: 1 aba(s) [&#x27;8.3&#x27;]
@@ -1226,25 +1153,461 @@ Arquivo limpo salvo em: C:\Users\joao.moreira\prj\data\sinopse_limpa.csv
 
 Execução finalizada com sucesso!
 </pre>
-    </div>
+      </div>
+    </section>
+
+    <!-- ABA 2: VISUALIZAR RELATÓRIO PDF -->
+    <section id="aba-pdf" class="tab-content" style="margin-top: 30px;">
+      <div class="terminal-header" style="border-radius: 12px 12px 0 0; margin-bottom: 0;">
+        <div class="terminal-title">Visualização do Relatório Técnico Executivo (PDF)</div>
+        <div class="terminal-actions">
+          <a class="btn-sm" href="relatorio_educacao_superior_grupo2.pdf" target="_blank" style="text-decoration:none;">↗ Abrir em Nova Aba</a>
+        </div>
+      </div>
+      <iframe src="relatorio_educacao_superior_grupo2.pdf" class="pdf-viewer-frame" style="border-radius: 0 0 12px 12px;"></iframe>
+    </section>
+
+    <!-- ABA 3: MOSTRAR CÓDIGO PYTHON -->
+    <section id="aba-code" class="tab-content" style="margin-top: 30px;">
+      <div class="terminal-container">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title">grupo2_educacao_superior.py — Código Fonte Completo (Python 3.13)</div>
+          <div class="terminal-actions">
+            <button class="btn-sm" onclick="copiarCodigo()">📋 Copiar Código</button>
+          </div>
+        </div>
+        <pre id="pythonCodeOutput" class="terminal-body" style="color: #93c5fd;">import io
+import unicodedata
+import zipfile
+from pathlib import Path
+import pandas as pd
+import requests
+try:
+    display
+except NameError:
+    display = print
+pd.set_option(&#x27;display.max_columns&#x27;, 30)
+pd.set_option(&#x27;display.width&#x27;, 200)
+PASTA = Path(__file__).resolve().parent
+print(&#x27;Pasta de trabalho:&#x27;, PASTA)
+ABA = &#x27;1.1&#x27;
+LINHAS_CABECALHO = None
+PAGINA_INEP = &#x27;https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-superior-graduacao&#x27;
+BASE = &#x27;https://download.inep.gov.br/&#x27;
+URLS = [BASE + &#x27;dados_abertos/sinopses_estatisticas/sinopses_estatisticas_censo_da_educacao_superior_2024.zip&#x27;, BASE + &#x27;dados_abertos/sinopses_estatisticas/sinopses_estatisticas_censo_da_educacao_superior_2023.zip&#x27;, BASE + &#x27;informacoes_estatisticas/sinopses_estatisticas/sinopses_educacao_superior/sinopse_educacao_superior_2022.zip&#x27;]
+try:
+    from google.colab import files as colab_files
+except ImportError:
+    colab_files = None
+
+def extrair_zip(conteudo_zip, pasta_destino=None):
+    destino = pasta_destino or PASTA
+    with zipfile.ZipFile(io.BytesIO(conteudo_zip)) as z:
+        for nome in z.namelist():
+            if nome.lower().endswith(&#x27;.xlsx&#x27;) and (not Path(nome).name.startswith(&#x27;~$&#x27;)):
+                caminho_saida = destino / Path(nome).name
+                caminho_saida.write_bytes(z.read(nome))
+
+def escolher_xlsx():
+    melhor, nota_melhor = (None, 0)
+    for p in sorted(PASTA.rglob(&#x27;*.xlsx&#x27;)):
+        if p.name.startswith(&#x27;~$&#x27;):
+            continue
+        try:
+            abas = pd.ExcelFile(p).sheet_names
+        except Exception as erro:
+            print(f&#x27;  {p.name}: não abriu ({type(erro).__name__})&#x27;)
+            continue
+        print(f&#x27;  {p.name}: {len(abas)} aba(s)&#x27;, abas[:5])
+        nota = 2 if ABA in [a.strip() for a in abas] else 1 if any((ABA in a for a in abas)) else 0
+        if nota &gt; nota_melhor:
+            melhor, nota_melhor = (p, nota)
+    return melhor
+
+def obter_arquivo():
+    achado = escolher_xlsx()
+    if achado:
+        return (achado, f&#x27;arquivo local em {achado.parent} ({achado.name})&#x27;)
+    for p in sorted(PASTA.rglob(&#x27;*.zip&#x27;)):
+        try:
+            extrair_zip(p.read_bytes())
+            print(&#x27;Zip extraído:&#x27;, p.name)
+        except zipfile.BadZipFile:
+            print(&#x27;Zip incompleto ou corrompido, ignorado:&#x27;, p.name)
+    achado = escolher_xlsx()
+    if achado:
+        return (achado, f&#x27;arquivo local extraído do zip ({achado.name})&#x27;)
+    for url in URLS:
+        try:
+            r = requests.get(url, headers={&#x27;User-Agent&#x27;: &#x27;Mozilla/5.0&#x27;}, timeout=(15, 180))
+            r.raise_for_status()
+            extrair_zip(r.content)
+        except (requests.RequestException, zipfile.BadZipFile) as erro:
+            print(&#x27;Não deu certo:&#x27;, url)
+            print(&#x27;   motivo:&#x27;, type(erro).__name__, &#x27;-&#x27;, str(erro)[:120])
+            continue
+        achado = escolher_xlsx()
+        if achado:
+            return (achado, url)
+    if colab_files:
+        print()
+        print(&#x27;Baixe a Sinopse mais recente em&#x27;, PAGINA_INEP)
+        print(&#x27;e escolha o .zip ou .xlsx no botão abaixo:&#x27;)
+        for nome, conteudo in colab_files.upload().items():
+            if nome.lower().endswith(&#x27;.zip&#x27;):
+                extrair_zip(conteudo)
+        achado = escolher_xlsx()
+        if achado:
+            return (achado, &#x27;arquivo baixado de &#x27; + PAGINA_INEP + &#x27; e enviado como &#x27; + achado.name)
+    raise FileNotFoundError(f&#x27;Nenhum Excel com a aba {ABA!r} em {PASTA}. Certifique-se de que o arquivo sinopse_educacao_superior_2024.zip ou os arquivos .xlsx descompactados estão na pasta.&#x27;)
+ARQUIVO, ORIGEM = obter_arquivo()
+print(&#x27;\nArquivo selecionado:&#x27;, ARQUIVO)
+print(&#x27;Origem             :&#x27;, ORIGEM)
+print(&#x27;Página oficial     :&#x27;, PAGINA_INEP)
+planilha = pd.ExcelFile(ARQUIVO)
+abas = planilha.sheet_names
+print(f&#x27;\n{len(abas)} abas no arquivo. Primeiras:&#x27;, abas[:12])
+if ABA not in abas:
+    parecidas = [a for a in abas if ABA in a]
+    if parecidas:
+        ABA = parecidas[0]
+    elif len(abas) == 1:
+        ABA = abas[0]
+        print(f&quot;Aviso: Aba &#x27;{ABA}&#x27; selecionada automaticamente por ser a única disponível.&quot;)
+    else:
+        raise ValueError(f&#x27;A aba {ABA!r} não existe. Troque a variável ABA por uma destas: {abas}&#x27;)
+print(&#x27;Aba escolhida:&#x27;, repr(ABA))
+ingenuo = planilha.parse(ABA)
+print(&#x27;\n--- Leitura Ingênua (padrão) ---&#x27;)
+print(&#x27;Formato:&#x27;, ingenuo.shape)
+print(&#x27;Nomes das primeiras 6 colunas na leitura padrão:&#x27;)
+print(list(ingenuo.columns[:6]))
+display(ingenuo.head(8))
+bruto = planilha.parse(ABA, header=None)
+print(&#x27;\n--- Leitura Bruta (header=None) ---&#x27;)
+print(&#x27;shape:&#x27;, bruto.shape)
+colunas_vazias = int(bruto.isna().all().sum())
+bruto = bruto.dropna(axis=1, how=&#x27;all&#x27;)
+bruto.columns = range(bruto.shape[1])
+print(&#x27;Colunas totalmente vazias descartadas:&#x27;, colunas_vazias)
+display(bruto.head(12))
+print(&#x27;\n--- Informações do DataFrame Bruto ---&#x27;)
+bruto.info()
+print(&#x27;\n--- Resumo Estatístico Inicial ---&#x27;)
+display(bruto.describe(include=&#x27;all&#x27;).T.head(15))
+
+def mapear_planilha(bruto, linhas_cabecalho=None):
+    qtd_numeros = bruto.iloc[:, 1:].apply(pd.to_numeric, errors=&#x27;coerce&#x27;).notna().sum(axis=1)
+    linha_de_dados = bruto[0].notna() &amp; (qtd_numeros &gt;= qtd_numeros.max() / 2)
+    inicio = int(linha_de_dados.idxmax())
+    fim = int(linha_de_dados[::-1].idxmax())
+    if linhas_cabecalho is None:
+        tem_rotulo = bruto.iloc[:inicio, 1:].notna().any(axis=1)
+        linhas_cabecalho = []
+        for i in range(inicio - 1, -1, -1):
+            if tem_rotulo[i]:
+                linhas_cabecalho.insert(0, i)
+            elif linhas_cabecalho:
+                break
+    return {&#x27;titulo&#x27;: [i for i in range(min(linhas_cabecalho)) if bruto.loc[i].notna().any()], &#x27;cabecalho&#x27;: list(linhas_cabecalho), &#x27;inicio_dados&#x27;: inicio, &#x27;fim_dados&#x27;: fim, &#x27;rodape&#x27;: [i for i in range(fim + 1, len(bruto)) if bruto.loc[i].notna().any()]}
+mapa = mapear_planilha(bruto, LINHAS_CABECALHO)
+print(&#x27;\n--- Mapeamento Estrutural da Planilha ---&#x27;)
+print(&#x27;Linhas de título   :&#x27;, mapa[&#x27;titulo&#x27;])
+print(&#x27;Linhas de cabeçalho:&#x27;, mapa[&#x27;cabecalho&#x27;])
+print(&#x27;Dados              : da linha&#x27;, mapa[&#x27;inicio_dados&#x27;], &#x27;até a&#x27;, mapa[&#x27;fim_dados&#x27;])
+print(&#x27;Linhas de rodapé   :&#x27;, mapa[&#x27;rodape&#x27;])
+print()
+titulo_tabela = &#x27; &#x27;.join((str(v) for i in mapa[&#x27;titulo&#x27;] for v in bruto.loc[i].dropna()))
+print(&#x27;Título da tabela:&#x27;, titulo_tabela)
+cab_bruto = bruto.loc[mapa[&#x27;cabecalho&#x27;]]
+print(&#x27;\nCabeçalho como está no Excel (NaN = célula que fazia parte de uma mesclagem):&#x27;)
+display(cab_bruto)
+bloco = bruto.loc[mapa[&#x27;inicio_dados&#x27;]:mapa[&#x27;fim_dados&#x27;]]
+valores_brutos = bloco.iloc[:, 1:]
+eh_texto = valores_brutos.apply(lambda col: col.map(lambda v: isinstance(v, str)))
+rotulos_brutos = bloco[0].dropna().astype(str)
+problemas = pd.Series({&quot;Colunas &#x27;Unnamed&#x27; na leitura padrão&quot;: f&#x27;{sum((str(c).startswith(&#x27;Unnamed&#x27;) for c in ingenuo.columns))} de {ingenuo.shape[1]}&#x27;, &#x27;Linhas de cabeçalho (níveis mesclados)&#x27;: len(mapa[&#x27;cabecalho&#x27;]), &#x27;Células vazias dentro do cabeçalho&#x27;: f&#x27;{int(cab_bruto.isna().sum().sum())} de {cab_bruto.size} ({cab_bruto.isna().sum().sum() / cab_bruto.size:.0%})&#x27;, &#x27;Linhas que não são dados (título, cabeçalho, rodapé, vazias)&#x27;: f&#x27;{len(bruto) - len(bloco.dropna(how=&#x27;all&#x27;))} de {len(bruto)}&#x27;, &#x27;Colunas totalmente vazias&#x27;: colunas_vazias, &#x27;Colunas de valores lidas como texto (object)&#x27;: f&#x27;{int((valores_brutos.dtypes == object).sum())} de {valores_brutos.shape[1]}&#x27;, &quot;Células com símbolo no lugar de número (ex.: &#x27;-&#x27;)&quot;: int(eh_texto.sum().sum()), &#x27;Rótulos com espaços sobrando (recuo)&#x27;: int((rotulos_brutos != rotulos_brutos.str.strip()).sum()), &#x27;Rótulos repetidos na 1ª coluna&#x27;: int(rotulos_brutos.str.strip().duplicated().sum())})
+print(&#x27;\n--- PROBLEMAS ENCONTRADOS ---&#x27;)
+display(problemas.to_frame(&#x27;quantidade&#x27;))
+if eh_texto.sum().sum():
+    print(&#x27;\nSímbolos encontrados nas colunas de valores:&#x27;)
+    print(pd.Series(valores_brutos.values[eh_texto.values]).value_counts().head())
+
+def achatar_cabecalho(cab):
+    niveis = []
+    for i in range(len(cab)):
+        linha = cab.iloc[i]
+        if not niveis:
+            linha = linha.ffill()
+        else:
+            pai = pd.Series(list(zip(*[n.fillna(&#x27;&#x27;) for n in niveis])), index=linha.index)
+            linha = linha.groupby(pai).ffill()
+        niveis.append(linha)
+    niveis = pd.DataFrame(niveis)
+    nomes = []
+    for col in niveis.columns:
+        partes = [&#x27; &#x27;.join(str(p).split()) for p in niveis[col].dropna()]
+        partes = [p for k, p in enumerate(partes) if k == 0 or p != partes[k - 1]]
+        nomes.append(&#x27; | &#x27;.join(partes))
+    return (nomes, niveis)
+colunas_validas = bloco.columns[bloco.notna().any()]
+nomes, cab_preenchido = achatar_cabecalho(cab_bruto[colunas_validas])
+print(&#x27;\nCabeçalho DEPOIS de preencher as mesclagens:&#x27;)
+display(cab_preenchido)
+primeiras = {n.split(&#x27; | &#x27;)[0] for n in nomes[1:]}
+if len(primeiras) == 1 and all((&#x27; | &#x27; in n for n in nomes[1:])):
+    geral = primeiras.pop()
+    nomes = [nomes[0]] + [n.split(&#x27; | &#x27;, 1)[1] for n in nomes[1:]]
+    print(&#x27;\nRótulo geral removido de todas as colunas:&#x27;, repr(geral))
+rotulo_original = nomes[0]
+nomes[0] = &#x27;rotulo&#x27;
+assert len(set(nomes)) == len(nomes), &#x27;Há nomes de coluna repetidos: confira LINHAS_CABECALHO&#x27;
+df = bloco[colunas_validas].copy()
+df.columns = nomes
+df = df.dropna(how=&#x27;all&#x27;).reset_index(drop=True)
+print(&#x27;\n1ª coluna no Excel:&#x27;, repr(rotulo_original))
+print(&#x27;\nNomes das colunas depois da limpeza:&#x27;)
+for n in df.columns:
+    print(&#x27;  -&#x27;, n)
+try:
+    multi = planilha.parse(ABA, header=mapa[&#x27;cabecalho&#x27;])
+    sobras = sum((&#x27;Unnamed&#x27; in str(parte) for col in multi.columns for parte in col))
+    print(f&quot;\nCom header={mapa[&#x27;cabecalho&#x27;]} -&gt; {multi.columns.nlevels} níveis e {sobras} rótulos &#x27;Unnamed&#x27; ainda sobrando&quot;)
+    print(&#x27;Exemplo das primeiras 4 colunas nativas:&#x27;, list(multi.columns[:4]))
+except Exception as erro:
+    print(&#x27;header=[...] não funcionou nesta aba:&#x27;, type(erro).__name__, erro)
+colunas_valor = list(df.columns[4:])
+tipos_antes = df[colunas_valor].dtypes.astype(str).value_counts()
+for c in colunas_valor:
+    texto = df[c].astype(str).str.strip().replace({&#x27;-&#x27;: &#x27;0&#x27;})
+    df[c] = pd.to_numeric(texto, errors=&#x27;coerce&#x27;)
+    if (df[c].dropna() % 1 == 0).all():
+        df[c] = df[c].astype(&#x27;Int64&#x27;)
+print(&#x27;\nTipos ANTES :&#x27;, dict(tipos_antes))
+print(&#x27;Tipos DEPOIS:&#x27;, dict(df[colunas_valor].dtypes.astype(str).value_counts()))
+print(&#x27;Valores ausentes depois da conversão:&#x27;, int(df[colunas_valor].isna().sum().sum()))
+
+def normalizar(texto):
+    return unicodedata.normalize(&#x27;NFKD&#x27;, str(texto)).encode(&#x27;ascii&#x27;, &#x27;ignore&#x27;).decode().strip().lower()
+df[&#x27;Região Geográfica&#x27;] = df[&#x27;rotulo&#x27;].astype(str).str.strip()
+
+def determinar_nivel(row):
+    reg = str(row[&#x27;Região Geográfica&#x27;]).strip()
+    uf = str(row.get(&#x27;Unidade da Federação&#x27;, &#x27;&#x27;)).strip()
+    mun = str(row.get(&#x27;Município&#x27;, &#x27;&#x27;)).strip()
+    if &#x27;Brasil&#x27; in reg:
+        return (&#x27;Brasil&#x27;, &#x27;Brasil&#x27;)
+    elif &#x27;Total&#x27; in reg or pd.isna(row.get(&#x27;Unidade da Federação&#x27;)) or uf in (&#x27;&lt;NA&gt;&#x27;, &#x27;nan&#x27;, &#x27;NaN&#x27;, &#x27;None&#x27;, &#x27;&#x27;):
+        return (&#x27;Região&#x27;, reg.replace(&#x27;Total&#x27;, &#x27;&#x27;).strip())
+    elif &#x27;Total&#x27; in uf or pd.isna(row.get(&#x27;Município&#x27;)) or mun in (&#x27;&lt;NA&gt;&#x27;, &#x27;nan&#x27;, &#x27;NaN&#x27;, &#x27;None&#x27;, &#x27;&#x27;):
+        return (&#x27;UF&#x27;, uf.replace(&#x27;Total&#x27;, &#x27;&#x27;).strip())
+    else:
+        return (&#x27;Município&#x27;, mun)
+df[[&#x27;nivel&#x27;, &#x27;local&#x27;]] = df.apply(determinar_nivel, axis=1, result_type=&#x27;expand&#x27;)
+df[&#x27;categoria&#x27;] = &#x27;Total&#x27;
+cols_hierarquia = [&#x27;nivel&#x27;, &#x27;local&#x27;, &#x27;categoria&#x27;, &#x27;Região Geográfica&#x27;, &#x27;Unidade da Federação&#x27;, &#x27;Município&#x27;, &#x27;Código do Município&#x27;]
+df = df[cols_hierarquia + colunas_valor]
+print(&#x27;\n--- Distribuição por Nível ---&#x27;)
+print(df[&#x27;nivel&#x27;].value_counts())
+print(&#x27;\nCategorias encontradas:&#x27;, list(df[&#x27;categoria&#x27;].unique()))
+COL_TOTAL_candidates = [c for c in colunas_valor if c.endswith(&#x27;| Total&#x27;)]
+COL_TOTAL = COL_TOTAL_candidates[0] if COL_TOTAL_candidates else colunas_valor[0]
+df_uf = df[(df[&#x27;nivel&#x27;] == &#x27;UF&#x27;) &amp; (df[&#x27;categoria&#x27;] == &#x27;Total&#x27;)].reset_index(drop=True)
+antes_depois = pd.DataFrame({&#x27;Antes (leitura do Excel)&#x27;: [f&#x27;{bruto.shape[0]} x {bruto.shape[1]}&#x27;, sum((str(c).startswith(&#x27;Unnamed&#x27;) for c in ingenuo.columns)), int(cab_bruto.isna().sum().sum()), len(bruto) - len(bloco.dropna(how=&#x27;all&#x27;)), int((valores_brutos.dtypes == object).sum()), int(eh_texto.sum().sum()), &#x27;1 coluna com local e categoria misturados&#x27;], &#x27;Depois (limpo)&#x27;: [f&#x27;{df.shape[0]} x {df.shape[1]}&#x27;, sum((str(c).startswith(&#x27;Unnamed&#x27;) for c in df.columns)), 0, 0, int((df[colunas_valor].dtypes == object).sum()), 0, &#x27;3 colunas: nivel, local, categoria&#x27;]}, index=[&#x27;Formato (linhas x colunas)&#x27;, &quot;Colunas sem nome (&#x27;Unnamed&#x27;)&quot;, &#x27;Células vazias no cabeçalho&#x27;, &#x27;Linhas que não são dados&#x27;, &#x27;Colunas de valores como texto&#x27;, &#x27;Símbolos no lugar de números&#x27;, &#x27;Primeira coluna&#x27;])
+print(&#x27;\n--- TABELA COMPARATIVA (Antes x Depois) ---&#x27;)
+display(antes_depois)
+print(&#x27;\nPrimeiras 10 linhas do DataFrame Limpo:&#x27;)
+display(df.head(10))
+print(&#x27;\nInformações do DataFrame Limpo:&#x27;)
+df.info()
+print(&#x27;\nEstatísticas das UFs:&#x27;)
+display(df_uf[colunas_valor].describe().T)
+serie_uf = df_uf.set_index(&#x27;local&#x27;)[COL_TOTAL].sort_values(ascending=False)
+serie_uf.name = &#x27;instituicoes&#x27;
+print(&#x27;\n--- Series: Instituições por UF ---&#x27;)
+print(type(serie_uf))
+print(f&#x27;Tamanho: {serie_uf.size} | Maior: {serie_uf.idxmax()} ({serie_uf.max()}) | Menor: {serie_uf.idxmin()} ({serie_uf.min()})&#x27;)
+print(f&#x27;Média por UF: {round(serie_uf.mean(), 1)} | Mediana: {serie_uf.median()}&#x27;)
+print(&#x27;\nTop 10 UFs:&#x27;)
+display(serie_uf.head(10))
+brasil = df[(df[&#x27;nivel&#x27;] == &#x27;Brasil&#x27;) &amp; (df[&#x27;categoria&#x27;] == &#x27;Total&#x27;)]
+regioes = df[(df[&#x27;nivel&#x27;] == &#x27;Região&#x27;) &amp; (df[&#x27;categoria&#x27;] == &#x27;Total&#x27;)]
+print(&#x27;\n--- Validação Estatística e Hierárquica ---&#x27;)
+print(&#x27;Estados (UF) encontrados:&#x27;, len(df_uf), &#x27;(esperado: 27)&#x27;)
+print(&#x27;Regiões encontradas     :&#x27;, len(regioes), &#x27;(esperado: 5)&#x27;)
+if len(brasil) == 1:
+    total_brasil = int(brasil[COL_TOTAL].iloc[0])
+    soma_ufs = int(df_uf[COL_TOTAL].sum())
+    soma_regioes = int(regioes[COL_TOTAL].sum())
+    colunas_ok = int((df_uf[colunas_valor].sum() == brasil[colunas_valor].iloc[0]).sum())
+    soma_sem_limpar = int(df[COL_TOTAL].sum())
+    print(f&#x27;Total Brasil na planilha: {total_brasil}&#x27;)
+    print(f&#x27;Soma dos estados        : {soma_ufs}  -&gt;&#x27;, &#x27;OK&#x27; if soma_ufs == total_brasil else &#x27;DIFERENTE&#x27;)
+    print(f&#x27;Soma das regiões        : {soma_regioes}  -&gt;&#x27;, &#x27;OK&#x27; if soma_regioes == total_brasil else &#x27;DIFERENTE&#x27;)
+    print(f&#x27;Colunas em que a soma dos estados bate com o Brasil: {colunas_ok} de {len(colunas_valor)}&#x27;)
+    print(f&#x27;Somando a coluna sem limpar daria {soma_sem_limpar}, {soma_sem_limpar / total_brasil:.1f} vezes o valor real (totais contados várias vezes).&#x27;)
+else:
+    print(&quot;Não achei uma linha única &#x27;Brasil&#x27; nesta aba; confira o conteúdo de df[&#x27;local&#x27;].&quot;)
+print(&#x27;\n--- DESCOBERTAS E INSIGHTS ANALÍTICOS ---&#x27;)
+print(&#x27;Tabela analisada:&#x27;, titulo_tabela)
+print()
+total = int(serie_uf.sum())
+print(f&#x27;1) O país tem {total} instituições de educação superior nesta tabela.&#x27;)
+top5 = serie_uf.head(5)
+print(f&#x27;2) {serie_uf.idxmax()} lidera com {int(serie_uf.max())} ({serie_uf.max() / total:.1%} do total). Os 5 primeiros estados somam {top5.sum() / total:.1%}.&#x27;)
+print(f&#x27;   Menor número: {serie_uf.idxmin()}, com {int(serie_uf.min())}.&#x27;)
+print(&#x27;\nTop 5 estados:&#x27;)
+display(top5.to_frame())
+col_pub = [c for c in colunas_valor if &#x27;publica | total&#x27; in normalizar(c)]
+col_pri = [c for c in colunas_valor if &#x27;privada | total&#x27; in normalizar(c)]
+if col_pub and col_pri and (len(brasil) == 1):
+    v_pub = int(brasil[col_pub[0]].iloc[0])
+    v_pri = int(brasil[col_pri[0]].iloc[0])
+    print(f&#x27;3) Rede privada: {v_pri} instituições ({v_pri / total:.1%}); rede pública: {v_pub} ({v_pub / total:.1%}).&#x27;)
+else:
+    br = df[df[&#x27;nivel&#x27;] == &#x27;Brasil&#x27;].set_index(&#x27;categoria&#x27;)[COL_TOTAL]
+    pub = [c for c in br.index if normalizar(c) == &#x27;publica&#x27;]
+    pri = [c for c in br.index if normalizar(c) == &#x27;privada&#x27;]
+    if pub and pri:
+        print(f&#x27;3) Rede privada: {int(br[pri[0]])} instituições ({br[pri[0]] / br[&#x27;Total&#x27;]:.1%}); rede pública: {int(br[pub[0]])} ({br[pub[0]] / br[&#x27;Total&#x27;]:.1%}).&#x27;)
+cap = [c for c in colunas_valor if normalizar(c.split(&#x27; | &#x27;)[-1]) == &#x27;capital&#x27;]
+inte = [c for c in colunas_valor if normalizar(c.split(&#x27; | &#x27;)[-1]) == &#x27;interior&#x27;]
+if cap and inte and (len(brasil) == 1):
+    v_cap, v_int = (int(brasil[cap[0]].iloc[0]), int(brasil[inte[0]].iloc[0]))
+    print(f&#x27;4) Localização: {v_cap} em capitais ({v_cap / (v_cap + v_int):.1%}) e {v_int} no interior ({v_int / (v_cap + v_int):.1%}).&#x27;)
+if len(regioes):
+    por_regiao = regioes.set_index(&#x27;local&#x27;)[COL_TOTAL].sort_values(ascending=False)
+    print(&#x27;\n5) Instituições por região:&#x27;)
+    display(por_regiao.to_frame())
+col_univ = [c for c in colunas_valor if &#x27;universidade | total&#x27; in normalizar(c)]
+col_cent = [c for c in colunas_valor if &#x27;centro universitario | total&#x27; in normalizar(c)]
+col_fac = [c for c in colunas_valor if &#x27;faculdade | total&#x27; in normalizar(c)]
+if col_univ and col_cent and col_fac and (len(brasil) == 1):
+    v_univ = int(brasil[col_univ[0]].iloc[0])
+    v_cent = int(brasil[col_cent[0]].iloc[0])
+    v_fac = int(brasil[col_fac[0]].iloc[0])
+    df_tipos = pd.DataFrame({&#x27;instituicoes&#x27;: [v_fac, v_cent, v_univ], &#x27;percentual&#x27;: [f&#x27;{v_fac / total:.1%}&#x27;, f&#x27;{v_cent / total:.1%}&#x27;, f&#x27;{v_univ / total:.1%}&#x27;]}, index=[&#x27;Faculdade&#x27;, &#x27;Centro Universitário&#x27;, &#x27;Universidade&#x27;])
+    print(&#x27;\n6) Instituições por organização acadêmica (Brasil):&#x27;)
+    display(df_tipos)
+else:
+    tipos = [c for c in colunas_valor[1:] if normalizar(c.split(&#x27; | &#x27;)[-1]) == &#x27;total&#x27;]
+    if tipos and len(brasil) == 1:
+        por_tipo = brasil[tipos].iloc[0].sort_values(ascending=False)
+        por_tipo.index = [c.split(&#x27; | &#x27;)[0] for c in por_tipo.index]
+        print(&#x27;\n6) Instituições por organização acadêmica (Brasil):&#x27;)
+        display(por_tipo.to_frame(&#x27;instituicoes&#x27;))
+print(&#x27;\n--- INTEGRAÇÃO DE DADOS DA WEB E API ---&#x27;)
+URL_WIKI_POP = &#x27;https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o&#x27;
+headers_web = {&#x27;User-Agent&#x27;: &#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36&#x27;}
+print(f&#x27;1) Coletando dados demográficos da Web via read_html():\n   URL: {URL_WIKI_POP}&#x27;)
+try:
+    try:
+        resposta_wiki = requests.get(URL_WIKI_POP, headers=headers_web, timeout=15)
+    except requests.exceptions.SSLError:
+        resposta_wiki = requests.get(URL_WIKI_POP, headers=headers_web, timeout=15, verify=False)
+    resposta_wiki.raise_for_status()
+    tabelas_wiki = pd.read_html(io.StringIO(resposta_wiki.text))
+    tabela_pop_raw = tabelas_wiki[1]
+    col_estado = tabela_pop_raw.iloc[:, 0].astype(str)
+    col_habitantes = tabela_pop_raw.iloc[:, 1].astype(str).str.replace(&#x27;\\D&#x27;, &#x27;&#x27;, regex=True)
+    df_populacao = pd.DataFrame({&#x27;local&#x27;: col_estado, &#x27;populacao&#x27;: pd.to_numeric(col_habitantes, errors=&#x27;coerce&#x27;)}).dropna()
+    df_populacao[&#x27;local_norm&#x27;] = df_populacao[&#x27;local&#x27;].apply(normalizar)
+    print(f&#x27;   -&gt; Sucesso! {len(df_populacao)} estados lidos da Wikipédia via read_html().&#x27;)
+except requests.exceptions.HTTPError as e:
+    print(f&#x27;   Aviso: Falha HTTP ({e.response.status_code}) ao acessar a Wikipédia.&#x27;)
+    df_populacao = pd.DataFrame()
+except Exception as e:
+    print(f&#x27;   Aviso: Não foi possível processar a tabela da Wikipédia: {e}&#x27;)
+    df_populacao = pd.DataFrame()
+URL_API_IBGE = &#x27;https://servicodados.ibge.gov.br/api/v1/localidades/estados&#x27;
+print(f&#x27;\n2) Consumindo API pública oficial de Localidades do IBGE:\n   URL: {URL_API_IBGE}&#x27;)
+try:
+    try:
+        resp_ibge = requests.get(URL_API_IBGE, headers=headers_web, timeout=15)
+    except requests.exceptions.SSLError:
+        resp_ibge = requests.get(URL_API_IBGE, headers=headers_web, timeout=15, verify=False)
+    resp_ibge.raise_for_status()
+    dados_ibge = resp_ibge.json()
+    df_ibge = pd.DataFrame([{&#x27;id_uf_ibge&#x27;: item[&#x27;id&#x27;], &#x27;sigla_uf&#x27;: item[&#x27;sigla&#x27;], &#x27;nome_uf&#x27;: item[&#x27;nome&#x27;], &#x27;regiao_ibge&#x27;: item[&#x27;regiao&#x27;][&#x27;nome&#x27;]} for item in dados_ibge])
+    df_ibge[&#x27;local_norm&#x27;] = df_ibge[&#x27;nome_uf&#x27;].apply(normalizar)
+    print(f&#x27;   -&gt; Sucesso! {len(df_ibge)} estados integrados via API do IBGE.&#x27;)
+except Exception as e:
+    print(f&#x27;   Aviso: Não foi possível consumir a API do IBGE: {e}&#x27;)
+    df_ibge = pd.DataFrame()
+if not df_populacao.empty and (not df_ibge.empty):
+    df_analise_uf = df_uf[[&#x27;local&#x27;, COL_TOTAL]].copy()
+    df_analise_uf[&#x27;local_norm&#x27;] = df_analise_uf[&#x27;local&#x27;].apply(normalizar)
+    df_enriquecido = pd.merge(df_analise_uf, df_ibge[[&#x27;local_norm&#x27;, &#x27;sigla_uf&#x27;, &#x27;id_uf_ibge&#x27;, &#x27;regiao_ibge&#x27;]], on=&#x27;local_norm&#x27;, how=&#x27;left&#x27;)
+    df_enriquecido = pd.merge(df_enriquecido, df_populacao[[&#x27;local_norm&#x27;, &#x27;populacao&#x27;]], on=&#x27;local_norm&#x27;, how=&#x27;left&#x27;)
+    df_enriquecido.rename(columns={COL_TOTAL: &#x27;total_ies&#x27;}, inplace=True)
+    df_enriquecido[&#x27;ies_por_milhao_hab&#x27;] = (df_enriquecido[&#x27;total_ies&#x27;] / (df_enriquecido[&#x27;populacao&#x27;] / 1000000)).round(2)
+    df_enriquecido = df_enriquecido.sort_values(by=&#x27;ies_por_milhao_hab&#x27;, ascending=False).reset_index(drop=True)
+    colunas_exibir = [&#x27;sigla_uf&#x27;, &#x27;local&#x27;, &#x27;regiao_ibge&#x27;, &#x27;total_ies&#x27;, &#x27;populacao&#x27;, &#x27;ies_por_milhao_hab&#x27;]
+    print(&#x27;\n--- Ranking de Densidade de IES por 1 Milhão de Habitantes (Top 10) ---&#x27;)
+    display(df_enriquecido[colunas_exibir].head(10))
+    saida_enriquecida = PASTA / &#x27;sinopse_com_indicadores_web.csv&#x27;
+    df_enriquecido[colunas_exibir].to_csv(saida_enriquecida, sep=&#x27;;&#x27;, index=False, encoding=&#x27;utf-8-sig&#x27;)
+    print(&#x27;\nDataset enriquecido com dados da Web/API salvo em:&#x27;, saida_enriquecida)
+saida = PASTA / &#x27;sinopse_limpa.csv&#x27;
+df.to_csv(saida, sep=&#x27;;&#x27;, index=False, encoding=&#x27;utf-8-sig&#x27;)
+print(&#x27;\nArquivo limpo salvo em:&#x27;, saida)
+if __name__ == &#x27;__main__&#x27;:
+    print(&#x27;\nExecução finalizada com sucesso!&#x27;)</pre>
+      </div>
+    </section>
 
   </main>
 
   <footer>
     <div class="container">
-      <p>Grupo 2 — Ciência de Dados • Repositório: <a href="https://github.com/barbooosa/data_science" style="color:var(--primary-light);">barbooosa/data_science</a> • Publicado via GitHub Pages</p>
+      <p>Grupo 2 — Análise da Educação Superior 2024 • Repositório GitHub: <a href="https://github.com/barbooosa/data_science" style="color:var(--primary-light);" target="_blank">barbooosa/data_science</a></p>
     </div>
   </footer>
 
   <script>
+    function mostrarAba(nomeAba) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.nav-links .btn').forEach(btn => btn.classList.remove('btn-primary'));
+
+      const abaAlvo = document.getElementById('aba-' + nomeAba);
+      const btnAlvo = document.getElementById('btn-' + nomeAba);
+
+      if (abaAlvo) abaAlvo.classList.add('active');
+      if (btnAlvo) btnAlvo.classList.add('btn-primary');
+
+      window.location.hash = nomeAba;
+    }
+
     function copiarTerminal() {
       const texto = document.getElementById('terminalOutput').innerText;
       navigator.clipboard.writeText(texto).then(() => {
-        alert('Saída completa copiada para a área de transferência!');
+        alert('Saída de execução copiada com sucesso!');
       }).catch(err => {
         console.error('Erro ao copiar: ', err);
       });
     }
+
+    function copiarCodigo() {
+      const codigo = document.getElementById('pythonCodeOutput').innerText;
+      navigator.clipboard.writeText(codigo).then(() => {
+        alert('Código Python copiado com sucesso!');
+      }).catch(err => {
+        console.error('Erro ao copiar código: ', err);
+      });
+    }
+
+    // Ativa aba baseada na hash da URL (ex: #pdf ou #code)
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (['console', 'pdf', 'code'].includes(hash)) {
+        mostrarAba(hash);
+      }
+    });
   </script>
 </body>
 </html>
