@@ -9,6 +9,18 @@
 
 ---
 
+### 👥 Integrantes da Equipe (Grupo 2)
+
+| Nome do Aluno | Matrícula |
+|:---|:---:|
+| **Gustavo Henrique Tavares Borges** | `2311157` |
+| **João Pedro Barbosa Moreira** | `2312662` |
+| **Igor Augusto Ribeiro de Paula Martins** | `2312171` |
+| **Ygor Gomes Rocha** | `2312663` |
+| **Elton Dourado De Azevedo Filho** | `2310514` |
+
+---
+
 ## 📋 Checklist de Atendimento aos Critérios da Atividade
 
 - [x] **1. Leitura do dataset real do tema com registro de URL:** Planilha oficial da Sinopse da Educação Superior 2024 baixada e lida a partir dos servidores do INEP / MEC (`https://download.inep.gov.br/...`).

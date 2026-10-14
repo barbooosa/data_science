@@ -4,6 +4,18 @@ Repositório dedicado ao projeto de **Engenharia, Limpeza e Análise de Dados** 
 
 ---
 
+### 👥 Integrantes da Equipe (Grupo 2)
+
+| Nome do Aluno | Matrícula |
+|:---|:---:|
+| **Gustavo Henrique Tavares Borges** | `2311157` |
+| **João Pedro Barbosa Moreira** | `2312662` |
+| **Igor Augusto Ribeiro de Paula Martins** | `2312171` |
+| **Ygor Gomes Rocha** | `2312663` |
+| **Elton Dourado De Azevedo Filho** | `2310514` |
+
+---
+
 ## 📋 Checklist de Critérios Atendidos
 
 | Item | Critério de Avaliação | Como foi Atendido no Repositório |

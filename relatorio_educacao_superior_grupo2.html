@@ -7,96 +7,126 @@
     <style>
         @page {
             size: A4;
-            margin: 16mm 14mm 16mm 14mm;
+            margin: 15mm 13mm 15mm 13mm;
             @bottom-right {
                 content: counter(page);
                 font-family: Arial, sans-serif;
-                font-size: 8.5pt;
+                font-size: 8pt;
                 color: #64748b;
             }
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             color: #1e293b;
-            line-height: 1.5;
-            font-size: 9.5pt;
+            line-height: 1.48;
+            font-size: 9pt;
             background-color: #ffffff;
             margin: 0;
             padding: 0;
         }
         .header-box {
             border-bottom: 2px solid #2563eb;
-            padding-bottom: 10px;
-            margin-bottom: 16px;
+            padding-bottom: 8px;
+            margin-bottom: 12px;
         }
         .header-title {
-            font-size: 18pt;
+            font-size: 17pt;
             font-weight: 700;
             color: #0f172a;
-            margin: 0 0 4px 0;
+            margin: 0 0 2px 0;
             letter-spacing: -0.5px;
         }
         .header-subtitle {
-            font-size: 10.5pt;
+            font-size: 10pt;
             color: #475569;
             margin: 0;
+        }
+        .members-card {
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 8px 12px;
+            margin-bottom: 14px;
+        }
+        .members-title {
+            font-size: 8pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #1e3a8a;
+            margin-bottom: 6px;
+        }
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6px 12px;
+            font-size: 8.5pt;
+        }
+        .member-item strong {
+            display: block;
+            color: #0f172a;
+            font-weight: 600;
+        }
+        .member-item span {
+            color: #475569;
+            font-size: 8pt;
         }
         .metadata-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 8px;
+            gap: 6px;
             background-color: #f8fafc;
             border: 1px solid #e2e8f0;
             border-radius: 6px;
-            padding: 8px 12px;
-            margin-bottom: 18px;
-            font-size: 8.5pt;
+            padding: 6px 10px;
+            margin-bottom: 14px;
+            font-size: 8pt;
         }
         .meta-item strong {
             display: block;
             color: #0f172a;
-            font-size: 7.5pt;
+            font-size: 7pt;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
         h2 {
-            font-size: 12pt;
+            font-size: 11pt;
             font-weight: 700;
             color: #1e3a8a;
-            border-left: 4px solid #2563eb;
-            padding-left: 8px;
-            margin: 18px 0 8px 0;
+            border-left: 3.5px solid #2563eb;
+            padding-left: 6px;
+            margin: 14px 0 6px 0;
             page-break-after: avoid;
         }
         h3 {
-            font-size: 10pt;
+            font-size: 9.5pt;
             font-weight: 600;
             color: #0f172a;
-            margin: 12px 0 4px 0;
+            margin: 10px 0 3px 0;
             page-break-after: avoid;
         }
         p {
-            margin: 0 0 8px 0;
+            margin: 0 0 6px 0;
             text-align: justify;
         }
         ul, ol {
-            margin: 0 0 10px 0;
-            padding-left: 18px;
+            margin: 0 0 8px 0;
+            padding-left: 16px;
         }
         li {
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
         .comparison-table {
             width: 100%;
             border-collapse: collapse;
-            margin: 10px 0 14px 0;
-            font-size: 8pt;
+            margin: 8px 0 12px 0;
+            font-size: 7.5pt;
             page-break-inside: avoid;
         }
         .comparison-table th, .comparison-table td {
             border: 1px solid #cbd5e1;
-            padding: 6px 8px;
+            padding: 5px 7px;
             text-align: left;
         }
         .comparison-table th {
@@ -110,59 +140,59 @@
         .badge-danger {
             background-color: #fee2e2;
             color: #991b1b;
-            padding: 1px 5px;
+            padding: 1px 4px;
             border-radius: 3px;
             font-weight: 600;
-            font-size: 7.5pt;
+            font-size: 7pt;
             display: inline-block;
         }
         .badge-success {
             background-color: #dcfce7;
             color: #166534;
-            padding: 1px 5px;
+            padding: 1px 4px;
             border-radius: 3px;
             font-weight: 600;
-            font-size: 7.5pt;
+            font-size: 7pt;
             display: inline-block;
         }
         .card-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-            margin: 10px 0 14px 0;
+            gap: 6px;
+            margin: 8px 0 12px 0;
             page-break-inside: avoid;
         }
         .card {
             border: 1px solid #e2e8f0;
             border-radius: 6px;
-            padding: 8px 10px;
+            padding: 6px 8px;
             background-color: #f8fafc;
         }
         .card-val {
-            font-size: 15pt;
+            font-size: 14pt;
             font-weight: 700;
             color: #1e3a8a;
-            margin: 0 0 2px 0;
+            margin: 0 0 1px 0;
         }
         .card-label {
-            font-size: 7.5pt;
+            font-size: 7pt;
             font-weight: 600;
             text-transform: uppercase;
             color: #64748b;
             margin: 0;
         }
         .card-desc {
-            font-size: 7.5pt;
+            font-size: 7pt;
             color: #475569;
             margin-top: 2px;
         }
         .alert-box {
-            border-left: 4px solid #f59e0b;
+            border-left: 3.5px solid #f59e0b;
             background-color: #fffbeb;
-            padding: 8px 12px;
-            margin: 10px 0;
+            padding: 6px 10px;
+            margin: 8px 0;
             border-radius: 0 6px 6px 0;
-            font-size: 8.5pt;
+            font-size: 8pt;
             page-break-inside: avoid;
         }
         .alert-title {
@@ -173,16 +203,6 @@
         .page-break {
             page-break-before: always;
         }
-        .checklist-item {
-            display: flex;
-            align-items: baseline;
-            margin-bottom: 4px;
-        }
-        .check-icon {
-            color: #16a34a;
-            font-weight: bold;
-            margin-right: 6px;
-        }
     </style>
 </head>
 <body>
@@ -190,6 +210,17 @@
     <div class="header-box">
         <h1 class="header-title">Relatório de Engenharia e Análise de Dados</h1>
         <p class="header-subtitle">Grupo 2 — Educação: Ensino Superior | Censo 2024 (INEP) com Integração Web (read_html & API)</p>
+    </div>
+
+    <div class="members-card">
+        <div class="members-title">Equipe / Integrantes do Grupo 2</div>
+        <div class="members-grid">
+            <div class="member-item"><strong>Gustavo Henrique Tavares Borges</strong><span>Matrícula: 2311157</span></div>
+            <div class="member-item"><strong>João Pedro Barbosa Moreira</strong><span>Matrícula: 2312662</span></div>
+            <div class="member-item"><strong>Igor Augusto Ribeiro de Paula Martins</strong><span>Matrícula: 2312171</span></div>
+            <div class="member-item"><strong>Ygor Gomes Rocha</strong><span>Matrícula: 2312663</span></div>
+            <div class="member-item"><strong>Elton Dourado De Azevedo Filho</strong><span>Matrícula: 2310514</span></div>
+        </div>
     </div>
 
     <div class="metadata-grid">
@@ -207,7 +238,7 @@
         </div>
         <div class="meta-item">
             <strong>Datasets Gerados</strong>
-            sinopse_limpa.csv / sinopse_com_indicadores_web.csv
+            sinopse_limpa.csv / web_indicators.csv
         </div>
     </div>
 
