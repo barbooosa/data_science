@@ -1,8 +1,34 @@
 # Relatório de Engenharia e Análise de Dados: Ensino Superior 2024
 **Grupo 2 — Educação: Ensino Superior**  
-**Fonte dos Dados:** INEP / MEC — Sinopse Estatística da Educação Superior 2024  
+**Fontes dos Dados:** 
+1. **INEP / MEC** — Sinopse Estatística da Educação Superior 2024 (Aba `1.1`)
+2. **Wikipédia (read_html)** — População das UFs do Brasil (Censo Demográfico IBGE)
+3. **API do IBGE** — API de Serviços de Dados / Localidades do Brasil  
 **Pilar de Limpeza:** Resolução de cabeçalhos hierárquicos mesclados e desagregação territorial  
-**Base Analisada:** Tabela 1.1 da planilha `Sinopse_Educação_Superior_Municipio_2024.xlsx`
+**Destaque:** Coleta de dados da Web com `pd.read_html()` e consumo de API pública oficial
+
+---
+
+## 📋 Checklist de Atendimento aos Critérios da Atividade
+
+- [x] **1. Leitura do dataset real do tema com registro de URL:** Planilha oficial da Sinopse da Educação Superior 2024 baixada e lida a partir dos servidores do INEP / MEC (`https://download.inep.gov.br/...`).
+- [x] **2. Criação de DataFrame:** Construção de DataFrames estruturados (`df`, `bruto`, `ingenuo`, `df_uf`, `antes_depois`, `df_populacao`, `df_ibge`, `df_enriquecido`).
+- [x] **3. Criação de pelo menos uma Series:** Criação da Series univariada `serie_uf` indexada pelos estados, além de `problemas`.
+- [x] **4. Uso de `head()`, `info()` e `describe()`:** Aplicados tanto na inspeção inicial (o "antes") quanto na validação do dataset final limpo (o "depois").
+- [x] **5. Identificação de problemas nos dados, com números:**
+  - 36 de 37 colunas sem nome (`Unnamed: 1` a `Unnamed: 36`);
+  - 97 de 148 células vazias no cabeçalho (66%);
+  - 15 linhas que não são dados (títulos, espaçamentos e rodapés);
+  - 34 de 36 colunas de valores lidas como texto (`object`);
+  - 1.423 células com símbolos no lugar de números (traço `"-"`);
+  - 720 rótulos repetidos na 1ª coluna por mistura de níveis geográficos.
+- [x] **6. Aplicação da limpeza do pilar do grupo, mostrando antes e depois:** Tabela comparativa detalhada de 7 critérios e explicação aprofundada de cada transformação.
+- [x] **7. Destaque: Leitura de dados da web (`read_html`) e consumo de API pública:**
+  - Utilização de `pandas.read_html()` a partir da Wikipédia (`https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o`);
+  - Consumo da API REST pública de Localidades do IBGE (`https://servicodados.ibge.gov.br/api/v1/localidades/estados`);
+  - Tratamento de erro HTTP 403 através de injeção de `User-Agent: Mozilla/5.0`;
+  - Cruzamento de dados e cálculo da taxa de **IES por 1 milhão de habitantes**;
+  - Reflexão crítica sobre a confiabilidade de cada fonte.
 
 ---
 
@@ -20,13 +46,19 @@ O objetivo central deste trabalho de engenharia de dados foi desenvolver uma rot
 
 ---
 
-## 2. Descrição da Fonte dos Dados
+## 2. Descrição das Fontes de Dados e Confiabilidade
 
-- **Órgão Responsável:** Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (**INEP**), autarquia federal vinculada ao Ministério da Educação (**MEC**).
-- **Origem dos Dados:** Censo da Educação Superior referente ao ano-base **2024**. O preenchimento do Censo é anual e obrigatório por força de lei para todas as Instituições de Ensino Superior (IES) em funcionamento no país.
-- **Abrangência Espacial e Temática:** Cobre a totalidade do território nacional, desagregando informações por Grande Região (5), Unidade da Federação (27) e Municípios que sediam instituições de ensino superior (698 municípios).
-- **Aba Analisada:** Tabela **`1.1`** (*Número de Instituições de Ensino Superior por Organização Acadêmica e Dependência Administrativa, segundo Região Geográfica, UF e Município da sede administrativa — 2024*).
-- **Limitações Metodológicas:** Por se tratar de uma sinopse estatística (dados pré-agregados), não é possível efetuar cruzamentos livres de microdados individuais de estudantes ou cursos que não tenham sido previstos na agregação oficial. Além disso, pequenas alterações no layout das abas ocorrem entre as edições anuais do INEP, demandando código flexível.
+1. **INEP / MEC (Sinopse da Educação Superior 2024):**
+   - *Quem publica:* Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (autarquia do MEC).
+   - *Atualização:* Anual, baseada no Censo da Educação Superior com preenchimento obrigatório por lei para todas as IES.
+   - *Limitações:* Dados pré-agregados; não permite cruzamento de microdados individuais de estudantes não tabulados.
+2. **Wikipédia (read_html — Censo Demográfico IBGE):**
+   - *Quem publica:* Comunidade aberta da Wikipédia, transcrevendo os dados oficiais apurados pelo Censo Demográfico do IBGE.
+   - *Tratamento:* Acesso protegido contra bloqueio HTTP 403 com cabeçalho `User-Agent: Mozilla/5.0`.
+   - *Limitações:* Necessidade de validação programática de integridade das tabelas HTML.
+3. **API do IBGE (Serviço de Dados):**
+   - *Quem publica:* Instituto Brasileiro de Geografia e Estatística (órgão oficial do Estado brasileiro).
+   - *Atualização:* Contínua via API REST imutável com códigos geográficos oficiais.
 
 ---
 
@@ -80,19 +112,35 @@ A integridade do pipeline foi comprovada por validação contábil:
 
 ---
 
-## 6. Descobertas e Insights do Censo 2024
+## 6. Destaque: Leitura de Dados da Web (`read_html`) e Consumo de API
 
-```mermaid
-pie title Distribuição de IES por Dependência Administrativa (Brasil 2024)
-    "Rede Privada (2.244)" : 87.6
-    "Rede Pública (317)" : 12.4
-```
+Para enriquecer o estudo, foi realizada a coleta web e integração com API governamental:
+- **Web Scraping com `pd.read_html()`:** Extração da tabela demográfica da Wikipédia tratando o erro HTTP 403 com `User-Agent`.
+- **API Pública do IBGE:** Consumo do endpoint de estados para mapeamento das siglas (UFs) e regiões.
+- **Métrica Per Capita Calculada (IES por 1 Milhão de Habitantes):**
+
+| Sigla | Estado (UF) | Região | Total de IES (INEP) | População (IBGE / Wiki) | IES por 1 Milhão de Hab. |
+|:---:|:---|:---:|:---:|:---:|:---:|
+| **DF** | Distrito Federal | Centro-Oeste | 63 | 3.009.996 | **20,93** (1º lugar) |
+| **MT** | Mato Grosso | Centro-Oeste | 74 | 3.950.330 | **18,73** (2º lugar) |
+| **AP** | Amapá | Norte | 15 | 809.953 | **18,52** (3º lugar) |
+| **RO** | Rondônia | Norte | 31 | 1.757.338 | **17,64** (4º lugar) |
+| **GO** | Goiás | Centro-Oeste | 128 | 7.495.033 | **17,08** (5º lugar) |
+| **ES** | Espírito Santo | Sudeste | 67 | 4.150.692 | **16,14** |
+| **TO** | Tocantins | Norte | 23 | 1.595.994 | **14,41** |
+| **PR** | Paraná | Sul | 171 | 11.952.456 | **14,31** |
+| **PI** | Piauí | Nordeste | 48 | 3.392.617 | **14,15** |
+| **MG** | Minas Gerais | Sudeste | 303 | 21.460.311 | **14,12** |
+
+---
+
+## 7. Descobertas e Insights do Censo 2024
 
 1. **Volume Total:** O Brasil encerrou o ano de 2024 com **2.561 instituições de educação superior** ativas em sua sede administrativa.
-2. **Alta Concentração Espacial:**
-   - **São Paulo lidera com 580 instituições** (22,6% de todo o país).
-   - Os 5 maiores estados (**SP: 580, MG: 303, PR: 171, BA: 145 e GO: 128**) concentram juntos **51,8%** de todas as IES brasileiras.
-   - O estado com menor número é **Roraima**, com apenas **9 instituições** (0,35% do total nacional).
+2. **Alta Concentração Espacial vs. Densidade Per Capita:**
+   - **São Paulo lidera em números absolutos** com 580 instituições (22,6% do país). Os 5 maiores estados (SP, MG, PR, BA e GO) somam 51,8% de todas as IES.
+   - **Centro-Oeste lidera na densidade per capita:** DF (20,93), MT (18,73) e GO (17,08) possuem a maior concentração de instituições em relação à população residente.
+   - O menor número absoluto está em **Roraima**, com apenas **9 instituições** (0,35% do total nacional).
 3. **Predomínio da Rede Privada:**
    - **Rede Privada:** 2.244 IES (**87,6%** do total), sendo 1.486 com fins lucrativos e 758 sem fins lucrativos.
    - **Rede Pública:** 317 IES (**12,4%** do total), divididas em 122 federais, 139 estaduais e 56 municipais.
@@ -110,8 +158,8 @@ pie title Distribuição de IES por Dependência Administrativa (Brasil 2024)
 
 ---
 
-## 7. Possíveis Dificuldades Encontradas no Processo
+## 8. Possíveis Dificuldades Encontradas e Soluções
 
-1. **Escala e Peso dos Arquivos Excel:** O arquivo compactado do INEP ultrapassa 397 MB e, ao descompactar, atinge quase 1 GB em arquivos `.xlsx`. O carregamento ingênuo de todo o arquivo provocaria estouro de memória e travamento; a solução exigiu leitura sob demanda exclusivamente da aba necessária (`1.1`).
-2. **Falhas do Mecanismo Nativo do Pandas:** O suporte padrão do Pandas para múltiplos cabeçalhos (`header=[5,6,7,8]`) gera um MultiIndex que não resolve adequadamente células mescladas verticais, deixando rótulos `Unnamed` residuais. Foi essencial desenvolver o algoritmo de propagação orientada por árvore de dependência.
-3. **Casos Especiais de Nomenclatura:** Municípios que possuem o mesmo nome de estados (ex.: município de São Paulo dentro do estado de São Paulo) ou linhas onde o termo "Total" aparecia com espaços variáveis exigiram funções de normalização com `unicodedata` e expressões regulares.
+1. **Escala e Peso dos Arquivos Excel:** O arquivo compactado do INEP ultrapassa 397 MB e quase 1 GB descompactado. A solução exigiu leitura sob demanda exclusivamente da aba necessária (`1.1`).
+2. **Falhas do Mecanismo Nativo do Pandas:** O suporte padrão do Pandas para múltiplos cabeçalhos (`header=[5,6,7,8]`) gera um MultiIndex que não resolve adequadamente células mescladas verticais. Foi essencial desenvolver o algoritmo de propagação orientada por árvore de dependência.
+3. **Bloqueio HTTP 403 em Requisições Web:** A Wikipédia rejeita conexões de bots sem cabeçalho; foi contornado com a inclusão de `headers={"User-Agent": "Mozilla/5.0"}`.
