@@ -1,0 +1,23 @@
+# Arquivos binários grandes do INEP (> 100 MB, excedem limite do GitHub)
+*.zip
+*.xlsx
+*.ods
+sinopse_educacao_superior_2024/
+
+# Python & Ambientes
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+
+# Temporários & IDEs
+.idea/
+.vscode/
+*.log
+*.tmp
+temp/

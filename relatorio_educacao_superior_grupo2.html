@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Técnico - Grupo 2: Educação Superior 2024</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 16mm 18mm 16mm;
+            @bottom-right {
+                content: counter(page);
+                font-family: Arial, sans-serif;
+                font-size: 9pt;
+                color: #64748b;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            line-height: 1.55;
+            font-size: 10pt;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .header-box {
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+        .header-title {
+            font-size: 20pt;
+            font-weight: 700;
+            color: #0f172a;
+            margin: 0 0 4px 0;
+            letter-spacing: -0.5px;
+        }
+        .header-subtitle {
+            font-size: 11pt;
+            color: #475569;
+            margin: 0;
+        }
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 10px 14px;
+            margin-bottom: 22px;
+            font-size: 9pt;
+        }
+        .meta-item strong {
+            display: block;
+            color: #0f172a;
+            font-size: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 2px;
+        }
+        h2 {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #1e3a8a;
+            border-left: 4px solid #2563eb;
+            padding-left: 8px;
+            margin: 22px 0 10px 0;
+            page-break-after: avoid;
+        }
+        h3 {
+            font-size: 10.5pt;
+            font-weight: 600;
+            color: #0f172a;
+            margin: 14px 0 6px 0;
+            page-break-after: avoid;
+        }
+        p {
+            margin: 0 0 10px 0;
+            text-align: justify;
+        }
+        ul, ol {
+            margin: 0 0 12px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 14px 0 18px 0;
+            font-size: 8.5pt;
+            page-break-inside: avoid;
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #cbd5e1;
+            padding: 7px 9px;
+            text-align: left;
+        }
+        .comparison-table th {
+            background-color: #f1f5f9;
+            color: #0f172a;
+            font-weight: 600;
+        }
+        .comparison-table tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+        .badge-danger {
+            background-color: #fee2e2;
+            color: #991b1b;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 8pt;
+            display: inline-block;
+        }
+        .badge-success {
+            background-color: #dcfce7;
+            color: #166534;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 8pt;
+            display: inline-block;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin: 14px 0 18px 0;
+            page-break-inside: avoid;
+        }
+        .card {
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 10px 12px;
+            background-color: #f8fafc;
+        }
+        .card-val {
+            font-size: 16pt;
+            font-weight: 700;
+            color: #1e3a8a;
+            margin: 0 0 2px 0;
+        }
+        .card-label {
+            font-size: 8pt;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #64748b;
+            margin: 0;
+        }
+        .card-desc {
+            font-size: 8pt;
+            color: #475569;
+            margin-top: 4px;
+        }
+        .alert-box {
+            border-left: 4px solid #f59e0b;
+            background-color: #fffbeb;
+            padding: 10px 14px;
+            margin: 14px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 9pt;
+            page-break-inside: avoid;
+        }
+        .alert-title {
+            font-weight: 700;
+            color: #b45309;
+            margin-bottom: 2px;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-box">
+        <h1 class="header-title">Relatório de Engenharia e Análise de Dados</h1>
+        <p class="header-subtitle">Grupo 2 — Educação: Ensino Superior | Censo da Educação Superior 2024 (INEP)</p>
+    </div>
+
+    <div class="metadata-grid">
+        <div class="meta-item">
+            <strong>Fonte Primária</strong>
+            INEP / MEC (Sinopse 2024)
+        </div>
+        <div class="meta-item">
+            <strong>Pilar de Engenharia</strong>
+            Cabeçalhos Hierárquicos Mesclados
+        </div>
+        <div class="meta-item">
+            <strong>Total Nacional</strong>
+            2.561 IES Ativas
+        </div>
+        <div class="meta-item">
+            <strong>Dataset Limpo</strong>
+            sinopse_limpa.csv (731 linhas)
+        </div>
+    </div>
+
+    <h2>1. Contexto e Objetivos do Estudo</h2>
+    <p>
+        A <strong>Sinopse Estatística da Educação Superior</strong> é o principal instrumento oficial de divulgação consolidada do Censo da Educação Superior no Brasil. Trata-se de uma planilha concebida originariamente para <em>leitura humana</em> (apresentação visual e relatórios impressos), caracterizada por títulos longos no topo, notas metodológicas no rodapé, cabeçalhos em múltiplos níveis com células mescladas na horizontal e vertical, além de linhas de total intercaladas com linhas de estados e municípios na mesma coluna.
+    </p>
+    <p>
+        O objetivo fundamental deste trabalho é aplicar as técnicas de <strong>Engenharia e Limpeza de Dados (Data Wrangling)</strong> para transformar a estrutura humana e desorganizada da planilha bruta em um conjunto de dados perfeitamente tabular (padrão <em>Tidy Data</em>), onde cada linha representa uma observação atômica e cada coluna representa uma variável mensurável, permitindo operações analíticas consistentes e confiáveis no ecossistema Python/Pandas.
+    </p>
+
+    <h2>2. Descrição da Fonte dos Dados</h2>
+    <ul>
+        <li><strong>Órgão Publicador:</strong> Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), autarquia federal vinculada ao Ministério da Educação (MEC).</li>
+        <li><strong>Origem e Coleta:</strong> Censo da Educação Superior referente ao ano de 2024. A coleta é obrigatória e de abrangência nacional, cobrindo todas as Instituições de Ensino Superior (IES) em funcionamento no país, tanto da rede pública quanto da rede privada.</li>
+        <li><strong>Periodicidade:</strong> Anual. Os microdados e sinopses estatísticas consolidadas são publicados no ano subsequente ao de coleta após rigorosa homologação do MEC.</li>
+        <li><strong>Escopo Analisado:</strong> Aba <code>1.1</code> da planilha <code>Sinopse_Educação_Superior_Municipio_2024.xlsx</code>, que traz a distribuição de IES por organização acadêmica (Universidades, Centros Universitários, Faculdades e IFs/CEFETs) e dependência administrativa (Pública Federal, Estadual, Municipal e Privada com/sem fins lucrativos), com abertura geográfica por Região, UF e Município sede.</li>
+        <li><strong>Limitações dos Dados:</strong> Por ser uma sinopse estatística agregada (e não a base bruta de microdados dos estudantes), ela não permite cruzamentos de variáveis que não estejam previamente sumarizadas na estrutura da tabela. Adicionalmente, o layout das planilhas sofre variações entre as edições anuais do INEP, demandando rotinas adaptativas de ingestão.</li>
+    </ul>
+
+    <h2>3. Tabela Comparativa de Auditoria: Antes x Depois</h2>
+    <p>
+        Abaixo é apresentada a auditoria detalhada que contrasta a leitura ingênua padrão realizada pelo Pandas com o resultado final obtido após a aplicação do pipeline de limpeza:
+    </p>
+
+    <table class="comparison-table">
+        <thead>
+            <tr>
+                <th style="width: 26%;">Métrica de Auditoria</th>
+                <th style="width: 22%;">Antes (Leitura Padrão)</th>
+                <th style="width: 22%;">Depois (Dataset Limpo)</th>
+                <th style="width: 30%;">Técnica de Tratamento Aplicada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Formato (Linhas x Colunas)</strong></td>
+                <td><span class="badge-danger">746 x 37</span></td>
+                <td><span class="badge-success">731 x 40</span></td>
+                <td>Remoção de títulos e notas de rodapé; expansão de colunas dimensionais (<code>nivel</code>, <code>local</code>, <code>categoria</code>).</td>
+            </tr>
+            <tr>
+                <td><strong>Colunas sem nome ('Unnamed')</strong></td>
+                <td><span class="badge-danger">36 de 37 (97%)</span></td>
+                <td><span class="badge-success">0 (0%)</span></td>
+                <td>Reconstrução da árvore de rótulos por concatenação hierárquica (<code>Pai | Filho | Subnível</code>).</td>
+            </tr>
+            <tr>
+                <td><strong>Células vazias no cabeçalho</strong></td>
+                <td><span class="badge-danger">97 de 148 (66%)</span></td>
+                <td><span class="badge-success">0 (0%)</span></td>
+                <td>Preenchimento progressivo horizontal (<code>ffill</code>) condicionado à integridade do nó superior.</td>
+            </tr>
+            <tr>
+                <td><strong>Linhas que não são dados</strong></td>
+                <td><span class="badge-danger">15 linhas</span></td>
+                <td><span class="badge-success">0 linhas</span></td>
+                <td>Mapeamento por densidade de valores numéricos na linha para isolar exatamente o miolo de dados (10 a 740).</td>
+            </tr>
+            <tr>
+                <td><strong>Colunas de valores como texto</strong></td>
+                <td><span class="badge-danger">34 de 36 colunas</span></td>
+                <td><span class="badge-success">0 colunas</span></td>
+                <td>Coerção numérica com Pandas (<code>pd.to_numeric</code>) e conversão para o tipo inteiro seguro <code>Int64</code>.</td>
+            </tr>
+            <tr>
+                <td><strong>Símbolos no lugar de números</strong></td>
+                <td><span class="badge-danger">1.423 células</span></td>
+                <td><span class="badge-success">0 células</span></td>
+                <td>Substituição de traços estatísticos <code>"-"</code> (convenção do INEP para frequência zero) pelo numeral <code>0</code>.</td>
+            </tr>
+            <tr>
+                <td><strong>Primeira coluna (Estrutura)</strong></td>
+                <td><span class="badge-danger">Geografia e totais misturados</span></td>
+                <td><span class="badge-success">Estrutura atômica em 3 níveis</span></td>
+                <td>Desagregação condicional em <code>nivel</code> (Brasil, Região, UF, Município), <code>local</code> e <code>categoria</code>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h2>4. Detalhamento e Explicação de Cada Comparação</h2>
+
+    <h3>4.1 Formato Geral (746x37 para 731x40)</h3>
+    <p>
+        Na leitura direta, o arquivo continha 746 linhas porque incluía 4 linhas de metadados no topo (título da tabela, código da sinopse), 4 linhas de cabeçalho mesclado, linhas em branco de espaçamento e 4 linhas de rodapé contendo notas técnicas e legendas da fonte. No dataset limpo, apenas as 731 linhas contendo dados reais de unidades territoriais foram preservadas, acrescidas de 3 novas colunas analíticas que explicitam a hierarquia.
+    </p>
+
+    <h3>4.2 Resolução das Colunas 'Unnamed' (de 36 para 0)</h3>
+    <p>
+        No Excel, células mescladas na horizontal possuem conteúdo gravado apenas na primeira célula da esquerda; todas as demais células do bloco mesclado retornam <code>NaN</code>. Quando o Pandas lê a primeira linha como cabeçalho, ele atribui o rótulo genérico <code>Unnamed: 1</code>, <code>Unnamed: 2</code>, etc., resultando na perda de 97% da semântica dos dados. A solução concatenou os 4 níveis do cabeçalho original com o separador <code>" | "</code>, gerando identificadores únicos e autoexplicativos como <em>"Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Com Fins Lucrativos"</em>.
+    </p>
+
+    <h3>4.3 Tratamento de Mesclagens e Células Vazias no Cabeçalho (66% de vazios para 0)</h3>
+    <p>
+        A função desenvolvida (<code>achatar_cabecalho</code>) aplicou uma propagação para a direita (<code>ffill</code>) contextual: o valor da célula superior funciona como uma "chave de grupo". Isso impediu um erro clássico em que um rótulo de uma coluna (como "Pública") vazava indevidamente para colunas do bloco vizinho ("Privada").
+    </p>
+
+    <h3>4.4 Tratamento de Tipos e Símbolos Numéricos (1.423 traços normalizados)</h3>
+    <p>
+        O INEP adota por padrão o traço <code>"-"</code> para sinalizar que determinada modalidade não possui ocorrências naquele município ou estado. Para o interpretador Python, a presença de uma única string <code>"-"</code> força a conversão de toda a coluna para o tipo <code>object</code>, impossibilitando operações matemáticas como soma, média ou cálculo de percentuais. A substituição do traço por <code>0</code> e a coerção com <code>Int64</code> reabilitou a capacidade analítica completa sem truncamento de valores.
+    </p>
+
+    <h3>4.5 Desmembramento da Hierarquia Territorial</h3>
+    <p>
+        A coluna inicial agrupava de forma indiferenciada o total do Brasil, subtotais das 5 regiões, subtotais das 27 UFs e os dados individuais de 698 municípios sede. A função <code>determinar_nivel()</code> classificou com rigor cada registro, permitindo filtrar dados exclusivamente a nível estadual ou municipal sem contaminação por subtotais intermediários.
+    </p>
+
+    <h2>5. Validação Matemática da Limpeza</h2>
+    <p>
+        Para assegurar que o processo de extração e desagregação não gerou perda ou duplicidade de dados, foi executada a conferência contábil de integridade:
+    </p>
+    <ul>
+        <li><strong>Total Brasil declarado pelo INEP:</strong> 2.561 instituições.</li>
+        <li><strong>Soma das 27 Unidades da Federação (UFs):</strong> 2.561 instituições (<strong>Convergência exata: 100%</strong>).</li>
+        <li><strong>Soma das 5 Regiões Geográficas:</strong> 2.561 instituições (<strong>Convergência exata: 100%</strong>).</li>
+        <li><strong>Total de colunas com validação perfeita:</strong> 33 de 33 colunas numéricas conferidas com sucesso.</li>
+    </ul>
+
+    <div class="alert-box">
+        <div class="alert-title">Risco Crítico Identificado em Análises Descuidadas</div>
+        Se um analista aplicasse a função <code>.sum()</code> diretamente na coluna de total sem efetuar a separação hierárquica por níveis, a soma retornaria <strong>10.244 instituições</strong> — exatamente <strong>4,0 vezes</strong> o valor real do país, em decorrência da sobreposição de totais municipais, estaduais, regionais e nacionais.
+    </div>
+
+    <h2>6. Principais Descobertas e Insights do Censo 2024</h2>
+
+    <div class="card-grid">
+        <div class="card">
+            <div class="card-val">2.561</div>
+            <div class="card-label">Total de IES no Brasil</div>
+            <div class="card-desc">Rede total de ensino superior registrada no Censo 2024.</div>
+        </div>
+        <div class="card">
+            <div class="card-val">87,6%</div>
+            <div class="card-label">Predomínio Privado</div>
+            <div class="card-desc">2.244 IES particulares vs. 317 instituições públicas (12,4%).</div>
+        </div>
+        <div class="card">
+            <div class="card-val">74,1%</div>
+            <div class="card-label">Perfil das IES</div>
+            <div class="card-desc">1.897 Faculdades, 417 Centros Universitários e 206 Universidades.</div>
+        </div>
+    </div>
+
+    <ul>
+        <li><strong>Forte Assimetria e Concentração Espacial:</strong>
+            O estado de São Paulo lidera isoladamente com <strong>580 instituições</strong> (22,6% de todo o ensino superior do país). Os 5 primeiros estados (São Paulo, Minas Gerais com 303, Paraná com 171, Bahia com 145 e Goiás com 128) concentram <strong>51,8%</strong> de todas as IES brasileiras. No extremo oposto, Roraima conta com apenas 9 IES (0,35%), evidenciando a necessidade de políticas contínuas de interiorização e democratização de acesso.
+        </li>
+        <li><strong>Distribuição Macro-Regional:</strong>
+            A Região Sudeste reúne <strong>1.076 IES (42,0%)</strong>, seguida pelo Nordeste com <strong>604 IES (23,6%)</strong>, Região Sul com <strong>389 IES (15,2%)</strong>, Centro-Oeste com <strong>296 IES (11,6%)</strong> e Região Norte com <strong>196 IES (7,6%)</strong>.
+        </li>
+        <li><strong>Predomínio da Organização Acadêmica por Faculdades:</strong>
+            As Faculdades isoladas constituem quase três quartos do panorama institucional brasileiro (74,1%), enquanto as Universidades — que concentram o grosso da pesquisa e pós-graduação stricto sensu — representam apenas 8,0% do universo total de instituições.
+        </li>
+    </ul>
+
+    <h2>7. Dificuldades Encontradas e Lições Aprendidas</h2>
+    <ol>
+        <li><strong>Arquivos Massivos de Alta Complexidade:</strong> O arquivo original extraído do INEP possui dezenas de abas com dezenas de megabytes, exigindo leitura sob demanda da aba específica (<code>1.1</code>) para evitar estouro de memória e lentidão excessiva.</li>
+        <li><strong>Ambiguidade de Nomenclaturas em Células Mescladas:</strong> O mecanismo padrão do Pandas (<code>header=[...]</code> com MultiIndex) preserva nós <code>Unnamed</code> nas mesclagens verticais, tornando imperativa a criação de algoritmo customizado baseado em grafos simples de dependência de pais.</li>
+        <li><strong>Heterogeneidade Semântica da 1ª Coluna:</strong> A presença de strings com "Total", nomes de municípios homônimos a estados e ausência de códigos IBGE nas linhas de totalização exigiu regras heurísticas cuidadosas para classificação territorial.</li>
+    </ol>
+
+</body>
+</html>

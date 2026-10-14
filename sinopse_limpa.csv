@@ -1,0 +1,732 @@
+﻿nivel;local;categoria;Região Geográfica;Unidade da Federação;Município;Código do Município;Organização Acadêmica e Dependência Administrativa1-3 | Total;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Total;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Federal;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Estadual;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Municipal;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Total;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Com Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Sem Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Total;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Total;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Federal;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Estadual;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Municipal;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Total;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Com Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Sem Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Total;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Total;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Federal;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Estadual;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Municipal;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Total;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Com Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Sem Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Total;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Total;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Federal;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Estadual;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Municipal;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Total;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Com Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Sem Fins Lucrativos;Organização Acadêmica e Dependência Administrativa1-3 | Instituto Federal de Educação, Ciência e Tecnologia (IF) e Centro Federal de Educação Tecnológica (Cefet) | Federal
+Brasil;Brasil;Total;Total Brasil;;;;2561;317;122;139;56;2244;1486;758;206;116;69;41;6;90;23;67;417;8;1;0;7;409;253;156;1897;152;11;98;43;1745;1210;535;41
+Região;Norte;Total;Total Norte;;;;196;24;18;5;1;172;136;36;19;17;11;5;1;2;1;1;27;0;0;0;0;27;21;6;143;0;0;0;0;143;114;29;7
+UF;Rondônia;Total;Norte;Total Rondônia;;;31;2;2;0;0;29;24;5;1;1;1;0;0;0;0;0;7;0;0;0;0;7;7;0;22;0;0;0;0;22;17;5;1
+Município;Ariquemes;Total;Norte;Rondônia;Ariquemes;1100023;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;0;1;0
+Município;Cacoal;Total;Norte;Rondônia;Cacoal;1100049;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;1;0;0;0;0;1;1;0;0
+Município;Jaru;Total;Norte;Rondônia;Jaru;1100114;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ji-Paraná;Total;Norte;Rondônia;Ji-Paraná;1100122;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;1;0;0;0;0;1;1;0;0
+Município;Ouro Preto do Oeste;Total;Norte;Rondônia;Ouro Preto do Oeste;1100155;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Pimenta Bueno;Total;Norte;Rondônia;Pimenta Bueno;1100189;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Porto Velho;Total;Norte;Rondônia;Porto Velho;1100205;11;2;2;0;0;9;8;1;1;1;1;0;0;0;0;0;2;0;0;0;0;2;2;0;7;0;0;0;0;7;6;1;1
+Município;Rolim de Moura;Total;Norte;Rondônia;Rolim de Moura;1100288;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Seringueiras;Total;Norte;Rondônia;Seringueiras;1101500;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Vilhena;Total;Norte;Rondônia;Vilhena;1100304;6;0;0;0;0;6;4;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;6;4;2;0
+UF;Rondônia;Total;Norte;Total Rondônia;;;10;2;2;0;0;8;6;2;1;1;1;0;0;0;0;0;3;0;0;0;0;3;3;0;5;0;0;0;0;5;3;2;1
+Município;Cruzeiro do Sul;Total;Norte;Acre;Cruzeiro do Sul;1200203;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Rio Branco;Total;Norte;Acre;Rio Branco;1200401;9;2;2;0;0;7;5;2;1;1;1;0;0;0;0;0;3;0;0;0;0;3;3;0;4;0;0;0;0;4;2;2;1
+UF;Amazonas;Total;Norte;Total Amazonas;;;32;3;2;1;0;29;18;11;3;2;1;1;0;1;0;1;4;0;0;0;0;4;2;2;24;0;0;0;0;24;16;8;1
+Município;Coari;Total;Norte;Amazonas;Coari;1301209;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itacoatiara;Total;Norte;Amazonas;Itacoatiara;1301902;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Manacapuru;Total;Norte;Amazonas;Manacapuru;1302504;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Manaus;Total;Norte;Amazonas;Manaus;1302603;25;3;2;1;0;22;11;11;3;2;1;1;0;1;0;1;4;0;0;0;0;4;2;2;17;0;0;0;0;17;9;8;1
+Município;Parintins;Total;Norte;Amazonas;Parintins;1303403;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Tefé;Total;Norte;Amazonas;Tefé;1304203;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Roraima;Total;Norte;Total Roraima;;;9;3;2;1;0;6;4;2;2;2;1;1;0;0;0;0;1;0;0;0;0;1;1;0;5;0;0;0;0;5;3;2;1
+Município;Boa Vista;Total;Norte;Roraima;Boa Vista;1400100;9;3;2;1;0;6;4;2;2;2;1;1;0;0;0;0;1;0;0;0;0;1;1;0;5;0;0;0;0;5;3;2;1
+UF;Pará;Total;Norte;Total Pará;;;76;6;5;1;0;70;59;11;6;5;4;1;0;1;1;0;8;0;0;0;0;8;6;2;61;0;0;0;0;61;52;9;1
+Município;Abaetetuba;Total;Norte;Pará;Abaetetuba;1500107;4;0;0;0;0;4;3;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;3;1;0
+Município;Altamira;Total;Norte;Pará;Altamira;1500602;6;0;0;0;0;6;5;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;6;5;1;0
+Município;Ananindeua;Total;Norte;Pará;Ananindeua;1500800;4;0;0;0;0;4;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;2;2;0
+Município;Belém;Total;Norte;Pará;Belém;1501402;26;4;3;1;0;22;20;2;4;3;2;1;0;1;1;0;5;0;0;0;0;5;4;1;16;0;0;0;0;16;15;1;1
+Município;Benevides;Total;Norte;Pará;Benevides;1501501;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Bragança;Total;Norte;Pará;Bragança;1501709;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Breves;Total;Norte;Pará;Breves;1501808;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Castanhal;Total;Norte;Pará;Castanhal;1502400;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Igarapé-Miri;Total;Norte;Pará;Igarapé-Miri;1503309;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itaituba;Total;Norte;Pará;Itaituba;1503606;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Marabá;Total;Norte;Pará;Marabá;1504208;6;1;1;0;0;5;5;0;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;4;0;0;0;0;4;4;0;0
+Município;Novo Progresso;Total;Norte;Pará;Novo Progresso;1505031;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Paragominas;Total;Norte;Pará;Paragominas;1505502;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Parauapebas;Total;Norte;Pará;Parauapebas;1505536;5;0;0;0;0;5;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;5;5;0;0
+Município;Redenção;Total;Norte;Pará;Redenção;1506138;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Santarém;Total;Norte;Pará;Santarém;1506807;5;1;1;0;0;4;2;2;1;1;1;0;0;0;0;0;2;0;0;0;0;2;1;1;2;0;0;0;0;2;1;1;0
+Município;São Félix do Xingu;Total;Norte;Pará;São Félix do Xingu;1507300;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Tailândia;Total;Norte;Pará;Tailândia;1507953;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Tucuruí;Total;Norte;Pará;Tucuruí;1508100;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Xinguara;Total;Norte;Pará;Xinguara;1508407;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Amapá;Total;Norte;Total Amapá;;;15;3;2;1;0;12;10;2;2;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;12;0;0;0;0;12;10;2;1
+Município;Macapá;Total;Norte;Amapá;Macapá;1600303;14;3;2;1;0;11;9;2;2;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;11;0;0;0;0;11;9;2;1
+Município;Santana;Total;Norte;Amapá;Santana;1600600;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Tocantins;Total;Norte;Total Tocantins;;;23;5;3;1;1;18;15;3;4;4;2;1;1;0;0;0;4;0;0;0;0;4;2;2;14;0;0;0;0;14;13;1;1
+Município;Araguaína;Total;Norte;Tocantins;Araguaína;1702109;4;1;1;0;0;3;2;1;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;1;1;0
+Município;Augustinópolis;Total;Norte;Tocantins;Augustinópolis;1702554;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Colinas do Tocantins;Total;Norte;Tocantins;Colinas do Tocantins;1705508;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Guaraí;Total;Norte;Tocantins;Guaraí;1709302;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Gurupi;Total;Norte;Tocantins;Gurupi;1709500;1;1;0;0;1;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Palmas;Total;Norte;Tocantins;Palmas;1721000;12;3;2;1;0;9;7;2;2;2;1;1;0;0;0;0;3;0;0;0;0;3;1;2;6;0;0;0;0;6;6;0;1
+Município;Paraíso do Tocantins;Total;Norte;Tocantins;Paraíso do Tocantins;1716109;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Porto Nacional;Total;Norte;Tocantins;Porto Nacional;1718204;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Região;Nordeste;Total;Total Nordeste;;;;604;66;31;16;19;538;437;101;43;35;20;15;0;8;3;5;96;0;0;0;0;96;75;21;454;20;0;1;19;434;359;75;11
+UF;Maranhão;Total;Nordeste;Total Maranhão;;;66;4;2;2;0;62;56;6;4;3;1;2;0;1;0;1;6;0;0;0;0;6;4;2;55;0;0;0;0;55;52;3;1
+Município;Açailândia;Total;Nordeste;Maranhão;Açailândia;2100055;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Bacabal;Total;Nordeste;Maranhão;Bacabal;2101202;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Bacabeira;Total;Nordeste;Maranhão;Bacabeira;2101251;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Balsas;Total;Nordeste;Maranhão;Balsas;2101400;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Barra do Corda;Total;Nordeste;Maranhão;Barra do Corda;2101608;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Caxias;Total;Nordeste;Maranhão;Caxias;2103000;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Chapadinha;Total;Nordeste;Maranhão;Chapadinha;2103208;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Codó;Total;Nordeste;Maranhão;Codó;2103307;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Coroatá;Total;Nordeste;Maranhão;Coroatá;2103604;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Imperatriz;Total;Nordeste;Maranhão;Imperatriz;2105302;8;1;0;1;0;7;7;0;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;7;7;0;0
+Município;Itinga do Maranhão;Total;Nordeste;Maranhão;Itinga do Maranhão;2105427;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Lago da Pedra;Total;Nordeste;Maranhão;Lago da Pedra;2105708;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Paço do Lumiar;Total;Nordeste;Maranhão;Paço do Lumiar;2107506;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Parnarama;Total;Nordeste;Maranhão;Parnarama;2107803;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pedreiras;Total;Nordeste;Maranhão;Pedreiras;2108207;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;Pinheiro;Total;Nordeste;Maranhão;Pinheiro;2108603;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Presidente Dutra;Total;Nordeste;Maranhão;Presidente Dutra;2109106;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santa Inês;Total;Nordeste;Maranhão;Santa Inês;2109908;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;São Luís;Total;Nordeste;Maranhão;São Luís;2111300;29;3;2;1;0;26;22;4;3;2;1;1;0;1;0;1;4;0;0;0;0;4;2;2;21;0;0;0;0;21;20;1;1
+Município;Timon;Total;Nordeste;Maranhão;Timon;2112209;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+UF;Piauí;Total;Nordeste;Total Piauí;;;48;4;3;1;0;44;41;3;3;3;2;1;0;0;0;0;8;0;0;0;0;8;8;0;36;0;0;0;0;36;33;3;1
+Município;Campo Maior;Total;Nordeste;Piauí;Campo Maior;2202208;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Corrente;Total;Nordeste;Piauí;Corrente;2202901;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Elesbão Veloso;Total;Nordeste;Piauí;Elesbão Veloso;2203503;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Floriano;Total;Nordeste;Piauí;Floriano;2203909;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Parnaíba;Total;Nordeste;Piauí;Parnaíba;2207702;6;1;1;0;0;5;5;0;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;4;0;0;0;0;4;4;0;0
+Município;Picos;Total;Nordeste;Piauí;Picos;2208007;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Piripiri;Total;Nordeste;Piauí;Piripiri;2208403;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São João do Piauí;Total;Nordeste;Piauí;São João do Piauí;2210003;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São Pedro do Piauí;Total;Nordeste;Piauí;São Pedro do Piauí;2210508;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;São Raimundo Nonato;Total;Nordeste;Piauí;São Raimundo Nonato;2210607;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Teresina;Total;Nordeste;Piauí;Teresina;2211001;29;3;2;1;0;26;23;3;2;2;1;1;0;0;0;0;6;0;0;0;0;6;6;0;20;0;0;0;0;20;17;3;1
+Município;Uruçuí;Total;Nordeste;Piauí;Uruçuí;2211209;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Ceará;Total;Nordeste;Total Ceará;;;102;7;4;3;0;95;71;24;7;6;3;3;0;1;0;1;19;0;0;0;0;19;16;3;75;0;0;0;0;75;55;20;1
+Município;Alto Santo;Total;Nordeste;Ceará;Alto Santo;2300705;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Aracati;Total;Nordeste;Ceará;Aracati;2301109;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Baturité;Total;Nordeste;Ceará;Baturité;2302107;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Camocim;Total;Nordeste;Ceará;Camocim;2302602;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Canindé;Total;Nordeste;Ceará;Canindé;2302800;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Cascavel;Total;Nordeste;Ceará;Cascavel;2303501;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Caucaia;Total;Nordeste;Ceará;Caucaia;2303709;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Crateús;Total;Nordeste;Ceará;Crateús;2304103;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Crato;Total;Nordeste;Ceará;Crato;2304202;4;1;0;1;0;3;2;1;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;Croatá;Total;Nordeste;Ceará;Croatá;2304236;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Eusébio;Total;Nordeste;Ceará;Eusébio;2304285;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Fortaleza;Total;Nordeste;Ceará;Fortaleza;2304400;43;3;2;1;0;40;28;12;3;2;1;1;0;1;0;1;11;0;0;0;0;11;10;1;28;0;0;0;0;28;18;10;1
+Município;Guaiúba;Total;Nordeste;Ceará;Guaiúba;2304954;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Horizonte;Total;Nordeste;Ceará;Horizonte;2305233;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Icó;Total;Nordeste;Ceará;Icó;2305407;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Iguatu;Total;Nordeste;Ceará;Iguatu;2305506;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Ipu;Total;Nordeste;Ceará;Ipu;2305803;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Juazeiro do Norte;Total;Nordeste;Ceará;Juazeiro do Norte;2307304;8;1;1;0;0;7;6;1;1;1;1;0;0;0;0;0;3;0;0;0;0;3;3;0;4;0;0;0;0;4;3;1;0
+Município;Limoeiro do Norte;Total;Nordeste;Ceará;Limoeiro do Norte;2307601;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Maracanaú;Total;Nordeste;Ceará;Maracanaú;2307650;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Milhã;Total;Nordeste;Ceará;Milhã;2308351;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Parambu;Total;Nordeste;Ceará;Parambu;2310308;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Quixadá;Total;Nordeste;Ceará;Quixadá;2311306;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;2;0;0
+Município;Quixeramobim;Total;Nordeste;Ceará;Quixeramobim;2311405;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;Redenção;Total;Nordeste;Ceará;Redenção;2311603;1;1;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Santa Quitéria;Total;Nordeste;Ceará;Santa Quitéria;2312205;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Sobral;Total;Nordeste;Ceará;Sobral;2312908;7;1;0;1;0;6;3;3;1;1;0;1;0;0;0;0;1;0;0;0;0;1;0;1;5;0;0;0;0;5;3;2;0
+Município;Tianguá;Total;Nordeste;Ceará;Tianguá;2313401;5;0;0;0;0;5;2;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;5;2;3;0
+UF;Rio Grande do Norte;Total;Nordeste;Total Rio Grande do Norte;;;28;5;3;2;0;23;18;5;4;3;2;1;0;1;1;0;5;0;0;0;0;5;2;3;18;1;0;1;0;17;15;2;1
+Município;Açu;Total;Nordeste;Rio Grande do Norte;Açu;2400208;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Caicó;Total;Nordeste;Rio Grande do Norte;Caicó;2402006;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Currais Novos;Total;Nordeste;Rio Grande do Norte;Currais Novos;2403103;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Mossoró;Total;Nordeste;Rio Grande do Norte;Mossoró;2408003;7;2;1;1;0;5;4;1;2;2;1;1;0;0;0;0;1;0;0;0;0;1;0;1;4;0;0;0;0;4;4;0;0
+Município;Natal;Total;Nordeste;Rio Grande do Norte;Natal;2408102;15;3;2;1;0;12;8;4;2;1;1;0;0;1;1;0;4;0;0;0;0;4;2;2;8;1;0;1;0;7;5;2;1
+Município;Parnamirim;Total;Nordeste;Rio Grande do Norte;Parnamirim;2403251;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pau dos Ferros;Total;Nordeste;Rio Grande do Norte;Pau dos Ferros;2409407;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São Miguel;Total;Nordeste;Rio Grande do Norte;São Miguel;2412500;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Paraíba;Total;Nordeste;Total Paraíba;;;46;4;3;1;0;42;38;4;3;3;2;1;0;0;0;0;7;0;0;0;0;7;6;1;35;0;0;0;0;35;32;3;1
+Município;Cabedelo;Total;Nordeste;Paraíba;Cabedelo;2503209;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Cajazeiras;Total;Nordeste;Paraíba;Cajazeiras;2503704;4;0;0;0;0;4;3;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;0;0;0;0;3;2;1;0
+Município;Campina Grande;Total;Nordeste;Paraíba;Campina Grande;2504009;9;2;1;1;0;7;7;0;2;2;1;1;0;0;0;0;2;0;0;0;0;2;2;0;5;0;0;0;0;5;5;0;0
+Município;Conceição;Total;Nordeste;Paraíba;Conceição;2504405;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Guarabira;Total;Nordeste;Paraíba;Guarabira;2506301;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;João Pessoa;Total;Nordeste;Paraíba;João Pessoa;2507507;23;2;2;0;0;21;18;3;1;1;1;0;0;0;0;0;2;0;0;0;0;2;1;1;19;0;0;0;0;19;17;2;1
+Município;Patos;Total;Nordeste;Paraíba;Patos;2510808;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;São Bento;Total;Nordeste;Paraíba;São Bento;2513901;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Sousa;Total;Nordeste;Paraíba;Sousa;2516201;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Sumé;Total;Nordeste;Paraíba;Sumé;2516300;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Pernambuco;Total;Nordeste;Total Pernambuco;;;118;26;6;1;19;92;62;30;6;5;4;1;0;1;0;1;20;0;0;0;0;20;14;6;90;19;0;0;19;71;48;23;2
+Município;Afogados da Ingazeira;Total;Nordeste;Pernambuco;Afogados da Ingazeira;2600104;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Araripina;Total;Nordeste;Pernambuco;Araripina;2601102;4;3;0;0;3;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;3;0;0;3;1;1;0;0
+Município;Arcoverde;Total;Nordeste;Pernambuco;Arcoverde;2601201;4;2;0;0;2;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;2;0;0;2;2;2;0;0
+Município;Belém do São Francisco;Total;Nordeste;Pernambuco;Belém do São Francisco;2601607;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;1;1;1;0;0
+Município;Belo Jardim;Total;Nordeste;Pernambuco;Belo Jardim;2601706;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;1;1;1;0;0
+Município;Bezerros;Total;Nordeste;Pernambuco;Bezerros;2601904;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cabo de Santo Agostinho;Total;Nordeste;Pernambuco;Cabo de Santo Agostinho;2602902;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;1;1;1;0;0
+Município;Carpina;Total;Nordeste;Pernambuco;Carpina;2604007;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;1;2;0
+Município;Caruaru;Total;Nordeste;Pernambuco;Caruaru;2604106;5;0;0;0;0;5;4;1;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;2;0;0;0;0;2;2;0;0
+Município;Escada;Total;Nordeste;Pernambuco;Escada;2605202;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Floresta;Total;Nordeste;Pernambuco;Floresta;2605707;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Garanhuns;Total;Nordeste;Pernambuco;Garanhuns;2606002;5;2;1;0;1;3;3;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;1;0;0;1;3;3;0;0
+Município;Goiana;Total;Nordeste;Pernambuco;Goiana;2606200;4;1;0;0;1;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;1;0;0;1;3;2;1;0
+Município;Igarassu;Total;Nordeste;Pernambuco;Igarassu;2606804;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Ipojuca;Total;Nordeste;Pernambuco;Ipojuca;2607208;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Jaboatão dos Guararapes;Total;Nordeste;Pernambuco;Jaboatão dos Guararapes;2607901;4;0;0;0;0;4;3;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;0;0;0;0;3;2;1;0
+Município;João Alfredo;Total;Nordeste;Pernambuco;João Alfredo;2608107;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Limoeiro;Total;Nordeste;Pernambuco;Limoeiro;2608909;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Nazaré da Mata;Total;Nordeste;Pernambuco;Nazaré da Mata;2609501;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Olinda;Total;Nordeste;Pernambuco;Olinda;2609600;8;0;0;0;0;8;5;3;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;6;0;0;0;0;6;4;2;0
+Município;Palmares;Total;Nordeste;Pernambuco;Palmares;2610004;3;2;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;2;0;0;2;1;1;0;0
+Município;Paulista;Total;Nordeste;Pernambuco;Paulista;2610707;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;0;1;0
+Município;Petrolina;Total;Nordeste;Pernambuco;Petrolina;2611101;9;3;2;0;1;6;6;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;7;1;0;0;1;6;6;0;1
+Município;Recife;Total;Nordeste;Pernambuco;Recife;2611606;37;4;3;1;0;33;19;14;4;3;2;1;0;1;0;1;10;0;0;0;0;10;8;2;22;0;0;0;0;22;11;11;1
+Município;Salgueiro;Total;Nordeste;Pernambuco;Salgueiro;2612208;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;São José do Egito;Total;Nordeste;Pernambuco;São José do Egito;2613602;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Serra Talhada;Total;Nordeste;Pernambuco;Serra Talhada;2613909;6;3;0;0;3;3;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;5;3;0;0;3;2;2;0;0
+Município;Surubim;Total;Nordeste;Pernambuco;Surubim;2614501;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Timbaúba;Total;Nordeste;Pernambuco;Timbaúba;2615300;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Vitória de Santo Antão;Total;Nordeste;Pernambuco;Vitória de Santo Antão;2616407;4;0;0;0;0;4;1;3;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;2;0;0;0;0;2;1;1;0
+UF;Alagoas;Total;Nordeste;Total Alagoas;;;30;4;2;2;0;26;17;9;3;3;1;2;0;0;0;0;4;0;0;0;0;4;2;2;22;0;0;0;0;22;15;7;1
+Município;Arapiraca;Total;Nordeste;Alagoas;Arapiraca;2700300;8;1;0;1;0;7;6;1;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;7;6;1;0
+Município;Cacimbinhas;Total;Nordeste;Alagoas;Cacimbinhas;2701209;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Maceió;Total;Nordeste;Alagoas;Maceió;2704302;17;3;2;1;0;14;10;4;2;2;1;1;0;0;0;0;4;0;0;0;0;4;2;2;10;0;0;0;0;10;8;2;1
+Município;Palmeira dos Índios;Total;Nordeste;Alagoas;Palmeira dos Índios;2706307;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Pão de Açúcar;Total;Nordeste;Alagoas;Pão de Açúcar;2706406;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Penedo;Total;Nordeste;Alagoas;Penedo;2706703;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+UF;Sergipe;Total;Nordeste;Total Sergipe;;;21;2;2;0;0;19;18;1;2;1;1;0;0;1;1;0;2;0;0;0;0;2;1;1;16;0;0;0;0;16;16;0;1
+Município;Aracaju;Total;Nordeste;Sergipe;Aracaju;2800308;14;1;1;0;0;13;12;1;1;0;0;0;0;1;1;0;2;0;0;0;0;2;1;1;10;0;0;0;0;10;10;0;1
+Município;Canindé de São Francisco;Total;Nordeste;Sergipe;Canindé de São Francisco;2801207;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Lagarto;Total;Nordeste;Sergipe;Lagarto;2803500;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Nossa Senhora do Socorro;Total;Nordeste;Sergipe;Nossa Senhora do Socorro;2804805;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São Cristóvão;Total;Nordeste;Sergipe;São Cristóvão;2806701;1;1;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Tobias Barreto;Total;Nordeste;Sergipe;Tobias Barreto;2807402;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Umbaúba;Total;Nordeste;Sergipe;Umbaúba;2807600;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+UF;Bahia;Total;Nordeste;Total Bahia;;;145;10;6;4;0;135;116;19;11;8;4;4;0;3;1;2;25;0;0;0;0;25;22;3;107;0;0;0;0;107;93;14;2
+Município;Alagoinhas;Total;Nordeste;Bahia;Alagoinhas;2900702;6;0;0;0;0;6;5;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;5;0;0;0;0;5;4;1;0
+Município;Amargosa;Total;Nordeste;Bahia;Amargosa;2901007;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Barreiras;Total;Nordeste;Bahia;Barreiras;2903201;3;1;1;0;0;2;1;1;1;1;1;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;1;0;0
+Município;Bom Jesus da Lapa;Total;Nordeste;Bahia;Bom Jesus da Lapa;2903904;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Brumado;Total;Nordeste;Bahia;Brumado;2904605;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cachoeira;Total;Nordeste;Bahia;Cachoeira;2904902;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Camaçari;Total;Nordeste;Bahia;Camaçari;2905701;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;0;0;0;0;3;3;0;0
+Município;Capim Grosso;Total;Nordeste;Bahia;Capim Grosso;2906873;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Casa Nova;Total;Nordeste;Bahia;Casa Nova;2907202;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Conceição do Coité;Total;Nordeste;Bahia;Conceição do Coité;2908408;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Coronel João Sá;Total;Nordeste;Bahia;Coronel João Sá;2909208;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cruz das Almas;Total;Nordeste;Bahia;Cruz das Almas;2909802;3;1;1;0;0;2;2;0;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Euclides da Cunha;Total;Nordeste;Bahia;Euclides da Cunha;2910701;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Eunápolis;Total;Nordeste;Bahia;Eunápolis;2910727;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;Feira de Santana;Total;Nordeste;Bahia;Feira de Santana;2910800;10;1;0;1;0;9;7;2;1;1;0;1;0;0;0;0;3;0;0;0;0;3;2;1;6;0;0;0;0;6;5;1;0
+Município;Guanambi;Total;Nordeste;Bahia;Guanambi;2911709;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;0;0;0;0;3;3;0;0
+Município;Ibicaraí;Total;Nordeste;Bahia;Ibicaraí;2912103;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ilhéus;Total;Nordeste;Bahia;Ilhéus;2913606;3;1;0;1;0;2;2;0;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Ipirá;Total;Nordeste;Bahia;Ipirá;2914000;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Irecê;Total;Nordeste;Bahia;Irecê;2914604;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Itaberaba;Total;Nordeste;Bahia;Itaberaba;2914703;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itabuna;Total;Nordeste;Bahia;Itabuna;2914802;5;1;1;0;0;4;4;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;Itamaraju;Total;Nordeste;Bahia;Itamaraju;2915601;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Jacobina;Total;Nordeste;Bahia;Jacobina;2917508;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Jequié;Total;Nordeste;Bahia;Jequié;2918001;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Juazeiro;Total;Nordeste;Bahia;Juazeiro;2918407;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;Lauro de Freitas;Total;Nordeste;Bahia;Lauro de Freitas;2919207;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Luís Eduardo Magalhães;Total;Nordeste;Bahia;Luís Eduardo Magalhães;2919553;4;0;0;0;0;4;3;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;0;0;0;0;3;2;1;0
+Município;Monte Santo;Total;Nordeste;Bahia;Monte Santo;2921500;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Paripiranga;Total;Nordeste;Bahia;Paripiranga;2923803;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Paulo Afonso;Total;Nordeste;Bahia;Paulo Afonso;2924009;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Porto Seguro;Total;Nordeste;Bahia;Porto Seguro;2925303;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Queimadas;Total;Nordeste;Bahia;Queimadas;2925808;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Remanso;Total;Nordeste;Bahia;Remanso;2926004;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Riachão do Jacuípe;Total;Nordeste;Bahia;Riachão do Jacuípe;2926301;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ribeira do Pombal;Total;Nordeste;Bahia;Ribeira do Pombal;2926608;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Salvador;Total;Nordeste;Bahia;Salvador;2927408;39;4;3;1;0;35;26;9;5;2;1;1;0;3;1;2;11;0;0;0;0;11;10;1;21;0;0;0;0;21;15;6;2
+Município;Santa Maria da Vitória;Total;Nordeste;Bahia;Santa Maria da Vitória;2928109;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santo Antônio de Jesus;Total;Nordeste;Bahia;Santo Antônio de Jesus;2928703;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Senhor do Bonfim;Total;Nordeste;Bahia;Senhor do Bonfim;2930105;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Serrinha;Total;Nordeste;Bahia;Serrinha;2930501;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Teixeira de Freitas;Total;Nordeste;Bahia;Teixeira de Freitas;2931350;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Tucano;Total;Nordeste;Bahia;Tucano;2931905;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Valença;Total;Nordeste;Bahia;Valença;2932903;6;0;0;0;0;6;5;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;6;5;1;0
+Município;Vitória da Conquista;Total;Nordeste;Bahia;Vitória da Conquista;2933307;8;1;0;1;0;7;7;0;1;1;0;1;0;0;0;0;1;0;0;0;0;1;1;0;6;0;0;0;0;6;6;0;0
+Região;Sudeste;Total;Total Sudeste;;;;1076;166;40;100;26;910;486;424;75;29;19;8;2;46;12;34;180;5;1;0;4;175;77;98;809;120;8;92;20;689;397;292;12
+UF;Minas Gerais;Total;Sudeste;Total Minas Gerais;;;303;22;18;4;0;281;163;118;20;13;11;2;0;7;0;7;47;0;0;0;0;47;26;21;230;3;1;2;0;227;137;90;6
+Município;Aimorés;Total;Sudeste;Minas Gerais;Aimorés;3101102;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Além Paraíba;Total;Sudeste;Minas Gerais;Além Paraíba;3101508;3;0;0;0;0;3;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;0;3;0
+Município;Alfenas;Total;Sudeste;Minas Gerais;Alfenas;3101607;2;1;1;0;0;1;0;1;2;1;1;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Almenara;Total;Sudeste;Minas Gerais;Almenara;3101706;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Araçuaí;Total;Sudeste;Minas Gerais;Araçuaí;3103405;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Araguari;Total;Sudeste;Minas Gerais;Araguari;3103504;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Araxá;Total;Sudeste;Minas Gerais;Araxá;3104007;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;1;0;0
+Município;Baependi;Total;Sudeste;Minas Gerais;Baependi;3104908;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Barbacena;Total;Sudeste;Minas Gerais;Barbacena;3105608;4;0;0;0;0;4;2;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;3;0;0;0;0;3;2;1;0
+Município;Belo Horizonte;Total;Sudeste;Minas Gerais;Belo Horizonte;3106200;55;6;3;3;0;49;33;16;4;2;1;1;0;2;0;2;8;0;0;0;0;8;6;2;41;2;0;2;0;39;27;12;2
+Município;Bertópolis;Total;Sudeste;Minas Gerais;Bertópolis;3106606;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Betim;Total;Sudeste;Minas Gerais;Betim;3106705;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;2;0;0
+Município;Boa Esperança;Total;Sudeste;Minas Gerais;Boa Esperança;3107109;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Bom Despacho;Total;Sudeste;Minas Gerais;Bom Despacho;3107406;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Brumadinho;Total;Sudeste;Minas Gerais;Brumadinho;3109006;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cambuquira;Total;Sudeste;Minas Gerais;Cambuquira;3110707;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Campos Gerais;Total;Sudeste;Minas Gerais;Campos Gerais;3111606;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Capelinha;Total;Sudeste;Minas Gerais;Capelinha;3112307;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Carangola;Total;Sudeste;Minas Gerais;Carangola;3113305;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Caratinga;Total;Sudeste;Minas Gerais;Caratinga;3113404;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;1;1;0
+Município;Cataguases;Total;Sudeste;Minas Gerais;Cataguases;3115300;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Conselheiro Lafaiete;Total;Sudeste;Minas Gerais;Conselheiro Lafaiete;3118304;8;0;0;0;0;8;5;3;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;7;0;0;0;0;7;4;3;0
+Município;Contagem;Total;Sudeste;Minas Gerais;Contagem;3118601;5;0;0;0;0;5;5;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;4;0;0;0;0;4;4;0;0
+Município;Coromandel;Total;Sudeste;Minas Gerais;Coromandel;3119302;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Coronel Fabriciano;Total;Sudeste;Minas Gerais;Coronel Fabriciano;3119401;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Curvelo;Total;Sudeste;Minas Gerais;Curvelo;3120904;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Diamantina;Total;Sudeste;Minas Gerais;Diamantina;3121605;1;1;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Divinópolis;Total;Sudeste;Minas Gerais;Divinópolis;3122306;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;Espinosa;Total;Sudeste;Minas Gerais;Espinosa;3124302;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Extrema;Total;Sudeste;Minas Gerais;Extrema;3125101;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Formiga;Total;Sudeste;Minas Gerais;Formiga;3126109;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Governador Valadares;Total;Sudeste;Minas Gerais;Governador Valadares;3127701;5;0;0;0;0;5;1;4;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;4;0;0;0;0;4;1;3;0
+Município;Guanhães;Total;Sudeste;Minas Gerais;Guanhães;3128006;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Guaxupé;Total;Sudeste;Minas Gerais;Guaxupé;3128709;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Iguatama;Total;Sudeste;Minas Gerais;Iguatama;3130309;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ipatinga;Total;Sudeste;Minas Gerais;Ipatinga;3131307;8;0;0;0;0;8;7;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;7;0;0;0;0;7;6;1;0
+Município;Itabira;Total;Sudeste;Minas Gerais;Itabira;3131703;5;0;0;0;0;5;4;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;4;0;0;0;0;4;4;0;0
+Município;Itabirito;Total;Sudeste;Minas Gerais;Itabirito;3131901;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Itajubá;Total;Sudeste;Minas Gerais;Itajubá;3132404;6;1;1;0;0;5;2;3;1;1;1;0;0;0;0;0;1;0;0;0;0;1;0;1;4;0;0;0;0;4;2;2;0
+Município;Itaúna;Total;Sudeste;Minas Gerais;Itaúna;3133808;2;0;0;0;0;2;1;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ituiutaba;Total;Sudeste;Minas Gerais;Ituiutaba;3134202;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Iturama;Total;Sudeste;Minas Gerais;Iturama;3134400;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Janaúba;Total;Sudeste;Minas Gerais;Janaúba;3135100;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Januária;Total;Sudeste;Minas Gerais;Januária;3135209;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;João Monlevade;Total;Sudeste;Minas Gerais;João Monlevade;3136207;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;João Pinheiro;Total;Sudeste;Minas Gerais;João Pinheiro;3136306;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Juiz de Fora;Total;Sudeste;Minas Gerais;Juiz de Fora;3136702;14;2;2;0;0;12;8;4;1;1;1;0;0;0;0;0;4;0;0;0;0;4;3;1;8;0;0;0;0;8;5;3;1
+Município;Lavras;Total;Sudeste;Minas Gerais;Lavras;3138203;4;1;1;0;0;3;0;3;1;1;1;0;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;0;2;0
+Município;Leopoldina;Total;Sudeste;Minas Gerais;Leopoldina;3138401;3;0;0;0;0;3;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;0;3;0
+Município;Luz;Total;Sudeste;Minas Gerais;Luz;3138807;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Machado;Total;Sudeste;Minas Gerais;Machado;3139003;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Manhuaçu;Total;Sudeste;Minas Gerais;Manhuaçu;3139409;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;1;1;0
+Município;Mariana;Total;Sudeste;Minas Gerais;Mariana;3140001;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;1;2;0
+Município;Matipó;Total;Sudeste;Minas Gerais;Matipó;3140902;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Mato Verde;Total;Sudeste;Minas Gerais;Mato Verde;3141009;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Monte Carmelo;Total;Sudeste;Minas Gerais;Monte Carmelo;3143104;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Montes Claros;Total;Sudeste;Minas Gerais;Montes Claros;3143302;10;2;1;1;0;8;7;1;1;1;0;1;0;0;0;0;3;0;0;0;0;3;2;1;5;0;0;0;0;5;5;0;1
+Município;Muriaé;Total;Sudeste;Minas Gerais;Muriaé;3143906;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;1;1;0
+Município;Nova Lima;Total;Sudeste;Minas Gerais;Nova Lima;3144805;4;0;0;0;0;4;1;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;1;3;0
+Município;Nova Porteirinha;Total;Sudeste;Minas Gerais;Nova Porteirinha;3145059;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Nova Serrana;Total;Sudeste;Minas Gerais;Nova Serrana;3145208;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Oliveira;Total;Sudeste;Minas Gerais;Oliveira;3145604;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ouro Fino;Total;Sudeste;Minas Gerais;Ouro Fino;3146008;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ouro Preto;Total;Sudeste;Minas Gerais;Ouro Preto;3146107;1;1;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Pará de Minas;Total;Sudeste;Minas Gerais;Pará de Minas;3147105;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Paracatu;Total;Sudeste;Minas Gerais;Paracatu;3147006;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;2;0;0
+Município;Passos;Total;Sudeste;Minas Gerais;Passos;3147907;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Patos de Minas;Total;Sudeste;Minas Gerais;Patos de Minas;3148004;4;0;0;0;0;4;2;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;3;0;0;0;0;3;2;1;0
+Município;Patrocínio;Total;Sudeste;Minas Gerais;Patrocínio;3148103;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Pedro Leopoldo;Total;Sudeste;Minas Gerais;Pedro Leopoldo;3149309;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Pirapora;Total;Sudeste;Minas Gerais;Pirapora;3151206;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Poços de Caldas;Total;Sudeste;Minas Gerais;Poços de Caldas;3151800;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ponte Nova;Total;Sudeste;Minas Gerais;Ponte Nova;3152105;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Porteirinha;Total;Sudeste;Minas Gerais;Porteirinha;3152204;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pouso Alegre;Total;Sudeste;Minas Gerais;Pouso Alegre;3152501;12;1;1;0;0;11;7;4;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;10;0;0;0;0;10;7;3;1
+Município;Reduto;Total;Sudeste;Minas Gerais;Reduto;3154150;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ribeirão das Neves;Total;Sudeste;Minas Gerais;Ribeirão das Neves;3154606;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Sabará;Total;Sudeste;Minas Gerais;Sabará;3156700;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Santa Rita do Sapucaí;Total;Sudeste;Minas Gerais;Santa Rita do Sapucaí;3159605;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Santos Dumont;Total;Sudeste;Minas Gerais;Santos Dumont;3160702;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;São Francisco;Total;Sudeste;Minas Gerais;São Francisco;3161106;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São Gotardo;Total;Sudeste;Minas Gerais;São Gotardo;3162104;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São João del Rei;Total;Sudeste;Minas Gerais;São João del Rei;3162500;2;1;1;0;0;1;1;0;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;São Lourenço;Total;Sudeste;Minas Gerais;São Lourenço;3163706;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;São Sebastião do Paraíso;Total;Sudeste;Minas Gerais;São Sebastião do Paraíso;3164704;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Sete Lagoas;Total;Sudeste;Minas Gerais;Sete Lagoas;3167202;10;0;0;0;0;10;9;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;9;0;0;0;0;9;9;0;0
+Município;Teófilo Otoni;Total;Sudeste;Minas Gerais;Teófilo Otoni;3168606;6;0;0;0;0;6;4;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;5;0;0;0;0;5;4;1;0
+Município;Três Corações;Total;Sudeste;Minas Gerais;Três Corações;3169307;2;1;1;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;1;1;0;0;0;0;0;0
+Município;Três Pontas;Total;Sudeste;Minas Gerais;Três Pontas;3169406;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ubá;Total;Sudeste;Minas Gerais;Ubá;3169901;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;0;1;0
+Município;Uberaba;Total;Sudeste;Minas Gerais;Uberaba;3170107;7;2;2;0;0;5;1;4;2;1;1;0;0;1;0;1;1;0;0;0;0;1;1;0;3;0;0;0;0;3;0;3;1
+Município;Uberlândia;Total;Sudeste;Minas Gerais;Uberlândia;3170206;11;1;1;0;0;10;6;4;1;1;1;0;0;0;0;0;2;0;0;0;0;2;1;1;8;0;0;0;0;8;5;3;0
+Município;Unaí;Total;Sudeste;Minas Gerais;Unaí;3170404;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;1;2;0
+Município;Varginha;Total;Sudeste;Minas Gerais;Varginha;3170701;3;0;0;0;0;3;0;3;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;0;2;0
+Município;Vespasiano;Total;Sudeste;Minas Gerais;Vespasiano;3171204;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Viçosa;Total;Sudeste;Minas Gerais;Viçosa;3171303;3;1;1;0;0;2;2;0;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Virginópolis;Total;Sudeste;Minas Gerais;Virginópolis;3171808;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Visconde do Rio Branco;Total;Sudeste;Minas Gerais;Visconde do Rio Branco;3172004;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+UF;Espírito Santo;Total;Sudeste;Total Espírito Santo;;;67;5;2;1;2;62;38;24;2;1;1;0;0;1;1;0;9;0;0;0;0;9;3;6;55;3;0;1;2;52;34;18;1
+Município;Alegre;Total;Sudeste;Espírito Santo;Alegre;3200201;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Aracruz;Total;Sudeste;Espírito Santo;Aracruz;3200607;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Cachoeiro de Itapemirim;Total;Sudeste;Espírito Santo;Cachoeiro de Itapemirim;3201209;7;0;0;0;0;7;5;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;6;0;0;0;0;6;5;1;0
+Município;Cariacica;Total;Sudeste;Espírito Santo;Cariacica;3201308;6;0;0;0;0;6;1;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;6;1;5;0
+Município;Castelo;Total;Sudeste;Espírito Santo;Castelo;3201407;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Colatina;Total;Sudeste;Espírito Santo;Colatina;3201506;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0
+Município;Guarapari;Total;Sudeste;Espírito Santo;Guarapari;3202405;5;0;0;0;0;5;4;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;5;4;1;0
+Município;Linhares;Total;Sudeste;Espírito Santo;Linhares;3203205;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;1;1;1;0;0
+Município;Nova Venécia;Total;Sudeste;Espírito Santo;Nova Venécia;3203908;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santa Teresa;Total;Sudeste;Espírito Santo;Santa Teresa;3204609;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;São Mateus;Total;Sudeste;Espírito Santo;São Mateus;3204906;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Serra;Total;Sudeste;Espírito Santo;Serra;3205002;8;0;0;0;0;8;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8;0;0;0;0;8;4;4;0
+Município;Venda Nova do Imigrante;Total;Sudeste;Espírito Santo;Venda Nova do Imigrante;3205069;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Vila Velha;Total;Sudeste;Espírito Santo;Vila Velha;3205200;7;0;0;0;0;7;6;1;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;6;0;0;0;0;6;5;1;0
+Município;Vitória;Total;Sudeste;Espírito Santo;Vitória;3205309;21;3;2;1;0;18;11;7;1;1;1;0;0;0;0;0;5;0;0;0;0;5;2;3;14;1;0;1;0;13;9;4;1
+UF;Rio de Janeiro;Total;Sudeste;Total Rio de Janeiro;;;126;29;14;13;2;97;28;69;17;6;4;2;0;11;3;8;26;1;1;0;0;25;7;18;79;18;5;11;2;61;18;43;4
+Município;Araruama;Total;Sudeste;Rio de Janeiro;Araruama;3300209;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Barra Mansa;Total;Sudeste;Rio de Janeiro;Barra Mansa;3300407;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;1;0;1;0;0;0;0;0
+Município;Belford Roxo;Total;Sudeste;Rio de Janeiro;Belford Roxo;3300456;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Bom Jesus do Itabapoana;Total;Sudeste;Rio de Janeiro;Bom Jesus do Itabapoana;3300605;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;Cabo Frio;Total;Sudeste;Rio de Janeiro;Cabo Frio;3300704;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Campos dos Goytacazes;Total;Sudeste;Rio de Janeiro;Campos dos Goytacazes;3301009;8;3;1;2;0;5;0;5;1;1;0;1;0;0;0;0;1;0;0;0;0;1;0;1;5;1;0;1;0;4;0;4;1
+Município;Duque de Caxias;Total;Sudeste;Rio de Janeiro;Duque de Caxias;3301702;2;1;0;1;0;1;1;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Itaboraí;Total;Sudeste;Rio de Janeiro;Itaboraí;3301900;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Itaguaí;Total;Sudeste;Rio de Janeiro;Itaguaí;3302007;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Itaperuna;Total;Sudeste;Rio de Janeiro;Itaperuna;3302205;4;2;0;1;1;2;1;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;2;2;0;1;1;0;0;0;0
+Município;Macaé;Total;Sudeste;Rio de Janeiro;Macaé;3302403;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Maricá;Total;Sudeste;Rio de Janeiro;Maricá;3302700;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Miguel Pereira;Total;Sudeste;Rio de Janeiro;Miguel Pereira;3302908;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Niterói;Total;Sudeste;Rio de Janeiro;Niterói;3303302;5;1;1;0;0;4;2;2;1;1;1;0;0;0;0;0;2;0;0;0;0;2;1;1;2;0;0;0;0;2;1;1;0
+Município;Nova Iguaçu;Total;Sudeste;Rio de Janeiro;Nova Iguaçu;3303500;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Paracambi;Total;Sudeste;Rio de Janeiro;Paracambi;3303609;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Petrópolis;Total;Sudeste;Rio de Janeiro;Petrópolis;3303906;5;1;0;1;0;4;0;4;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;3;1;0;1;0;2;0;2;0
+Município;Resende;Total;Sudeste;Rio de Janeiro;Resende;3304201;4;1;1;0;0;3;0;3;0;0;0;0;0;0;0;0;2;1;1;0;0;1;0;1;2;0;0;0;0;2;0;2;0
+Município;Rio das Ostras;Total;Sudeste;Rio de Janeiro;Rio das Ostras;3304524;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Rio de Janeiro;Total;Sudeste;Rio de Janeiro;Rio de Janeiro;3304557;65;13;10;3;0;52;14;38;9;3;2;1;0;6;2;4;12;0;0;0;0;12;5;7;41;7;5;2;0;34;7;27;3
+Município;Santo Antônio de Pádua;Total;Sudeste;Rio de Janeiro;Santo Antônio de Pádua;3304706;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;São Fidélis;Total;Sudeste;Rio de Janeiro;São Fidélis;3304805;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São Gonçalo;Total;Sudeste;Rio de Janeiro;São Gonçalo;3304904;3;0;0;0;0;3;2;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;São João de Meriti;Total;Sudeste;Rio de Janeiro;São João de Meriti;3305109;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Seropédica;Total;Sudeste;Rio de Janeiro;Seropédica;3305554;1;1;1;0;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Teresópolis;Total;Sudeste;Rio de Janeiro;Teresópolis;3305802;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Três Rios;Total;Sudeste;Rio de Janeiro;Três Rios;3306008;3;1;0;1;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;2;0;0
+Município;Valença;Total;Sudeste;Rio de Janeiro;Valença;3306107;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Vassouras;Total;Sudeste;Rio de Janeiro;Vassouras;3306206;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Volta Redonda;Total;Sudeste;Rio de Janeiro;Volta Redonda;3306305;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;1;0;0;0;0;1;1;0;0
+UF;São Paulo;Total;Sudeste;Total São Paulo;;;580;110;6;82;22;470;257;213;36;9;3;4;2;27;8;19;98;4;0;0;4;94;41;53;445;96;2;78;16;349;208;141;1
+Município;Adamantina;Total;Sudeste;São Paulo;Adamantina;3500105;2;2;0;1;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Agudos;Total;Sudeste;São Paulo;Agudos;3500709;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Americana;Total;Sudeste;São Paulo;Americana;3501608;4;1;0;1;0;3;1;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;3;1;0;1;0;2;1;1;0
+Município;Amparo;Total;Sudeste;São Paulo;Amparo;3501905;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Andradina;Total;Sudeste;São Paulo;Andradina;3502101;3;0;0;0;0;3;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;0;3;0
+Município;Araçatuba;Total;Sudeste;São Paulo;Araçatuba;3502804;5;2;0;1;1;3;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;4;2;0;1;1;2;2;0;0
+Município;Araraquara;Total;Sudeste;São Paulo;Araraquara;3503208;4;1;0;1;0;3;1;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;3;1;0;1;0;2;1;1;0
+Município;Araras;Total;Sudeste;São Paulo;Araras;3503307;4;1;0;1;0;3;1;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;2;1;0;1;0;1;1;0;0
+Município;Arujá;Total;Sudeste;São Paulo;Arujá;3503901;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Assis;Total;Sudeste;São Paulo;Assis;3504008;3;2;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;2;0;1;1;1;1;0;0
+Município;Atibaia;Total;Sudeste;São Paulo;Atibaia;3504107;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Avaré;Total;Sudeste;São Paulo;Avaré;3504503;5;1;0;0;1;4;3;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;4;1;0;0;1;3;2;1;0
+Município;Barra Bonita;Total;Sudeste;São Paulo;Barra Bonita;3505302;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Barretos;Total;Sudeste;São Paulo;Barretos;3505500;6;1;0;1;0;5;3;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;5;1;0;1;0;4;3;1;0
+Município;Barueri;Total;Sudeste;São Paulo;Barueri;3505708;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Batatais;Total;Sudeste;São Paulo;Batatais;3505906;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Bauru;Total;Sudeste;São Paulo;Bauru;3506003;7;1;0;1;0;6;3;3;0;0;0;0;0;0;0;0;3;0;0;0;0;3;1;2;4;1;0;1;0;3;2;1;0
+Município;Bebedouro;Total;Sudeste;São Paulo;Bebedouro;3506102;3;2;0;1;1;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;2;0;1;1;0;0;0;0
+Município;Bertioga;Total;Sudeste;São Paulo;Bertioga;3506359;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Birigui;Total;Sudeste;São Paulo;Birigui;3506508;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;0;1;1;1;0;0
+Município;Boituva;Total;Sudeste;São Paulo;Boituva;3507001;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Botucatu;Total;Sudeste;São Paulo;Botucatu;3507506;5;1;0;1;0;4;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;1;0;1;0;4;2;2;0
+Município;Bragança Paulista;Total;Sudeste;São Paulo;Bragança Paulista;3507605;3;2;0;1;1;1;0;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;2;2;0;1;1;0;0;0;0
+Município;Caçapava;Total;Sudeste;São Paulo;Caçapava;3508504;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cachoeira Paulista;Total;Sudeste;São Paulo;Cachoeira Paulista;3508603;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Campinas;Total;Sudeste;São Paulo;Campinas;3509502;14;2;0;2;0;12;9;3;2;1;0;1;0;1;0;1;2;0;0;0;0;2;2;0;10;1;0;1;0;9;7;2;0
+Município;Campo Limpo Paulista;Total;Sudeste;São Paulo;Campo Limpo Paulista;3509601;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Capão Bonito;Total;Sudeste;São Paulo;Capão Bonito;3510203;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Capivari;Total;Sudeste;São Paulo;Capivari;3510401;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Caraguatatuba;Total;Sudeste;São Paulo;Caraguatatuba;3510500;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Carapicuíba;Total;Sudeste;São Paulo;Carapicuíba;3510609;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;Catanduva;Total;Sudeste;São Paulo;Catanduva;3511102;5;2;0;1;1;3;2;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;4;2;0;1;1;2;2;0;0
+Município;Conchas;Total;Sudeste;São Paulo;Conchas;3512308;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cotia;Total;Sudeste;São Paulo;Cotia;3513009;3;1;0;1;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;0;2;0
+Município;Cruzeiro;Total;Sudeste;São Paulo;Cruzeiro;3513405;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;0;1;0
+Município;Diadema;Total;Sudeste;São Paulo;Diadema;3513801;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Dracena;Total;Sudeste;São Paulo;Dracena;3514403;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;1;2;0
+Município;Embu das Artes;Total;Sudeste;São Paulo;Embu das Artes;3515004;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Espírito Santo do Pinhal;Total;Sudeste;São Paulo;Espírito Santo do Pinhal;3515186;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Fernandópolis;Total;Sudeste;São Paulo;Fernandópolis;3515509;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Ferraz de Vasconcelos;Total;Sudeste;São Paulo;Ferraz de Vasconcelos;3515707;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Franca;Total;Sudeste;São Paulo;Franca;3516200;6;3;0;1;2;3;3;0;1;0;0;0;0;1;1;0;1;1;0;0;1;0;0;0;4;2;0;1;1;2;2;0;0
+Município;Franco da Rocha;Total;Sudeste;São Paulo;Franco da Rocha;3516408;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Garça;Total;Sudeste;São Paulo;Garça;3516705;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;Guaratinguetá;Total;Sudeste;São Paulo;Guaratinguetá;3518404;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;0;1;0
+Município;Guarujá;Total;Sudeste;São Paulo;Guarujá;3518701;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0
+Município;Guarulhos;Total;Sudeste;São Paulo;Guarulhos;3518800;14;1;0;1;0;13;10;3;1;0;0;0;0;1;0;1;3;0;0;0;0;3;2;1;10;1;0;1;0;9;8;1;0
+Município;Ibitinga;Total;Sudeste;São Paulo;Ibitinga;3519600;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Indaiatuba;Total;Sudeste;São Paulo;Indaiatuba;3520509;4;2;0;1;1;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;2;0;1;1;1;1;0;0
+Município;Ipaussu;Total;Sudeste;São Paulo;Ipaussu;3520905;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Itanhaém;Total;Sudeste;São Paulo;Itanhaém;3522109;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Itapecerica da Serra;Total;Sudeste;São Paulo;Itapecerica da Serra;3522208;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itapetininga;Total;Sudeste;São Paulo;Itapetininga;3522307;4;1;0;1;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;1;0;1;0;3;2;1;0
+Município;Itapeva;Total;Sudeste;São Paulo;Itapeva;3522406;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Itapevi;Total;Sudeste;São Paulo;Itapevi;3522505;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itapira;Total;Sudeste;São Paulo;Itapira;3522604;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;1;0;1;0;0;0;0;0
+Município;Itápolis;Total;Sudeste;São Paulo;Itápolis;3522703;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Itaquaquecetuba;Total;Sudeste;São Paulo;Itaquaquecetuba;3523107;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Itatiba;Total;Sudeste;São Paulo;Itatiba;3523404;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Itu;Total;Sudeste;São Paulo;Itu;3523909;3;1;0;1;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;1;0;1;0;1;1;0;0
+Município;Ituverava;Total;Sudeste;São Paulo;Ituverava;3524105;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Jaboticabal;Total;Sudeste;São Paulo;Jaboticabal;3524303;3;1;0;1;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;1;1;0
+Município;Jacareí;Total;Sudeste;São Paulo;Jacareí;3524402;3;1;0;1;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;2;0;0
+Município;Jaguariúna;Total;Sudeste;São Paulo;Jaguariúna;3524709;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Jales;Total;Sudeste;São Paulo;Jales;3524808;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;1;0;1;0;0;0;0;0
+Município;Jaú;Total;Sudeste;São Paulo;Jaú;3525300;3;1;0;1;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;1;1;0
+Município;Jundiaí;Total;Sudeste;São Paulo;Jundiaí;3525904;8;3;0;1;2;5;5;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;7;3;0;1;2;4;4;0;0
+Município;Leme;Total;Sudeste;São Paulo;Leme;3526704;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Lençóis Paulista;Total;Sudeste;São Paulo;Lençóis Paulista;3526803;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Limeira;Total;Sudeste;São Paulo;Limeira;3526902;4;0;0;0;0;4;2;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;3;0;0;0;0;3;2;1;0
+Município;Lins;Total;Sudeste;São Paulo;Lins;3527108;3;1;0;1;0;2;0;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;1;1;0;1;0;0;0;0;0
+Município;Lorena;Total;Sudeste;São Paulo;Lorena;3527207;4;0;0;0;0;4;3;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;3;0;0;0;0;3;3;0;0
+Município;Lupércio;Total;Sudeste;São Paulo;Lupércio;3527801;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Mairiporã;Total;Sudeste;São Paulo;Mairiporã;3528502;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Marília;Total;Sudeste;São Paulo;Marília;3529005;8;2;0;2;0;6;2;4;1;0;0;0;0;1;1;0;1;0;0;0;0;1;0;1;6;2;0;2;0;4;1;3;0
+Município;Martinópolis;Total;Sudeste;São Paulo;Martinópolis;3529203;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Matão;Total;Sudeste;São Paulo;Matão;3529302;3;1;0;1;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;1;1;0
+Município;Mauá;Total;Sudeste;São Paulo;Mauá;3529401;5;1;0;1;0;4;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;1;0;1;0;4;2;2;0
+Município;Mococa;Total;Sudeste;São Paulo;Mococa;3530508;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Mogi das Cruzes;Total;Sudeste;São Paulo;Mogi das Cruzes;3530607;5;1;0;1;0;4;2;2;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;3;1;0;1;0;2;0;2;0
+Município;Mogi Guaçu;Total;Sudeste;São Paulo;Mogi Guaçu;3530706;3;1;0;0;1;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0;1;2;0;2;0
+Município;Mogi Mirim;Total;Sudeste;São Paulo;Mogi Mirim;3530805;3;1;0;1;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;1;1;0
+Município;Monte Aprazível;Total;Sudeste;São Paulo;Monte Aprazível;3531407;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Nova Odessa;Total;Sudeste;São Paulo;Nova Odessa;3533403;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Novo Horizonte;Total;Sudeste;São Paulo;Novo Horizonte;3533502;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Olímpia;Total;Sudeste;São Paulo;Olímpia;3533908;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Osasco;Total;Sudeste;São Paulo;Osasco;3534401;7;1;0;1;0;6;3;3;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;6;1;0;1;0;5;3;2;0
+Município;Osvaldo Cruz;Total;Sudeste;São Paulo;Osvaldo Cruz;3534609;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ourinhos;Total;Sudeste;São Paulo;Ourinhos;3534708;3;1;0;1;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;1;0;1;0;1;1;0;0
+Município;Paraguaçu Paulista;Total;Sudeste;São Paulo;Paraguaçu Paulista;3535507;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Paulínia;Total;Sudeste;São Paulo;Paulínia;3536505;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Pederneiras;Total;Sudeste;São Paulo;Pederneiras;3536703;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Penápolis;Total;Sudeste;São Paulo;Penápolis;3537305;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Pereira Barreto;Total;Sudeste;São Paulo;Pereira Barreto;3537404;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Peruíbe;Total;Sudeste;São Paulo;Peruíbe;3537602;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pindamonhangaba;Total;Sudeste;São Paulo;Pindamonhangaba;3538006;5;1;0;1;0;4;1;3;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;3;1;0;1;0;2;1;1;0
+Município;Piracicaba;Total;Sudeste;São Paulo;Piracicaba;3538709;6;2;0;1;1;4;2;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;5;2;0;1;1;3;2;1;0
+Município;Piraju;Total;Sudeste;São Paulo;Piraju;3538808;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pirassununga;Total;Sudeste;São Paulo;Pirassununga;3539301;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Piratininga;Total;Sudeste;São Paulo;Piratininga;3539400;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pompéia;Total;Sudeste;São Paulo;Pompéia;3540002;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;Porto Feliz;Total;Sudeste;São Paulo;Porto Feliz;3540606;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Praia Grande;Total;Sudeste;São Paulo;Praia Grande;3541000;3;1;0;1;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;1;0;2;2;0;0
+Município;Presidente Epitácio;Total;Sudeste;São Paulo;Presidente Epitácio;3541307;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Presidente Prudente;Total;Sudeste;São Paulo;Presidente Prudente;3541406;5;1;0;1;0;4;2;2;1;0;0;0;0;1;0;1;2;0;0;0;0;2;1;1;2;1;0;1;0;1;1;0;0
+Município;Presidente Venceslau;Total;Sudeste;São Paulo;Presidente Venceslau;3541505;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Registro;Total;Sudeste;São Paulo;Registro;3542602;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;1;0;1;0;0;0;0;0
+Município;Ribeirão Pires;Total;Sudeste;São Paulo;Ribeirão Pires;3543303;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ribeirão Preto;Total;Sudeste;São Paulo;Ribeirão Preto;3543402;12;1;0;1;0;11;6;5;1;0;0;0;0;1;0;1;3;0;0;0;0;3;1;2;8;1;0;1;0;7;5;2;0
+Município;Rio Claro;Total;Sudeste;São Paulo;Rio Claro;3543907;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;1;0;0
+Município;Roseira;Total;Sudeste;São Paulo;Roseira;3544301;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santa Bárbara d'Oeste;Total;Sudeste;São Paulo;Santa Bárbara d'Oeste;3545803;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santa Cruz do Rio Pardo;Total;Sudeste;São Paulo;Santa Cruz do Rio Pardo;3546405;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Santa Fé do Sul;Total;Sudeste;São Paulo;Santa Fé do Sul;3546603;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Santana de Parnaíba;Total;Sudeste;São Paulo;Santana de Parnaíba;3547304;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;0;1;0
+Município;Santo André;Total;Sudeste;São Paulo;Santo André;3547809;10;2;1;1;0;8;5;3;1;1;1;0;0;0;0;0;4;0;0;0;0;4;2;2;5;1;0;1;0;4;3;1;0
+Município;Santos;Total;Sudeste;São Paulo;Santos;3548500;8;1;0;1;0;7;2;5;3;0;0;0;0;3;0;3;2;0;0;0;0;2;1;1;3;1;0;1;0;2;1;1;0
+Município;São Bernardo do Campo;Total;Sudeste;São Paulo;São Bernardo do Campo;3548708;13;2;0;1;1;11;6;5;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;11;2;0;1;1;9;6;3;0
+Município;São Caetano do Sul;Total;Sudeste;São Paulo;São Caetano do Sul;3548807;5;2;0;1;1;3;0;3;1;1;0;0;1;0;0;0;1;0;0;0;0;1;0;1;3;1;0;1;0;2;0;2;0
+Município;São Carlos;Total;Sudeste;São Paulo;São Carlos;3548906;4;2;1;1;0;2;1;1;1;1;1;0;0;0;0;0;1;0;0;0;0;1;1;0;2;1;0;1;0;1;0;1;0
+Município;São João da Boa Vista;Total;Sudeste;São Paulo;São João da Boa Vista;3549102;2;1;0;0;1;1;0;1;0;0;0;0;0;0;0;0;2;1;0;0;1;1;0;1;0;0;0;0;0;0;0;0;0
+Município;São Joaquim da Barra;Total;Sudeste;São Paulo;São Joaquim da Barra;3549409;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São José do Rio Pardo;Total;Sudeste;São Paulo;São José do Rio Pardo;3549706;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;São José do Rio Preto;Total;Sudeste;São Paulo;São José do Rio Preto;3549805;10;2;0;2;0;8;6;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;8;2;0;2;0;6;5;1;0
+Município;São José dos Campos;Total;Sudeste;São Paulo;São José dos Campos;3549904;13;2;1;1;0;11;9;2;1;0;0;0;0;1;0;1;2;0;0;0;0;2;2;0;10;2;1;1;0;8;7;1;0
+Município;São Manuel;Total;Sudeste;São Paulo;São Manuel;3550100;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;São Paulo;Total;Sudeste;São Paulo;São Paulo;3550308;172;12;2;10;0;160;77;83;15;4;1;3;0;11;5;6;25;0;0;0;0;25;10;15;131;7;0;7;0;124;62;62;1
+Município;São Roque;Total;Sudeste;São Paulo;São Roque;3550605;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;1;0;1;0;0;0;0;0
+Município;São Sebastião;Total;Sudeste;São Paulo;São Sebastião;3550704;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0
+Município;São Vicente;Total;Sudeste;São Paulo;São Vicente;3551009;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Sertãozinho;Total;Sudeste;São Paulo;Sertãozinho;3551702;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;Socorro;Total;Sudeste;São Paulo;Socorro;3552106;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Sorocaba;Total;Sudeste;São Paulo;Sorocaba;3552205;9;1;0;1;0;8;3;5;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;7;1;0;1;0;6;3;3;0
+Município;Sumaré;Total;Sudeste;São Paulo;Sumaré;3552403;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;Suzano;Total;Sudeste;São Paulo;Suzano;3552502;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0
+Município;Taboão da Serra;Total;Sudeste;São Paulo;Taboão da Serra;3552809;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Taguaí;Total;Sudeste;São Paulo;Taguaí;3553005;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Taquaritinga;Total;Sudeste;São Paulo;Taquaritinga;3553708;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;0;1;0
+Município;Tatuí;Total;Sudeste;São Paulo;Tatuí;3554003;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;0;1;0
+Município;Taubaté;Total;Sudeste;São Paulo;Taubaté;3554102;7;3;1;1;1;4;2;2;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;6;2;1;1;0;4;2;2;0
+Município;Tupã;Total;Sudeste;São Paulo;Tupã;3555000;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Valinhos;Total;Sudeste;São Paulo;Valinhos;3556206;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Votorantim;Total;Sudeste;São Paulo;Votorantim;3557006;2;1;0;1;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;1;0;0
+Município;Votuporanga;Total;Sudeste;São Paulo;Votuporanga;3557105;3;0;0;0;0;3;0;3;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;0;2;0
+Região;Sul;Total;Total Sul;;;;389;34;18;10;6;355;221;134;50;22;11;9;2;28;5;23;70;1;0;0;1;69;48;21;263;5;1;1;3;258;168;90;6
+UF;Paraná;Total;Sul;Total Paraná;;;171;14;4;7;3;157;106;51;16;10;3;7;0;6;5;1;39;1;0;0;1;38;29;9;115;2;0;0;2;113;72;41;1
+Município;Ampére;Total;Sul;Paraná;Ampére;4101002;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Apucarana;Total;Sul;Paraná;Apucarana;4101408;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Arapongas;Total;Sul;Paraná;Arapongas;4101507;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Arapoti;Total;Sul;Paraná;Arapoti;4101606;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Araucária;Total;Sul;Paraná;Araucária;4101804;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;2;0;0
+Município;Assis Chateaubriand;Total;Sul;Paraná;Assis Chateaubriand;4102000;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Bandeirantes;Total;Sul;Paraná;Bandeirantes;4102406;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Barracão;Total;Sul;Paraná;Barracão;4102604;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cambé;Total;Sul;Paraná;Cambé;4103701;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Campina Grande do Sul;Total;Sul;Paraná;Campina Grande do Sul;4104006;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Campo Largo;Total;Sul;Paraná;Campo Largo;4104204;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Campo Mourão;Total;Sul;Paraná;Campo Mourão;4104303;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Capanema;Total;Sul;Paraná;Capanema;4104501;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cascavel;Total;Sul;Paraná;Cascavel;4104808;8;1;0;1;0;7;4;3;1;1;0;1;0;0;0;0;2;0;0;0;0;2;1;1;5;0;0;0;0;5;3;2;0
+Município;Cianorte;Total;Sul;Paraná;Cianorte;4105508;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Clevelândia;Total;Sul;Paraná;Clevelândia;4105706;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Colombo;Total;Sul;Paraná;Colombo;4105805;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cornélio Procópio;Total;Sul;Paraná;Cornélio Procópio;4106407;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Cruzeiro do Oeste;Total;Sul;Paraná;Cruzeiro do Oeste;4106605;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Curitiba;Total;Sul;Paraná;Curitiba;4106902;56;3;3;0;0;53;32;21;5;2;2;0;0;3;2;1;13;0;0;0;0;13;9;4;37;0;0;0;0;37;21;16;1
+Município;Dois Vizinhos;Total;Sul;Paraná;Dois Vizinhos;4107207;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Foz do Iguaçu;Total;Sul;Paraná;Foz do Iguaçu;4108304;7;1;1;0;0;6;5;1;1;1;1;0;0;0;0;0;2;0;0;0;0;2;2;0;4;0;0;0;0;4;3;1;0
+Município;Francisco Beltrão;Total;Sul;Paraná;Francisco Beltrão;4108403;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Guarapuava;Total;Sul;Paraná;Guarapuava;4109401;4;1;0;1;0;3;3;0;1;1;0;1;0;0;0;0;2;0;0;0;0;2;2;0;1;0;0;0;0;1;1;0;0
+Município;Guaratuba;Total;Sul;Paraná;Guaratuba;4109609;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Ibaiti;Total;Sul;Paraná;Ibaiti;4109708;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Irati;Total;Sul;Paraná;Irati;4110706;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Ivaiporã;Total;Sul;Paraná;Ivaiporã;4111506;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Ivatuba;Total;Sul;Paraná;Ivatuba;4111605;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Jacarezinho;Total;Sul;Paraná;Jacarezinho;4111803;1;1;0;1;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Jaguariaíva;Total;Sul;Paraná;Jaguariaíva;4112009;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Lapa;Total;Sul;Paraná;Lapa;4113205;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Londrina;Total;Sul;Paraná;Londrina;4113700;8;1;0;1;0;7;5;2;2;1;0;1;0;1;1;0;1;0;0;0;0;1;0;1;5;0;0;0;0;5;4;1;0
+Município;Mandaguari;Total;Sul;Paraná;Mandaguari;4114203;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Marechal Cândido Rondon;Total;Sul;Paraná;Marechal Cândido Rondon;4114609;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Maringá;Total;Sul;Paraná;Maringá;4115200;13;1;0;1;0;12;7;5;2;1;0;1;0;1;1;0;5;0;0;0;0;5;4;1;6;0;0;0;0;6;2;4;0
+Município;Medianeira;Total;Sul;Paraná;Medianeira;4115804;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Palotina;Total;Sul;Paraná;Palotina;4117909;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Paraíso do Norte;Total;Sul;Paraná;Paraíso do Norte;4118006;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Paranaguá;Total;Sul;Paraná;Paranaguá;4118204;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Paranavaí;Total;Sul;Paraná;Paranavaí;4118402;2;1;0;1;0;1;1;0;1;1;0;1;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Pato Branco;Total;Sul;Paraná;Pato Branco;4118501;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0
+Município;Pinhais;Total;Sul;Paraná;Pinhais;4119152;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Pitanga;Total;Sul;Paraná;Pitanga;4119608;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ponta Grossa;Total;Sul;Paraná;Ponta Grossa;4119905;9;1;0;1;0;8;5;3;1;1;0;1;0;0;0;0;1;0;0;0;0;1;1;0;7;0;0;0;0;7;4;3;0
+Município;Realeza;Total;Sul;Paraná;Realeza;4121406;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Rolândia;Total;Sul;Paraná;Rolândia;4122404;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Santo Antônio da Platina;Total;Sul;Paraná;Santo Antônio da Platina;4124103;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São José dos Pinhais;Total;Sul;Paraná;São José dos Pinhais;4125506;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0
+Município;São Miguel do Iguaçu;Total;Sul;Paraná;São Miguel do Iguaçu;4125704;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Telêmaco Borba;Total;Sul;Paraná;Telêmaco Borba;4127106;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Terra Boa;Total;Sul;Paraná;Terra Boa;4127205;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Toledo;Total;Sul;Paraná;Toledo;4127700;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Umuarama;Total;Sul;Paraná;Umuarama;4128104;2;0;0;0;0;2;2;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;União da Vitória;Total;Sul;Paraná;União da Vitória;4128203;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0
+UF;Santa Catarina;Total;Sul;Total Santa Catarina;;;100;9;4;2;3;91;56;35;13;5;2;1;2;8;0;8;19;0;0;0;0;19;12;7;66;2;0;1;1;64;44;20;2
+Município;Araranguá;Total;Sul;Santa Catarina;Araranguá;4201406;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Balneário Camboriú;Total;Sul;Santa Catarina;Balneário Camboriú;4202008;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Blumenau;Total;Sul;Santa Catarina;Blumenau;4202404;6;2;1;0;1;4;2;2;1;1;0;0;1;0;0;0;3;0;0;0;0;3;2;1;1;0;0;0;0;1;0;1;1
+Município;Brusque;Total;Sul;Santa Catarina;Brusque;4202909;3;0;0;0;0;3;1;2;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;1;0;0;0;0;1;0;1;0
+Município;Caçador;Total;Sul;Santa Catarina;Caçador;4203006;2;0;0;0;0;2;0;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Canoinhas;Total;Sul;Santa Catarina;Canoinhas;4203808;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Capivari de Baixo;Total;Sul;Santa Catarina;Capivari de Baixo;4203956;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Chapecó;Total;Sul;Santa Catarina;Chapecó;4204202;7;1;1;0;0;6;3;3;2;1;1;0;0;1;0;1;0;0;0;0;0;0;0;0;5;0;0;0;0;5;3;2;0
+Município;Concórdia;Total;Sul;Santa Catarina;Concórdia;4204301;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;Criciúma;Total;Sul;Santa Catarina;Criciúma;4204608;6;0;0;0;0;6;3;3;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;4;0;0;0;0;4;3;1;0
+Município;Florianópolis;Total;Sul;Santa Catarina;Florianópolis;4205407;11;4;2;2;0;7;5;2;2;2;1;1;0;0;0;0;1;0;0;0;0;1;1;0;7;1;0;1;0;6;4;2;1
+Município;Guaramirim;Total;Sul;Santa Catarina;Guaramirim;4206504;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Indaial;Total;Sul;Santa Catarina;Indaial;4207502;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Itajaí;Total;Sul;Santa Catarina;Itajaí;4208203;6;0;0;0;0;6;4;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;5;0;0;0;0;5;4;1;0
+Município;Itapema;Total;Sul;Santa Catarina;Itapema;4208302;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itapiranga;Total;Sul;Santa Catarina;Itapiranga;4208401;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Jaraguá do Sul;Total;Sul;Santa Catarina;Jaraguá do Sul;4208906;8;0;0;0;0;8;6;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;7;0;0;0;0;7;6;1;0
+Município;Joaçaba;Total;Sul;Santa Catarina;Joaçaba;4209003;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Joinville;Total;Sul;Santa Catarina;Joinville;4209102;12;0;0;0;0;12;5;7;1;0;0;0;0;1;0;1;2;0;0;0;0;2;1;1;9;0;0;0;0;9;4;5;0
+Município;Lages;Total;Sul;Santa Catarina;Lages;4209300;2;0;0;0;0;2;1;1;1;0;0;0;0;1;0;1;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Mafra;Total;Sul;Santa Catarina;Mafra;4210100;1;1;0;0;1;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Navegantes;Total;Sul;Santa Catarina;Navegantes;4211306;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Orleans;Total;Sul;Santa Catarina;Orleans;4211702;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Palhoça;Total;Sul;Santa Catarina;Palhoça;4211900;3;1;0;0;1;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0;1;2;1;1;0
+Município;Palmitos;Total;Sul;Santa Catarina;Palmitos;4212106;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pinhalzinho;Total;Sul;Santa Catarina;Pinhalzinho;4212908;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Porto Belo;Total;Sul;Santa Catarina;Porto Belo;4213500;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Rio do Sul;Total;Sul;Santa Catarina;Rio do Sul;4214805;4;0;0;0;0;4;3;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;3;0;0;0;0;3;3;0;0
+Município;São Bento do Sul;Total;Sul;Santa Catarina;São Bento do Sul;4215802;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;São José;Total;Sul;Santa Catarina;São José;4216602;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;3;0;0;0;0;3;3;0;0
+Município;São Miguel do Oeste;Total;Sul;Santa Catarina;São Miguel do Oeste;4217204;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Tubarão;Total;Sul;Santa Catarina;Tubarão;4218707;2;0;0;0;0;2;0;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+UF;Rio Grande do Sul;Total;Sul;Total Rio Grande do Sul;;;118;11;10;1;0;107;59;48;21;7;6;1;0;14;0;14;12;0;0;0;0;12;7;5;82;1;1;0;0;81;52;29;3
+Município;Alvorada;Total;Sul;Rio Grande do Sul;Alvorada;4300604;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Bagé;Total;Sul;Rio Grande do Sul;Bagé;4301602;3;1;1;0;0;2;1;1;1;1;1;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;1;0;0
+Município;Bento Gonçalves;Total;Sul;Rio Grande do Sul;Bento Gonçalves;4302105;4;1;1;0;0;3;2;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;1;0;0;0;0;1;1;0;1
+Município;Cachoeirinha;Total;Sul;Rio Grande do Sul;Cachoeirinha;4303103;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Canoas;Total;Sul;Rio Grande do Sul;Canoas;4304606;2;0;0;0;0;2;0;2;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Caxias do Sul;Total;Sul;Rio Grande do Sul;Caxias do Sul;4305108;6;0;0;0;0;6;4;2;1;0;0;0;0;1;0;1;2;0;0;0;0;2;2;0;3;0;0;0;0;3;2;1;0
+Município;Cruz Alta;Total;Sul;Rio Grande do Sul;Cruz Alta;4306106;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Erechim;Total;Sul;Rio Grande do Sul;Erechim;4307005;2;0;0;0;0;2;1;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Farroupilha;Total;Sul;Rio Grande do Sul;Farroupilha;4307906;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Frederico Westphalen;Total;Sul;Rio Grande do Sul;Frederico Westphalen;4308508;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Garibaldi;Total;Sul;Rio Grande do Sul;Garibaldi;4308607;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Getúlio Vargas;Total;Sul;Rio Grande do Sul;Getúlio Vargas;4308904;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Gravataí;Total;Sul;Rio Grande do Sul;Gravataí;4309209;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Horizontina;Total;Sul;Rio Grande do Sul;Horizontina;4309605;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ijuí;Total;Sul;Rio Grande do Sul;Ijuí;4310207;2;0;0;0;0;2;0;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ivoti;Total;Sul;Rio Grande do Sul;Ivoti;4310801;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Lajeado;Total;Sul;Rio Grande do Sul;Lajeado;4311403;1;0;0;0;0;1;0;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Marau;Total;Sul;Rio Grande do Sul;Marau;4311809;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Novo Hamburgo;Total;Sul;Rio Grande do Sul;Novo Hamburgo;4313409;3;0;0;0;0;3;1;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Osório;Total;Sul;Rio Grande do Sul;Osório;4313508;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0
+Município;Passo Fundo;Total;Sul;Rio Grande do Sul;Passo Fundo;4314100;8;0;0;0;0;8;6;2;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;7;0;0;0;0;7;6;1;0
+Município;Pelotas;Total;Sul;Rio Grande do Sul;Pelotas;4314407;5;2;2;0;0;3;2;1;2;1;1;0;0;1;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;1
+Município;Porto Alegre;Total;Sul;Rio Grande do Sul;Porto Alegre;4314902;40;4;3;1;0;36;21;15;4;3;2;1;0;1;0;1;4;0;0;0;0;4;2;2;32;1;1;0;0;31;19;12;0
+Município;Restinga Sêca;Total;Sul;Rio Grande do Sul;Restinga Sêca;4315503;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Rio Grande;Total;Sul;Rio Grande do Sul;Rio Grande;4315602;2;1;1;0;0;1;1;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santa Cruz do Sul;Total;Sul;Rio Grande do Sul;Santa Cruz do Sul;4316808;2;0;0;0;0;2;1;1;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Santa Maria;Total;Sul;Rio Grande do Sul;Santa Maria;4316907;9;2;2;0;0;7;4;3;2;1;1;0;0;1;0;1;0;0;0;0;0;0;0;0;6;0;0;0;0;6;4;2;1
+Município;Santa Rosa;Total;Sul;Rio Grande do Sul;Santa Rosa;4317202;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Santo Ângelo;Total;Sul;Rio Grande do Sul;Santo Ângelo;4317509;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;São Leopoldo;Total;Sul;Rio Grande do Sul;São Leopoldo;4318705;3;0;0;0;0;3;0;3;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;São Marcos;Total;Sul;Rio Grande do Sul;São Marcos;4319000;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Sarandi;Total;Sul;Rio Grande do Sul;Sarandi;4320107;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Tapejara;Total;Sul;Rio Grande do Sul;Tapejara;4320909;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Taquara;Total;Sul;Rio Grande do Sul;Taquara;4321204;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Três de Maio;Total;Sul;Rio Grande do Sul;Três de Maio;4321808;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Uruguaiana;Total;Sul;Rio Grande do Sul;Uruguaiana;4322400;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Região;Centro-Oeste;Total;Total Centro-Oeste;;;;296;27;15;8;4;269;206;63;19;13;8;4;1;6;2;4;44;2;0;0;2;42;32;10;228;7;2;4;1;221;172;49;5
+UF;Mato Grosso do Sul;Total;Centro-Oeste;Total Mato Grosso do Sul;;;31;4;3;1;0;27;14;13;5;3;2;1;0;2;1;1;4;0;0;0;0;4;2;2;21;0;0;0;0;21;11;10;1
+Município;Caarapó;Total;Centro-Oeste;Mato Grosso do Sul;Caarapó;5002407;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Campo Grande;Total;Centro-Oeste;Mato Grosso do Sul;Campo Grande;5002704;15;2;2;0;0;13;7;6;3;1;1;0;0;2;1;1;3;0;0;0;0;3;2;1;8;0;0;0;0;8;4;4;1
+Município;Cassilândia;Total;Centro-Oeste;Mato Grosso do Sul;Cassilândia;5002902;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Corumbá;Total;Centro-Oeste;Mato Grosso do Sul;Corumbá;5003207;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Dourados;Total;Centro-Oeste;Mato Grosso do Sul;Dourados;5003702;5;2;1;1;0;3;1;2;2;2;1;1;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;1;1;0
+Município;Mundo Novo;Total;Centro-Oeste;Mato Grosso do Sul;Mundo Novo;5005681;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Nova Andradina;Total;Centro-Oeste;Mato Grosso do Sul;Nova Andradina;5006200;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Paranaíba;Total;Centro-Oeste;Mato Grosso do Sul;Paranaíba;5006309;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Ponta Porã;Total;Centro-Oeste;Mato Grosso do Sul;Ponta Porã;5006606;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Sidrolândia;Total;Centro-Oeste;Mato Grosso do Sul;Sidrolândia;5007901;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Três Lagoas;Total;Centro-Oeste;Mato Grosso do Sul;Três Lagoas;5008305;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+UF;Mato Grosso;Total;Centro-Oeste;Total Mato Grosso;;;74;4;3;1;0;70;55;15;4;3;2;1;0;1;1;0;8;0;0;0;0;8;5;3;61;0;0;0;0;61;49;12;1
+Município;Água Boa;Total;Centro-Oeste;Mato Grosso;Água Boa;5100201;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Alta Floresta;Total;Centro-Oeste;Mato Grosso;Alta Floresta;5100250;2;0;0;0;0;2;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;2;0
+Município;Araputanga;Total;Centro-Oeste;Mato Grosso;Araputanga;5101258;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Barra do Garças;Total;Centro-Oeste;Mato Grosso;Barra do Garças;5101803;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0
+Município;Cáceres;Total;Centro-Oeste;Mato Grosso;Cáceres;5102504;2;1;0;1;0;1;1;0;1;1;0;1;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Campo Novo do Parecis;Total;Centro-Oeste;Mato Grosso;Campo Novo do Parecis;5102637;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Campo Verde;Total;Centro-Oeste;Mato Grosso;Campo Verde;5102678;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Colíder;Total;Centro-Oeste;Mato Grosso;Colíder;5103205;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Cuiabá;Total;Centro-Oeste;Mato Grosso;Cuiabá;5103403;24;2;2;0;0;22;18;4;2;1;1;0;0;1;1;0;2;0;0;0;0;2;1;1;19;0;0;0;0;19;16;3;1
+Município;Diamantino;Total;Centro-Oeste;Mato Grosso;Diamantino;5103502;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Guarantã do Norte;Total;Centro-Oeste;Mato Grosso;Guarantã do Norte;5104104;3;0;0;0;0;3;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;2;1;0
+Município;Jaciara;Total;Centro-Oeste;Mato Grosso;Jaciara;5104807;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Juara;Total;Centro-Oeste;Mato Grosso;Juara;5105101;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Juína;Total;Centro-Oeste;Mato Grosso;Juína;5105150;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;0
+Município;Lucas do Rio Verde;Total;Centro-Oeste;Mato Grosso;Lucas do Rio Verde;5105259;2;0;0;0;0;2;1;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;1;0;0;0;0;1;1;0;0
+Município;Matupá;Total;Centro-Oeste;Mato Grosso;Matupá;5105606;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Nova Mutum;Total;Centro-Oeste;Mato Grosso;Nova Mutum;5106224;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Primavera do Leste;Total;Centro-Oeste;Mato Grosso;Primavera do Leste;5107040;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Querência;Total;Centro-Oeste;Mato Grosso;Querência;5107065;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Rondonópolis;Total;Centro-Oeste;Mato Grosso;Rondonópolis;5107602;5;1;1;0;0;4;4;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;São José dos Quatro Marcos;Total;Centro-Oeste;Mato Grosso;São José dos Quatro Marcos;5107107;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Sinop;Total;Centro-Oeste;Mato Grosso;Sinop;5107909;5;0;0;0;0;5;5;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;4;0;0;0;0;4;4;0;0
+Município;Sorriso;Total;Centro-Oeste;Mato Grosso;Sorriso;5107925;5;0;0;0;0;5;4;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;5;4;1;0
+Município;Tangará da Serra;Total;Centro-Oeste;Mato Grosso;Tangará da Serra;5107958;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Várzea Grande;Total;Centro-Oeste;Mato Grosso;Várzea Grande;5108402;3;0;0;0;0;3;0;3;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;0;2;0
+UF;Goiás;Total;Centro-Oeste;Total Goiás;;;128;14;5;5;4;114;97;17;7;5;3;1;1;2;0;2;20;2;0;0;2;18;16;2;99;5;0;4;1;94;81;13;2
+Município;Águas Lindas de Goiás;Total;Centro-Oeste;Goiás;Águas Lindas de Goiás;5200258;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Anápolis;Total;Centro-Oeste;Goiás;Anápolis;5201108;12;2;0;2;0;10;6;4;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;10;1;0;1;0;9;6;3;0
+Município;Anicuns;Total;Centro-Oeste;Goiás;Anicuns;5201306;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0
+Município;Aparecida de Goiânia;Total;Centro-Oeste;Goiás;Aparecida de Goiânia;5201405;6;0;0;0;0;6;5;1;0;0;0;0;0;0;0;0;2;0;0;0;0;2;1;1;4;0;0;0;0;4;4;0;0
+Município;Caçu;Total;Centro-Oeste;Goiás;Caçu;5204300;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Caldas Novas;Total;Centro-Oeste;Goiás;Caldas Novas;5204508;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Catalão;Total;Centro-Oeste;Goiás;Catalão;5205109;6;2;1;1;0;4;4;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;5;1;0;1;0;4;4;0;0
+Município;Cidade Ocidental;Total;Centro-Oeste;Goiás;Cidade Ocidental;5205497;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Cristalina;Total;Centro-Oeste;Goiás;Cristalina;5206206;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Formosa;Total;Centro-Oeste;Goiás;Formosa;5208004;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Goianésia;Total;Centro-Oeste;Goiás;Goianésia;5208608;2;1;0;1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;1;0;1;0;1;0
+Município;Goiânia;Total;Centro-Oeste;Goiás;Goiânia;5208707;45;4;3;1;0;41;33;8;2;1;1;0;0;1;0;1;10;0;0;0;0;10;10;0;31;1;0;1;0;30;23;7;2
+Município;Goiatuba;Total;Centro-Oeste;Goiás;Goiatuba;5209101;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Município;Indiara;Total;Centro-Oeste;Goiás;Indiara;5209952;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Inhumas;Total;Centro-Oeste;Goiás;Inhumas;5210000;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Iporá;Total;Centro-Oeste;Goiás;Iporá;5210208;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Itaberaí;Total;Centro-Oeste;Goiás;Itaberaí;5210406;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itapuranga;Total;Centro-Oeste;Goiás;Itapuranga;5211206;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Itumbiara;Total;Centro-Oeste;Goiás;Itumbiara;5211503;7;0;0;0;0;7;6;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;7;6;1;0
+Município;Jataí;Total;Centro-Oeste;Goiás;Jataí;5211909;5;1;1;0;0;4;4;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+Município;Jussara;Total;Centro-Oeste;Goiás;Jussara;5212204;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Luziânia;Total;Centro-Oeste;Goiás;Luziânia;5212501;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;2;0;0;0;0;2;2;0;0
+Município;Mineiros;Total;Centro-Oeste;Goiás;Mineiros;5213103;2;1;0;0;1;1;1;0;0;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Novo Gama;Total;Centro-Oeste;Goiás;Novo Gama;5215231;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Palmeiras de Goiás;Total;Centro-Oeste;Goiás;Palmeiras de Goiás;5215702;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;2;0;0
+Município;Piracanjuba;Total;Centro-Oeste;Goiás;Piracanjuba;5217104;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pires do Rio;Total;Centro-Oeste;Goiás;Pires do Rio;5217401;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Pontalina;Total;Centro-Oeste;Goiás;Pontalina;5217708;1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;1;0
+Município;Porangatu;Total;Centro-Oeste;Goiás;Porangatu;5218003;3;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;3;3;0;0
+Município;Quirinópolis;Total;Centro-Oeste;Goiás;Quirinópolis;5218508;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Rio Verde;Total;Centro-Oeste;Goiás;Rio Verde;5218805;4;1;0;0;1;3;2;1;1;1;0;0;1;0;0;0;1;0;0;0;0;1;0;1;2;0;0;0;0;2;2;0;0
+Município;Santa Terezinha de Goiás;Total;Centro-Oeste;Goiás;Santa Terezinha de Goiás;5219704;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;São Luís de Montes Belos;Total;Centro-Oeste;Goiás;São Luís de Montes Belos;5220108;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0
+Município;Trindade;Total;Centro-Oeste;Goiás;Trindade;5221403;2;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;1;0;0;0;0;1;1;0;0
+Município;Uruaçu;Total;Centro-Oeste;Goiás;Uruaçu;5221601;1;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;0;0
+Município;Valparaíso de Goiás;Total;Centro-Oeste;Goiás;Valparaíso de Goiás;5221858;4;0;0;0;0;4;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;4;4;0;0
+UF;Distrito Federal;Total;Centro-Oeste;Total Distrito Federal;;;63;5;4;1;0;58;40;18;3;2;1;1;0;1;0;1;12;0;0;0;0;12;9;3;47;2;2;0;0;45;31;14;1
+Município;Brasília;Total;Centro-Oeste;Distrito Federal;Brasília;5300108;63;5;4;1;0;58;40;18;3;2;1;1;0;1;0;1;12;0;0;0;0;12;9;3;47;2;2;0;0;45;31;14;1
