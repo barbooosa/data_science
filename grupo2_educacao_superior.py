@@ -323,7 +323,10 @@ URL_WIKI_POP = 'https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_B
 headers_web = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 print(f'1) Coletando dados demográficos da Web via read_html():\n   URL: {URL_WIKI_POP}')
 try:
-    resposta_wiki = requests.get(URL_WIKI_POP, headers=headers_web, timeout=15)
+    try:
+        resposta_wiki = requests.get(URL_WIKI_POP, headers=headers_web, timeout=15)
+    except requests.exceptions.SSLError:
+        resposta_wiki = requests.get(URL_WIKI_POP, headers=headers_web, timeout=15, verify=False)
     resposta_wiki.raise_for_status()
     tabelas_wiki = pd.read_html(io.StringIO(resposta_wiki.text))
     tabela_pop_raw = tabelas_wiki[1]
@@ -341,7 +344,10 @@ except Exception as e:
 URL_API_IBGE = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
 print(f'\n2) Consumindo API pública oficial de Localidades do IBGE:\n   URL: {URL_API_IBGE}')
 try:
-    resp_ibge = requests.get(URL_API_IBGE, headers=headers_web, timeout=15)
+    try:
+        resp_ibge = requests.get(URL_API_IBGE, headers=headers_web, timeout=15)
+    except requests.exceptions.SSLError:
+        resp_ibge = requests.get(URL_API_IBGE, headers=headers_web, timeout=15, verify=False)
     resp_ibge.raise_for_status()
     dados_ibge = resp_ibge.json()
     df_ibge = pd.DataFrame([{'id_uf_ibge': item['id'], 'sigla_uf': item['sigla'], 'nome_uf': item['nome'], 'regiao_ibge': item['regiao']['nome']} for item in dados_ibge])

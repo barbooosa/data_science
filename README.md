@@ -87,8 +87,12 @@ Cruzando os dados de instituições do INEP com a população dos estados (colet
 ## 🗂️ Estrutura do Repositório
 
 ```text
+├── index.html                             # Página principal do GitHub Pages com terminal de saída interativo
+├── saida_codigo.html                      # Página web dedicada para visualização da saída de execução
+├── saida_execucao.txt                     # Saída bruta completa da execução do script em formato texto
 ├── grupo2_educacao_superior.py            # Script Python completo com o pipeline de limpeza e análise
 ├── grupo2_educacao_superior.ipynb         # Jupyter Notebook com execução interativa
+├── roteiro_apresentacao.md                # Roteiro de apresentação com divisão de falas por integrante
 ├── relatorio_educacao_superior_grupo2.pdf # Relatório técnico executivo completo formatado em PDF
 ├── relatorio_educacao_superior_grupo2.md  # Relatório completo em Markdown
 ├── relatorio_educacao_superior_grupo2.html# Versão web do relatório
@@ -97,6 +101,9 @@ Cruzando os dados de instituições do INEP com a população dos estados (colet
 ├── .gitignore                             # Exclusão de arquivos pesados (> 100 MB do INEP)
 └── README.md                              # Documentação geral do projeto e checklist avaliativo
 ```
+
+🌐 **Link do GitHub Pages:** [https://barbooosa.github.io/data_science/](https://barbooosa.github.io/data_science/)
+
 
 ---
 

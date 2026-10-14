@@ -1,0 +1,741 @@
+Pasta de trabalho: C:\Users\joao.moreira\prj\data
+  anexo_I_tab_8_1_dados_gerais_por_curso_2024.xlsx: 1 aba(s) ['8.1']
+  anexo_II_tab_8_2_dados_gerais_por_curso_2024.xlsx: 1 aba(s) ['8.2']
+  anexo_III_tab_8_3_dados_gerais_por_curso_2024.xlsx: 1 aba(s) ['8.3']
+  anexo_I_tab_8_1_dados_gerais_por_curso_2024.xlsx: 1 aba(s) ['8.1']
+  anexo_II_tab_8_2_dados_gerais_por_curso_2024.xlsx: 1 aba(s) ['8.2']
+  anexo_III_tab_8_3_dados_gerais_por_curso_2024.xlsx: 1 aba(s) ['8.3']
+  Sinopse_Educação_Superior_Municipio_2024.xlsx: 82 aba(s) ['Sinopse_Estatística', 'Resumo', 'Equipe Técnica', 'Como Citar', 'Sumário']
+  Sinopse_Educação_Superior_Municipio_2024.xlsx: 82 aba(s) ['Sinopse_Estatística', 'Resumo', 'Equipe Técnica', 'Como Citar', 'Sumário']
+
+Arquivo selecionado: C:\Users\joao.moreira\prj\data\sinopse_educacao_superior_2024\Sinopse_Educação_Superior_2024\Sinopse_Educação_Superior_Municipio_2024.xlsx
+Origem             : arquivo local em C:\Users\joao.moreira\prj\data\sinopse_educacao_superior_2024\Sinopse_Educação_Superior_2024 (Sinopse_Educação_Superior_Municipio_2024.xlsx)
+Página oficial     : https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/sinopses-estatisticas/educacao-superior-graduacao
+
+82 abas no arquivo. Primeiras: ['Sinopse_Estatística', 'Resumo', 'Equipe Técnica', 'Como Citar', 'Sumário', '1 Instituições ', '1.1', '1.2', '2 Docentes ', '2.1', '2.2', '2.3 Características do Docente']
+Aba escolhida: '1.1'
+
+--- Leitura Ingênua (padrão) ---
+Formato: (745, 37)
+Nomes das primeiras 6 colunas na leitura padrão:
+['Voltar ao Sumário', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4', 'Unnamed: 5']
+                                   Voltar ao Sumário            Unnamed: 1 Unnamed: 2           Unnamed: 3                                         Unnamed: 4                            Unnamed: 5  \
+0                                       Instituições                   NaN        NaN                  NaN                                                NaN                                   NaN   
+1                 Sede Administrativa da Instituição                   NaN        NaN                  NaN                                                NaN                                   NaN   
+2  1.1 - Número de Instituições de Ensino Superio...                   NaN        NaN                  NaN                                                NaN                                   NaN   
+3                                                NaN                   NaN        NaN                  NaN                                                NaN                                   NaN   
+4                                  Região Geográfica  Unidade da Federação  Município  Código do Município                                                ...                                   NaN   
+5                                                NaN                   NaN        NaN                  NaN                                              Total  Total por Dependência Administrativa   
+6                                                NaN                   NaN        NaN                  NaN                                                NaN                              Pública    
+7                                                NaN                   NaN        NaN                  NaN                                                NaN                                Total    
+
+  Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9          Unnamed: 10          Unnamed: 11   Unnamed: 12 Unnamed: 13 Unnamed: 14  ... Unnamed: 22 Unnamed: 23 Unnamed: 24 Unnamed: 25  \
+0        NaN        NaN        NaN        NaN                  NaN                  NaN           NaN         NaN         NaN  ...         NaN         NaN         NaN         NaN   
+1        NaN        NaN        NaN        NaN                  NaN                  NaN           NaN         NaN         NaN  ...         NaN         NaN         NaN         NaN   
+2        NaN        NaN        NaN        NaN                  NaN                  NaN           NaN         NaN         NaN  ...         NaN         NaN         NaN         NaN   
+3        NaN        NaN        NaN        NaN                  NaN                  NaN           NaN         NaN         NaN  ...         NaN         NaN         NaN         NaN   
+4        NaN        NaN        NaN        NaN                  NaN                  NaN           NaN         NaN         NaN  ...         NaN         NaN         NaN         NaN   
+5        NaN        NaN        NaN        NaN                  NaN                  NaN  Universidade         NaN         NaN  ...         NaN         NaN         NaN         NaN   
+6        NaN        NaN        NaN    Privada                  NaN                  NaN         Total    Pública          NaN  ...         NaN         NaN         NaN     Privada   
+7    Federal   Estadual  Municipal     Total   Com Fins Lucrativos  Sem Fins Lucrativos           NaN      Total      Federal  ...     Federal    Estadual   Municipal      Total    
+
+           Unnamed: 26          Unnamed: 27 Unnamed: 28 Unnamed: 29 Unnamed: 30 Unnamed: 31 Unnamed: 32 Unnamed: 33          Unnamed: 34          Unnamed: 35  \
+0                  NaN                  NaN         NaN         NaN         NaN         NaN         NaN         NaN                  NaN                  NaN   
+1                  NaN                  NaN         NaN         NaN         NaN         NaN         NaN         NaN                  NaN                  NaN   
+2                  NaN                  NaN         NaN         NaN         NaN         NaN         NaN         NaN                  NaN                  NaN   
+3                  NaN                  NaN         NaN         NaN         NaN         NaN         NaN         NaN                  NaN                  NaN   
+4                  NaN                  NaN         NaN         NaN         NaN         NaN         NaN         NaN                  NaN                  NaN   
+5                  NaN                  NaN   Faculdade         NaN         NaN         NaN         NaN         NaN                  NaN                  NaN   
+6                  NaN                  NaN       Total    Pública          NaN         NaN         NaN     Privada                  NaN                  NaN   
+7  Com Fins Lucrativos  Sem Fins Lucrativos         NaN      Total      Federal    Estadual   Municipal      Total   Com Fins Lucrativos  Sem Fins Lucrativos   
+
+                                         Unnamed: 36  
+0                                                NaN  
+1                                                NaN  
+2                                                NaN  
+3                                                NaN  
+4                                                NaN  
+5  Instituto Federal de Educação, Ciência e Tecno...  
+6                                            Federal  
+7                                                NaN  
+
+[8 rows x 37 columns]
+
+--- Leitura Bruta (header=None) ---
+shape: (746, 37)
+Colunas totalmente vazias descartadas: 0
+                                                   0                     1          2                    3                                                  4                                     5   \
+0                                   Voltar ao Sumário                   NaN        NaN                  NaN                                                NaN                                   NaN   
+1                                        Instituições                   NaN        NaN                  NaN                                                NaN                                   NaN   
+2                  Sede Administrativa da Instituição                   NaN        NaN                  NaN                                                NaN                                   NaN   
+3   1.1 - Número de Instituições de Ensino Superio...                   NaN        NaN                  NaN                                                NaN                                   NaN   
+4                                                 NaN                   NaN        NaN                  NaN                                                NaN                                   NaN   
+5                                   Região Geográfica  Unidade da Federação  Município  Código do Município                                                ...                                   NaN   
+6                                                 NaN                   NaN        NaN                  NaN                                              Total  Total por Dependência Administrativa   
+7                                                 NaN                   NaN        NaN                  NaN                                                NaN                              Pública    
+8                                                 NaN                   NaN        NaN                  NaN                                                NaN                                Total    
+9                                                 NaN                   NaN        NaN                  NaN                                                NaN                                   NaN   
+10                                       Total Brasil                   NaN        NaN                  NaN                                               2561                                   317   
+11                                        Total Norte                   NaN        NaN                  NaN                                                196                                    24   
+
+         6         7          8        9                    10                   11            12        13       14  ...       22        23         24       25                   26  \
+0       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+1       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+2       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+3       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+4       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+5       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+6       NaN       NaN        NaN      NaN                  NaN                  NaN  Universidade       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+7       NaN       NaN        NaN  Privada                  NaN                  NaN         Total  Pública       NaN  ...      NaN       NaN        NaN  Privada                  NaN   
+8   Federal  Estadual  Municipal   Total   Com Fins Lucrativos  Sem Fins Lucrativos           NaN    Total   Federal  ...  Federal  Estadual  Municipal   Total   Com Fins Lucrativos   
+9       NaN       NaN        NaN      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN   
+10      122       139         56     2244                 1486                  758           206       116       69  ...        1         0          7      409                  253   
+11       18         5          1      172                  136                   36            19        17       11  ...        0         0          0       27                   21   
+
+                     27         28        29       30        31         32       33                   34                   35                                                 36  
+0                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+1                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+2                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+3                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+4                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+5                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+6                   NaN  Faculdade       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN  Instituto Federal de Educação, Ciência e Tecno...  
+7                   NaN      Total  Pública       NaN       NaN        NaN  Privada                  NaN                  NaN                                            Federal  
+8   Sem Fins Lucrativos        NaN    Total   Federal  Estadual  Municipal   Total   Com Fins Lucrativos  Sem Fins Lucrativos                                                NaN  
+9                   NaN        NaN       NaN      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+10                  156       1897       152       11        98         43     1745                 1210                  535                                                 41  
+11                    6        143         0        0         0          0      143                  114                   29                                                  7  
+
+[12 rows x 37 columns]
+
+--- Informações do DataFrame Bruto ---
+<class 'pandas.DataFrame'>
+RangeIndex: 746 entries, 0 to 745
+Data columns (total 37 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   0       740 non-null    str   
+ 1   1       726 non-null    str   
+ 2   2       699 non-null    str   
+ 3   3       699 non-null    object
+ 4   4       733 non-null    object
+ 5   5       734 non-null    object
+ 6   6       732 non-null    object
+ 7   7       732 non-null    object
+ 8   8       732 non-null    object
+ 9   9       733 non-null    object
+ 10  10      732 non-null    object
+ 11  11      732 non-null    object
+ 12  12      733 non-null    object
+ 13  13      733 non-null    object
+ 14  14      732 non-null    object
+ 15  15      732 non-null    object
+ 16  16      732 non-null    object
+ 17  17      733 non-null    object
+ 18  18      732 non-null    object
+ 19  19      732 non-null    object
+ 20  20      733 non-null    object
+ 21  21      733 non-null    object
+ 22  22      732 non-null    object
+ 23  23      732 non-null    object
+ 24  24      732 non-null    object
+ 25  25      733 non-null    object
+ 26  26      732 non-null    object
+ 27  27      732 non-null    object
+ 28  28      733 non-null    object
+ 29  29      733 non-null    object
+ 30  30      732 non-null    object
+ 31  31      732 non-null    object
+ 32  32      732 non-null    object
+ 33  33      733 non-null    object
+ 34  34      732 non-null    object
+ 35  35      732 non-null    object
+ 36  36      733 non-null    object
+dtypes: object(34), str(3)
+memory usage: 215.8+ KB
+
+--- Resumo Estatístico Inicial ---
+   count unique                  top freq
+0    740     20              Sudeste  291
+1    726     54            São Paulo  144
+2    699    696             Redenção    2
+3    699    699  Código do Município    1
+4    733     59                    1  340
+5    734     27                    0  503
+6    732     15                    0  624
+7    732     15                    0  581
+8    732     11                    0  669
+9    733     55                    1  347
+10   732     48                    1  302
+11   732     37                    0  382
+12   733     24                    0  568
+13   733     19                    0  609
+14   732     12                    0  634
+
+--- Mapeamento Estrutural da Planilha ---
+Linhas de título   : [0, 1, 2, 3]
+Linhas de cabeçalho: [5, 6, 7, 8]
+Dados              : da linha 10 até a 740
+Linhas de rodapé   : [742, 743, 744, 745]
+
+Título da tabela: Voltar ao Sumário Instituições Sede Administrativa da Instituição 1.1 - Número de Instituições de Ensino Superior (IES), por Organização Acadêmica e Dependência Administrativa, segundo a Região Geográfica, a Unidade da Federação e o Município da sede administrativa da Instituição - 2024
+
+Cabeçalho como está no Excel (NaN = célula que fazia parte de uma mesclagem):
+                  0                     1          2                    3                                                  4                                     5        6         7          8   \
+5  Região Geográfica  Unidade da Federação  Município  Código do Município                                                ...                                   NaN      NaN       NaN        NaN   
+6                NaN                   NaN        NaN                  NaN                                              Total  Total por Dependência Administrativa      NaN       NaN        NaN   
+7                NaN                   NaN        NaN                  NaN                                                NaN                              Pública       NaN       NaN        NaN   
+8                NaN                   NaN        NaN                  NaN                                                NaN                                Total   Federal  Estadual  Municipal   
+
+        9                    10                   11            12        13       14  ...       22        23         24       25                   26                   27         28        29  \
+5      NaN                  NaN                  NaN           NaN       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN                  NaN        NaN       NaN   
+6      NaN                  NaN                  NaN  Universidade       NaN      NaN  ...      NaN       NaN        NaN      NaN                  NaN                  NaN  Faculdade       NaN   
+7  Privada                  NaN                  NaN         Total  Pública       NaN  ...      NaN       NaN        NaN  Privada                  NaN                  NaN      Total  Pública    
+8   Total   Com Fins Lucrativos  Sem Fins Lucrativos           NaN    Total   Federal  ...  Federal  Estadual  Municipal   Total   Com Fins Lucrativos  Sem Fins Lucrativos        NaN    Total    
+
+        30        31         32       33                   34                   35                                                 36  
+5      NaN       NaN        NaN      NaN                  NaN                  NaN                                                NaN  
+6      NaN       NaN        NaN      NaN                  NaN                  NaN  Instituto Federal de Educação, Ciência e Tecno...  
+7      NaN       NaN        NaN  Privada                  NaN                  NaN                                            Federal  
+8  Federal  Estadual  Municipal   Total   Com Fins Lucrativos  Sem Fins Lucrativos                                                NaN  
+
+[4 rows x 37 columns]
+
+--- PROBLEMAS ENCONTRADOS ---
+                                                         quantidade
+Colunas 'Unnamed' na leitura padrão                        36 de 37
+Linhas de cabeçalho (níveis mesclados)                            4
+Células vazias dentro do cabeçalho                  97 de 148 (66%)
+Linhas que não são dados (título, cabeçalho, ro...        15 de 746
+Colunas totalmente vazias                                         0
+Colunas de valores lidas como texto (object)               34 de 36
+Células com símbolo no lugar de número (ex.: '-')              1423
+Rótulos com espaços sobrando (recuo)                              0
+Rótulos repetidos na 1ª coluna                                  720
+
+Símbolos encontrados nas colunas de valores:
+São Paulo            145
+Minas Gerais          98
+Paraná                55
+Bahia                 45
+Rio Grande do Sul     36
+Name: count, dtype: int64
+
+Cabeçalho DEPOIS de preencher as mesclagens:
+                  0                     1          2                    3                                                  4                                                  5   \
+5  Região Geográfica  Unidade da Federação  Município  Código do Município                                                ...                                                ...   
+6                NaN                   NaN        NaN                  NaN                                              Total               Total por Dependência Administrativa   
+7                NaN                   NaN        NaN                  NaN                                                NaN                                           Pública    
+8                NaN                   NaN        NaN                  NaN                                                NaN                                             Total    
+
+                                                  6                                                  7                                                  8   \
+5                                                ...                                                ...                                                ...   
+6               Total por Dependência Administrativa               Total por Dependência Administrativa               Total por Dependência Administrativa   
+7                                           Pública                                            Pública                                            Pública    
+8                                            Federal                                           Estadual                                          Municipal   
+
+                                                  9                                                  10                                                 11  \
+5                                                ...                                                ...                                                ...   
+6               Total por Dependência Administrativa               Total por Dependência Administrativa               Total por Dependência Administrativa   
+7                                            Privada                                            Privada                                            Privada   
+8                                             Total                                 Com Fins Lucrativos                                Sem Fins Lucrativos   
+
+                                                  12                                                 13                                                 14  ...  \
+5                                                ...                                                ...                                                ...  ...   
+6                                       Universidade                                       Universidade                                       Universidade  ...   
+7                                              Total                                           Pública                                            Pública   ...   
+8                                                NaN                                             Total                                             Federal  ...   
+
+                                                  22                                                 23                                                 24  \
+5                                                ...                                                ...                                                ...   
+6                               Centro Universitário                               Centro Universitário                               Centro Universitário   
+7                                           Pública                                            Pública                                            Pública    
+8                                            Federal                                           Estadual                                          Municipal   
+
+                                                  25                                                 26                                                 27  \
+5                                                ...                                                ...                                                ...   
+6                               Centro Universitário                               Centro Universitário                               Centro Universitário   
+7                                            Privada                                            Privada                                            Privada   
+8                                             Total                                 Com Fins Lucrativos                                Sem Fins Lucrativos   
+
+                                                  28                                                 29                                                 30  \
+5                                                ...                                                ...                                                ...   
+6                                          Faculdade                                          Faculdade                                          Faculdade   
+7                                              Total                                           Pública                                            Pública    
+8                                                NaN                                             Total                                             Federal   
+
+                                                  31                                                 32                                                 33  \
+5                                                ...                                                ...                                                ...   
+6                                          Faculdade                                          Faculdade                                          Faculdade   
+7                                           Pública                                            Pública                                             Privada   
+8                                           Estadual                                          Municipal                                             Total    
+
+                                                  34                                                 35                                                 36  
+5                                                ...                                                ...                                                ...  
+6                                          Faculdade                                          Faculdade  Instituto Federal de Educação, Ciência e Tecno...  
+7                                            Privada                                            Privada                                            Federal  
+8                                Com Fins Lucrativos                                Sem Fins Lucrativos                                                NaN  
+
+[4 rows x 37 columns]
+
+1ª coluna no Excel: 'Região Geográfica'
+
+Nomes das colunas depois da limpeza:
+  - rotulo
+  - Unidade da Federação
+  - Município
+  - Código do Município
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Federal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Estadual
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Municipal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Com Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Sem Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Federal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Estadual
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Municipal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Com Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Sem Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Federal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Estadual
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Municipal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Com Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Sem Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Federal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Estadual
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Municipal
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Total
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Com Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Sem Fins Lucrativos
+  - Organização Acadêmica e Dependência Administrativa1-3 | Instituto Federal de Educação, Ciência e Tecnologia (IF) e Centro Federal de Educação Tecnológica (Cefet) | Federal
+
+Com header=[5, 6, 7, 8] -> 4 níveis e 18 rótulos 'Unnamed' ainda sobrando
+Exemplo das primeiras 4 colunas nativas: [('Região Geográfica', 'Unnamed: 0_level_1', 'Unnamed: 0_level_2', 'Unnamed: 0_level_3'), ('Unidade da Federação', 'Unnamed: 1_level_1', 'Unnamed: 1_level_2', 'Unnamed: 1_level_3'), ('Município', 'Unnamed: 2_level_1', 'Unnamed: 2_level_2', 'Unnamed: 2_level_3'), ('Código do Município', 'Unnamed: 3_level_1', 'Unnamed: 3_level_2', 'Unnamed: 3_level_3')]
+
+Tipos ANTES : {'object': np.int64(33)}
+Tipos DEPOIS: {'Int64': np.int64(33)}
+Valores ausentes depois da conversão: 0
+
+--- Distribuição por Nível ---
+nivel
+Município    698
+UF            27
+Região         5
+Brasil         1
+Name: count, dtype: int64
+
+Categorias encontradas: ['Total']
+
+--- TABELA COMPARATIVA (Antes x Depois) ---
+                                                Antes (leitura do Excel)                      Depois (limpo)
+Formato (linhas x colunas)                                      746 x 37                            731 x 40
+Colunas sem nome ('Unnamed')                                          36                                   0
+Células vazias no cabeçalho                                           97                                   0
+Linhas que não são dados                                              15                                   0
+Colunas de valores como texto                                         34                                   0
+Símbolos no lugar de números                                        1423                                   0
+Primeira coluna                1 coluna com local e categoria misturados  3 colunas: nivel, local, categoria
+
+Primeiras 10 linhas do DataFrame Limpo:
+       nivel                local categoria Região Geográfica Unidade da Federação            Município Código do Município  Organização Acadêmica e Dependência Administrativa1-3 | Total  \
+0     Brasil               Brasil     Total      Total Brasil                  NaN                  NaN                 NaN                                               2561               
+1     Região                Norte     Total       Total Norte                  NaN                  NaN                 NaN                                                196               
+2         UF             Rondônia     Total             Norte       Total Rondônia                  NaN                 NaN                                                 31               
+3  Município            Ariquemes     Total             Norte             Rondônia            Ariquemes             1100023                                                  2               
+4  Município               Cacoal     Total             Norte             Rondônia               Cacoal             1100049                                                  3               
+5  Município                 Jaru     Total             Norte             Rondônia                 Jaru             1100114                                                  1               
+6  Município            Ji-Paraná     Total             Norte             Rondônia            Ji-Paraná             1100122                                                  3               
+7  Município  Ouro Preto do Oeste     Total             Norte             Rondônia  Ouro Preto do Oeste             1100155                                                  1               
+8  Município        Pimenta Bueno     Total             Norte             Rondônia        Pimenta Bueno             1100189                                                  1               
+9  Município          Porto Velho     Total             Norte             Rondônia          Porto Velho             1100205                                                 11               
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Total  \
+0                                                317                                                                
+1                                                 24                                                                
+2                                                  2                                                                
+3                                                  0                                                                
+4                                                  0                                                                
+5                                                  0                                                                
+6                                                  0                                                                
+7                                                  0                                                                
+8                                                  0                                                                
+9                                                  2                                                                
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Federal  \
+0                                                122                                                                  
+1                                                 18                                                                  
+2                                                  2                                                                  
+3                                                  0                                                                  
+4                                                  0                                                                  
+5                                                  0                                                                  
+6                                                  0                                                                  
+7                                                  0                                                                  
+8                                                  0                                                                  
+9                                                  2                                                                  
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Estadual  \
+0                                                139                                                                   
+1                                                  5                                                                   
+2                                                  0                                                                   
+3                                                  0                                                                   
+4                                                  0                                                                   
+5                                                  0                                                                   
+6                                                  0                                                                   
+7                                                  0                                                                   
+8                                                  0                                                                   
+9                                                  0                                                                   
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Municipal  \
+0                                                 56                                                                    
+1                                                  1                                                                    
+2                                                  0                                                                    
+3                                                  0                                                                    
+4                                                  0                                                                    
+5                                                  0                                                                    
+6                                                  0                                                                    
+7                                                  0                                                                    
+8                                                  0                                                                    
+9                                                  0                                                                    
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Total  \
+0                                               2244                                                                
+1                                                172                                                                
+2                                                 29                                                                
+3                                                  2                                                                
+4                                                  3                                                                
+5                                                  1                                                                
+6                                                  3                                                                
+7                                                  1                                                                
+8                                                  1                                                                
+9                                                  9                                                                
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Com Fins Lucrativos  \
+0                                               1486                                                                              
+1                                                136                                                                              
+2                                                 24                                                                              
+3                                                  1                                                                              
+4                                                  3                                                                              
+5                                                  1                                                                              
+6                                                  3                                                                              
+7                                                  0                                                                              
+8                                                  1                                                                              
+9                                                  8                                                                              
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Sem Fins Lucrativos  ...  \
+0                                                758                                                                             ...   
+1                                                 36                                                                             ...   
+2                                                  5                                                                             ...   
+3                                                  1                                                                             ...   
+4                                                  0                                                                             ...   
+5                                                  0                                                                             ...   
+6                                                  0                                                                             ...   
+7                                                  1                                                                             ...   
+8                                                  0                                                                             ...   
+9                                                  1                                                                             ...   
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Federal  \
+0                                                  1                                                  
+1                                                  0                                                  
+2                                                  0                                                  
+3                                                  0                                                  
+4                                                  0                                                  
+5                                                  0                                                  
+6                                                  0                                                  
+7                                                  0                                                  
+8                                                  0                                                  
+9                                                  0                                                  
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Estadual  \
+0                                                  0                                                   
+1                                                  0                                                   
+2                                                  0                                                   
+3                                                  0                                                   
+4                                                  0                                                   
+5                                                  0                                                   
+6                                                  0                                                   
+7                                                  0                                                   
+8                                                  0                                                   
+9                                                  0                                                   
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Municipal  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Total  \
+0                                                  7                                                                                                 409                                                
+1                                                  0                                                                                                  27                                                
+2                                                  0                                                                                                   7                                                
+3                                                  0                                                                                                   1                                                
+4                                                  0                                                                                                   2                                                
+5                                                  0                                                                                                   0                                                
+6                                                  0                                                                                                   2                                                
+7                                                  0                                                                                                   0                                                
+8                                                  0                                                                                                   0                                                
+9                                                  0                                                                                                   2                                                
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Com Fins Lucrativos  \
+0                                                253                                                              
+1                                                 21                                                              
+2                                                  7                                                              
+3                                                  1                                                              
+4                                                  2                                                              
+5                                                  0                                                              
+6                                                  2                                                              
+7                                                  0                                                              
+8                                                  0                                                              
+9                                                  2                                                              
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Sem Fins Lucrativos  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Total  \
+0                                                156                                                                                                          1897                           
+1                                                  6                                                                                                           143                           
+2                                                  0                                                                                                            22                           
+3                                                  0                                                                                                             1                           
+4                                                  0                                                                                                             1                           
+5                                                  0                                                                                                             1                           
+6                                                  0                                                                                                             1                           
+7                                                  0                                                                                                             1                           
+8                                                  0                                                                                                             1                           
+9                                                  0                                                                                                             7                           
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Total  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Federal  \
+0                                                152                                                                                   11                                       
+1                                                  0                                                                                    0                                       
+2                                                  0                                                                                    0                                       
+3                                                  0                                                                                    0                                       
+4                                                  0                                                                                    0                                       
+5                                                  0                                                                                    0                                       
+6                                                  0                                                                                    0                                       
+7                                                  0                                                                                    0                                       
+8                                                  0                                                                                    0                                       
+9                                                  0                                                                                    0                                       
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Estadual  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Municipal  \
+0                                                 98                                                                                      43                                         
+1                                                  0                                                                                       0                                         
+2                                                  0                                                                                       0                                         
+3                                                  0                                                                                       0                                         
+4                                                  0                                                                                       0                                         
+5                                                  0                                                                                       0                                         
+6                                                  0                                                                                       0                                         
+7                                                  0                                                                                       0                                         
+8                                                  0                                                                                       0                                         
+9                                                  0                                                                                       0                                         
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Total  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Com Fins Lucrativos  \
+0                                               1745                                                                                 1210                                                   
+1                                                143                                                                                  114                                                   
+2                                                 22                                                                                   17                                                   
+3                                                  1                                                                                    0                                                   
+4                                                  1                                                                                    1                                                   
+5                                                  1                                                                                    1                                                   
+6                                                  1                                                                                    1                                                   
+7                                                  1                                                                                    0                                                   
+8                                                  1                                                                                    1                                                   
+9                                                  7                                                                                    6                                                   
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Sem Fins Lucrativos  \
+0                                                535                                                   
+1                                                 29                                                   
+2                                                  5                                                   
+3                                                  1                                                   
+4                                                  0                                                   
+5                                                  0                                                   
+6                                                  0                                                   
+7                                                  1                                                   
+8                                                  0                                                   
+9                                                  1                                                   
+
+   Organização Acadêmica e Dependência Administrativa1-3 | Instituto Federal de Educação, Ciência e Tecnologia (IF) e Centro Federal de Educação Tecnológica (Cefet) | Federal  
+0                                                 41                                                                                                                            
+1                                                  7                                                                                                                            
+2                                                  1                                                                                                                            
+3                                                  0                                                                                                                            
+4                                                  0                                                                                                                            
+5                                                  0                                                                                                                            
+6                                                  0                                                                                                                            
+7                                                  0                                                                                                                            
+8                                                  0                                                                                                                            
+9                                                  1                                                                                                                            
+
+[10 rows x 40 columns]
+
+Informações do DataFrame Limpo:
+<class 'pandas.DataFrame'>
+RangeIndex: 731 entries, 0 to 730
+Data columns (total 40 columns):
+ #   Column                                                                                                                                                                       Non-Null Count  Dtype 
+---  ------                                                                                                                                                                       --------------  ----- 
+ 0   nivel                                                                                                                                                                        731 non-null    str   
+ 1   local                                                                                                                                                                        731 non-null    str   
+ 2   categoria                                                                                                                                                                    731 non-null    str   
+ 3   Região Geográfica                                                                                                                                                            731 non-null    str   
+ 4   Unidade da Federação                                                                                                                                                         725 non-null    str   
+ 5   Município                                                                                                                                                                    698 non-null    str   
+ 6   Código do Município                                                                                                                                                          698 non-null    object
+ 7   Organização Acadêmica e Dependência Administrativa1-3 | Total                                                                                                                731 non-null    Int64 
+ 8   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Total                                                               731 non-null    Int64 
+ 9   Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Federal                                                             731 non-null    Int64 
+ 10  Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Estadual                                                            731 non-null    Int64 
+ 11  Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Pública | Municipal                                                           731 non-null    Int64 
+ 12  Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Total                                                               731 non-null    Int64 
+ 13  Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Com Fins Lucrativos                                                 731 non-null    Int64 
+ 14  Organização Acadêmica e Dependência Administrativa1-3 | Total por Dependência Administrativa | Privada | Sem Fins Lucrativos                                                 731 non-null    Int64 
+ 15  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Total                                                                                                 731 non-null    Int64 
+ 16  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Total                                                                                       731 non-null    Int64 
+ 17  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Federal                                                                                     731 non-null    Int64 
+ 18  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Estadual                                                                                    731 non-null    Int64 
+ 19  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Pública | Municipal                                                                                   731 non-null    Int64 
+ 20  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Total                                                                                       731 non-null    Int64 
+ 21  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Com Fins Lucrativos                                                                         731 non-null    Int64 
+ 22  Organização Acadêmica e Dependência Administrativa1-3 | Universidade | Privada | Sem Fins Lucrativos                                                                         731 non-null    Int64 
+ 23  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Total                                                                                         731 non-null    Int64 
+ 24  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Total                                                                               731 non-null    Int64 
+ 25  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Federal                                                                             731 non-null    Int64 
+ 26  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Estadual                                                                            731 non-null    Int64 
+ 27  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Pública | Municipal                                                                           731 non-null    Int64 
+ 28  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Total                                                                               731 non-null    Int64 
+ 29  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Com Fins Lucrativos                                                                 731 non-null    Int64 
+ 30  Organização Acadêmica e Dependência Administrativa1-3 | Centro Universitário | Privada | Sem Fins Lucrativos                                                                 731 non-null    Int64 
+ 31  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Total                                                                                                    731 non-null    Int64 
+ 32  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Total                                                                                          731 non-null    Int64 
+ 33  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Federal                                                                                        731 non-null    Int64 
+ 34  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Estadual                                                                                       731 non-null    Int64 
+ 35  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Pública | Municipal                                                                                      731 non-null    Int64 
+ 36  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Total                                                                                          731 non-null    Int64 
+ 37  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Com Fins Lucrativos                                                                            731 non-null    Int64 
+ 38  Organização Acadêmica e Dependência Administrativa1-3 | Faculdade | Privada | Sem Fins Lucrativos                                                                            731 non-null    Int64 
+ 39  Organização Acadêmica e Dependência Administrativa1-3 | Instituto Federal de Educação, Ciência e Tecnologia (IF) e Centro Federal de Educação Tecnológica (Cefet) | Federal  731 non-null    Int64 
+dtypes: Int64(33), object(1), str(6)
+memory usage: 252.1+ KB
+C:\laragon\bin\python\python-3.13\Lib\site-packages\urllib3\connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'servicodados.ibge.gov.br'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+
+Estatísticas das UFs:
+                                                    count       mean         std  min   25%   50%    75%    max
+Organização Acadêmica e Dependência Administrat...   27.0  94.851852  116.117217  9.0  30.5  66.0  118.0  580.0
+Organização Acadêmica e Dependência Administrat...   27.0  11.740741   20.933214  2.0   4.0   5.0   10.5  110.0
+Organização Acadêmica e Dependência Administrat...   27.0   4.518519    3.826732  2.0   2.0   3.0    5.0   18.0
+Organização Acadêmica e Dependência Administrat...   27.0   5.148148    15.59266  0.0   1.0   1.0    2.5   82.0
+Organização Acadêmica e Dependência Administrat...   27.0   2.074074    5.448542  0.0   0.0   0.0    1.5   22.0
+Organização Acadêmica e Dependência Administrat...   27.0  83.111111   97.063553  6.0  26.5  62.0   96.0  470.0
+Organização Acadêmica e Dependência Administrat...   27.0  55.037037   55.275869  4.0  18.0  40.0   60.5  257.0
+Organização Acadêmica e Dependência Administrat...   27.0  28.074074   45.055458  1.0   4.5  13.0   27.0  213.0
+Organização Acadêmica e Dependência Administrat...   27.0    7.62963    8.138929  1.0   3.0   4.0    9.0   36.0
+Organização Acadêmica e Dependência Administrat...   27.0   4.296296    3.010428  1.0   2.0   3.0    5.5   13.0
+Organização Acadêmica e Dependência Administrat...   27.0   2.555556    2.136376  1.0   1.0   2.0    3.0   11.0
+Organização Acadêmica e Dependência Administrat...   27.0   1.518519    1.503083  0.0   1.0   1.0    2.0    7.0
+Organização Acadêmica e Dependência Administrat...   27.0   0.222222     0.57735  0.0   0.0   0.0    0.0    2.0
+Organização Acadêmica e Dependência Administrat...   27.0   3.333333    5.954959  0.0   0.0   1.0    2.5   27.0
+Organização Acadêmica e Dependência Administrat...   27.0   0.851852    1.812429  0.0   0.0   0.0    1.0    8.0
+Organização Acadêmica e Dependência Administrat...   27.0   2.481481    4.734248  0.0   0.0   1.0    1.5   19.0
+Organização Acadêmica e Dependência Administrat...   27.0  15.444444   20.109954  0.0   4.0   8.0   19.5   98.0
+Organização Acadêmica e Dependência Administrat...   27.0   0.296296    0.868899  0.0   0.0   0.0    0.0    4.0
+Organização Acadêmica e Dependência Administrat...   27.0   0.037037     0.19245  0.0   0.0   0.0    0.0    1.0
+Organização Acadêmica e Dependência Administrat...   27.0        0.0         0.0  0.0   0.0   0.0    0.0    0.0
+Organização Acadêmica e Dependência Administrat...   27.0   0.259259    0.859006  0.0   0.0   0.0    0.0    4.0
+Organização Acadêmica e Dependência Administrat...   27.0  15.148148   19.402029  0.0   4.0   8.0   19.0   94.0
+Organização Acadêmica e Dependência Administrat...   27.0    9.37037   10.015942  0.0   2.0   6.0   13.0   41.0
+Organização Acadêmica e Dependência Administrat...   27.0   5.777778   10.696273  0.0   1.5   2.0    5.5   53.0
+Organização Acadêmica e Dependência Administrat...   27.0  70.259259    88.65256  5.0  21.5  55.0   80.5  445.0
+Organização Acadêmica e Dependência Administrat...   27.0    5.62963   18.710647  0.0   0.0   0.0    2.0   96.0
+Organização Acadêmica e Dependência Administrat...   27.0   0.407407    1.083416  0.0   0.0   0.0    0.0    5.0
+Organização Acadêmica e Dependência Administrat...   27.0    3.62963   15.028558  0.0   0.0   0.0    0.5   78.0
+Organização Acadêmica e Dependência Administrat...   27.0   1.592593    4.651379  0.0   0.0   0.0    0.5   19.0
+Organização Acadêmica e Dependência Administrat...   27.0   64.62963   73.192658  5.0  21.5  52.0   73.0  349.0
+Organização Acadêmica e Dependência Administrat...   27.0  44.814815   44.803878  3.0  15.5  33.0   52.0  208.0
+Organização Acadêmica e Dependência Administrat...   27.0  19.814815   30.679531  0.0   3.0  10.0   20.0  141.0
+Organização Acadêmica e Dependência Administrat...   27.0   1.518519    1.155934  1.0   1.0   1.0    1.5    6.0
+
+--- Series: Instituições por UF ---
+<class 'pandas.Series'>
+Tamanho: 27 | Maior: São Paulo (580) | Menor: Roraima (9)
+Média por UF: 94.9 | Mediana: 66.0
+
+Top 10 UFs:
+local
+São Paulo            580
+Minas Gerais         303
+Paraná               171
+Bahia                145
+Goiás                128
+Rio de Janeiro       126
+Rio Grande do Sul    118
+Pernambuco           118
+Ceará                102
+Santa Catarina       100
+Name: instituicoes, dtype: Int64
+
+--- Validação Estatística e Hierárquica ---
+Estados (UF) encontrados: 27 (esperado: 27)
+Regiões encontradas     : 5 (esperado: 5)
+Total Brasil na planilha: 2561
+Soma dos estados        : 2561  -> OK
+Soma das regiões        : 2561  -> OK
+Colunas em que a soma dos estados bate com o Brasil: 33 de 33
+Somando a coluna sem limpar daria 10244, 4.0 vezes o valor real (totais contados várias vezes).
+
+--- DESCOBERTAS E INSIGHTS ANALÍTICOS ---
+Tabela analisada: Voltar ao Sumário Instituições Sede Administrativa da Instituição 1.1 - Número de Instituições de Ensino Superior (IES), por Organização Acadêmica e Dependência Administrativa, segundo a Região Geográfica, a Unidade da Federação e o Município da sede administrativa da Instituição - 2024
+
+1) O país tem 2561 instituições de educação superior nesta tabela.
+2) São Paulo lidera com 580 (22.6% do total). Os 5 primeiros estados somam 51.8%.
+   Menor número: Roraima, com 9.
+
+Top 5 estados:
+              instituicoes
+local                     
+São Paulo              580
+Minas Gerais           303
+Paraná                 171
+Bahia                  145
+Goiás                  128
+3) Rede privada: 2244 instituições (87.6%); rede pública: 317 (12.4%).
+
+5) Instituições por região:
+              Organização Acadêmica e Dependência Administrativa1-3 | Total
+local                                                                      
+Sudeste                                                    1076            
+Nordeste                                                    604            
+Sul                                                         389            
+Centro-Oeste                                                296            
+Norte                                                       196            
+
+6) Instituições por organização acadêmica (Brasil):
+                      instituicoes percentual
+Faculdade                     1897      74.1%
+Centro Universitário           417      16.3%
+Universidade                   206       8.0%
+
+--- INTEGRAÇÃO DE DADOS DA WEB E API ---
+1) Coletando dados demográficos da Web via read_html():
+   URL: https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o
+   -> Sucesso! 28 estados lidos da Wikipédia via read_html().
+
+2) Consumindo API pública oficial de Localidades do IBGE:
+   URL: https://servicodados.ibge.gov.br/api/v1/localidades/estados
+   -> Sucesso! 27 estados integrados via API do IBGE.
+
+--- Ranking de Densidade de IES por 1 Milhão de Habitantes (Top 10) ---
+  sigla_uf             local   regiao_ibge  total_ies  populacao  ies_por_milhao_hab
+0       DF  Distrito Federal  Centro-Oeste         63    3009996               20.93
+1       MT       Mato Grosso  Centro-Oeste         74    3950330               18.73
+2       AP             Amapá         Norte         15     809953               18.52
+3       RO          Rondônia         Norte         31    1757338               17.64
+4       GO             Goiás  Centro-Oeste        128    7495033               17.08
+5       ES    Espírito Santo       Sudeste         67    4150692               16.14
+6       TO         Tocantins         Norte         23    1595994               14.41
+7       PR            Paraná           Sul        171   11952456               14.31
+8       PI             Piauí      Nordeste         48    3392617               14.15
+9       MG      Minas Gerais       Sudeste        303   21460311               14.12
+
+Dataset enriquecido com dados da Web/API salvo em: C:\Users\joao.moreira\prj\data\sinopse_com_indicadores_web.csv
+
+Arquivo limpo salvo em: C:\Users\joao.moreira\prj\data\sinopse_limpa.csv
+
+Execução finalizada com sucesso!
